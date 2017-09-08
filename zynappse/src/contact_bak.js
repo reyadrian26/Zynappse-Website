@@ -31,9 +31,25 @@ class Contact extends Component {
         <Row className ="contact margin-section slantedDivContact" style={{color: "white", marginBottom: "-333px"}} id = "contact" >
           <div className="container  animatedParent animateOnce slant-contact">
             <h1 className="text-center animated fadeInLeft">Contact Us</h1>
+              <p className="text-center animated fadeInRight delay-250">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>Ornare congue lacinia semper nascetur elit facilisis rutrum.</p>
                 <div className="margin-section"></div>
-
-      <Col md={12} className="animatedParent animateOnce">
+            <Col md={6}  className="animatedParent animateOnce">
+              <FormGroup >
+                <FormControl type="text" placeholder="Name" className=" animated fadeInLeft"/>
+              </FormGroup>
+              <FormGroup>
+                <FormControl type="text" placeholder="Email" className=" animated fadeInLeft delay-250"/>
+              </FormGroup>
+              <FormGroup >
+                <FormControl componentClass="textarea" placeholder="Message"  className=" animated fadeInLeft delay-500"/>
+              </FormGroup>
+              <ButtonToolbar className="animated fadeInLeft delay-750">
+                <Button className="btn-custom">Send Message</Button>
+              </ButtonToolbar>
+            </Col>
+           
+      <Col md={1}>  </Col>
+      <Col md={4} className="animatedParent animateOnce">
 
 
         <ButtonToolbar>

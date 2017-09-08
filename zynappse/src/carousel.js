@@ -222,11 +222,11 @@ everywhere you go. Get Alaska Aces news, player profiles, schedules and more.
                 </p>
                 <p className="text-left animated fadeInUp delay-500">Available on:</p>
                 <Col md={12}  className="text-left animated fadeInUp delay-750" >
-                 
+
                     <a href="https://play.google.com/store/apps/details?id=com.zynappse.ourawesomeplanet&hl=en"  target="_blank"><img style={{paddingRight: "32px"}} src={images.android2} target="_blank" height="50" /></a>
-                 
+
                     <a  className="text-left" href="https://itunes.apple.com/ph/app/our-awesome-planet/id926617833?mt=8"  target="_blank"><img src={images.apple2} target="_blank" height="50" /></a>
-                 
+
                 </Col>
               </Carousel.Caption>
             </Col>
@@ -244,7 +244,7 @@ everywhere you go. Get Alaska Aces news, player profiles, schedules and more.
             <Col md={6} className="text-left">
               <Carousel.Caption className="  animatedParent animateOnce" >
                 <h3 className="text-left">Alaska Website</h3>
-                <p className="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <p className="text-left">One of the famous PBA Sports Team in the Philippines.
                 </p>
                 <Col md={12} className="text-left animated fadeInUp ">
                 <a href="https://www.alaskaaces.com.ph/"  target="_blank"><img src={images.web2} target="_blank" width="50" /></a>
@@ -265,7 +265,7 @@ everywhere you go. Get Alaska Aces news, player profiles, schedules and more.
             <Col md={6} className="text-left">
               <Carousel.Caption className="  animatedParent animateOnce" >
                 <h3 className="text-left">Zygurtech Website</h3>
-                <p className="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <p className="text-left">An IT company solutions based in US.
                 </p>
                 <Col md={12} className="text-left animated fadeInUp ">
                   <a  className="text-left"href="http://www.zygurtech.com/"  target="_blank"><img src={images.web2} target="_blank" width="50" /></a>

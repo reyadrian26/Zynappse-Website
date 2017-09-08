@@ -11,7 +11,6 @@ class Skills extends Component {
         <div className="container margin-section  animatedParent animateOnce"  id="skills">
             <div>
               <h1 className="text-center animated fadeInLeft" >Technology Stack</h1>
-                <p className="text-center animated fadeInRight delay-250">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />Ornare congue lacinia semper nascetur elit facilisis rutrum.</p>
             </div>
             <div className="margin-section"></div>
           <Col md={4} className="text-center   animatedParent animateOnce">
