@@ -276,6 +276,10 @@ everywhere you go. Get Alaska Aces news, player profiles, schedules and more.
 
 
   </Carousel>
+  <Col md={12} className="text-center">
+    <a href="http://www.zynappse.com/Zynappse_ProfilePortfolio.pdf" download="Zynappse_ProfilePortfolio" target="_blank" className="btn-custom"  style={{color: "#fff"}}>Download our Portfolio</a>
+
+  </Col>
       </div>
     );
   }

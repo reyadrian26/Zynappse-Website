@@ -85,7 +85,10 @@ class Contact extends Component {
         <a style={{color: "white"}} href="https://ph.linkedin.com/in/zynappse-corporation-535885a2" target="_blank"><img src={images.linkedin} alt="linkedin" width={50} style={{
               padding: "0 10px"
             }}/></a>
+
         </Col>
+    
+
       </Col>
     </div>
 
