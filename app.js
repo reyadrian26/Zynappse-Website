@@ -31,8 +31,8 @@ app.use('/',express.static(path.join(__dirname, '/zynappse/build')));
 
 console.log('static file is: ',path.join(__dirname, '/zynappse/build'));
 
-app.use('/', index);
-app.use('/users', users);
+// app.use('/', index);
+// app.use('/users', users);
 
 app.use('*',function(req,res,next){
   res.render('index')
