@@ -35,7 +35,7 @@ console.log('static file is: ',path.join(__dirname, '/zynappse/build'));
 // app.use('/users', users);
 
 app.use('*',function(req,res,next){
-  res.render('index')
+  res.send('index')
 })
 
 // catch 404 and forward to error handler
