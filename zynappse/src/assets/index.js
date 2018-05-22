@@ -38,6 +38,7 @@ import logo from './logo.png';
 import android from './android.gif';
 import web from './web.gif';
 import apple from './apple.gif';
+import portfolio from './Zynappse_ProfilePortfolio.pdf';
 
 import android2 from './android.svg';
 import web2 from './web.svg';
@@ -46,6 +47,7 @@ import apple2 from './apple.svg';
 
 
 const images = {
+      portfolio: portfolio,
       bg : bg,
       appsolution: appsolution,
       websolution: websolution,
