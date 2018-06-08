@@ -180,34 +180,6 @@ everywhere you go. Get Alaska Aces news, player profiles, schedules and more.
             <Col md={6}>
               <div className="cd-product">
                 <div id="cd-product-tour" className="cd-product-mockup  animatedParent animateOnce">
-                  <img className="mofoid animated fadeInDown" src={images.redstar2} alt="redstar" width={230}/>
-                </div>
-                <div id="cd-product-tour" className="cd-product-mockup cards2 animatedParent animateOnce" style={{transform: "rotateX(-60deg) rotateZ(28deg) translateX(250px) translateY(324px) translateZ(-189px)"}}>
-                  <img className="mofoid animated fadeInUp delay-500" src={images.redstar} alt="redstar" width={230} />
-                </div>
-              </div>
-            </Col>
-            <Col md={6} className="text-left">
-              <Carousel.Caption className="animatedParent animateOnce">
-                <h3 className="text-left">Redstar</h3>
-                <p className="text-left">Redstar is a new app in an era where the attention span of smart phone users tends to be short and passive, which makes the first impression of the website crucial by converting the traditional outlook of the website into an interactive one.
-                </p>
-                <p className="text-left animated fadeInUp delay-500">Available on:</p>
-                <Col md={12}  className="text-left animated fadeInUp delay-750" >
-
-                    <a href="https://play.google.com/store/apps/details?id=ph.com.redstar.RedStar&hl=en"  target="_blank"><img style={{paddingRight: "32px"}} src={images.android2} target="_blank" height="50" /></a>
-
-                    <a  className="text-left" href="https://itunes.apple.com/ph/app/redstar-app/id1030321389?mt=8"  target="_blank"><img src={images.apple2} target="_blank" height="50" /></a>
-
-                </Col>
-              </Carousel.Caption>
-            </Col>
-          </Carousel.Item>
-
-          <Carousel.Item>
-            <Col md={6}>
-              <div className="cd-product">
-                <div id="cd-product-tour" className="cd-product-mockup  animatedParent animateOnce">
                   <img className="mofoid animated fadeInDown" src={images.oap2} alt="oap" width={230}/>
                 </div>
                 <div id="cd-product-tour" className="cd-product-mockup cards2 animatedParent animateOnce" style={{transform: "rotateX(-60deg) rotateZ(28deg) translateX(250px) translateY(324px) translateZ(-189px)"}}>
