@@ -1,0 +1,235 @@
+/* --------------------------------
+
+Primary style
+
+-------------------------------- */
+
+.cd-product-mockup>img {
+  max-width: 100%;
+}
+
+
+/* --------------------------------
+
+Modules - reusable parts of our design
+
+-------------------------------- */
+
+
+/* --------------------------------
+
+Main components
+
+-------------------------------- */
+
+.cd-product {
+  position: relative;
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 1170px) {
+  .cd-product {
+    padding-top: 100px;
+  }
+  .cd-product.is-product-tour {
+    height: auto;
+    padding-bottom: 100px;
+  }
+  .cards2 {
+    display: auto;
+  }
+}
+
+@media only screen and (max-width: 1169px) {
+  .cd-product-mockup {
+    width: auto !important;
+    margin: auto !important;
+  }
+  .cards2 {
+    display: none !important;
+  }
+}
+
+.no-csstransforms3d #cd-start {
+  /* remove start button if CSS 3D Transforms are not supported */
+  display: none;
+}
+
+.cd-product-mockup {
+  width: 90%;
+  /* set here the max-width for the mockup */
+  text-align: -webkit-center;
+  max-width: 450px;
+  margin: -189px 102px 51px;
+  position: relative;
+}
+
+.cd-product-mockup img {
+  display: block;
+  position: relative;
+  /* Firefox bug - 3D CSS transform, jagged edges */
+  outline: 1px solid transparent;
+}
+
+@media only screen and (min-width: 1170px) {
+  .cd-product-mockup {
+    margin-bottom: 0;
+    /* Force Hardware Acceleration in WebKit */
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: center top;
+    -moz-transform-origin: center top;
+    -ms-transform-origin: center top;
+    -o-transform-origin: center top;
+    transform-origin: center top;
+    -webkit-transform: rotateX(-60deg) rotateZ(28deg) translateX(250px) translateY(324px);
+    -moz-transform: rrotateX(-60deg) rotateZ(28deg) translateX(250px) translateY(324px);
+    -ms-transform: rotateX(-60deg) rotateZ(28deg) translateX(250px) translateY(324px);
+    transform: rotateX(-60deg) rotateZ(28deg) translateX(250px) translateY(324px);
+    /*transform: rotateX(76deg) rotateZ(13deg)  rotateY(0deg) translateX(-135px) translateZ(-405px) translateY(-338px);*/
+    -webkit-transition: -webkit-transform 0.6s;
+    -moz-transition: -moz-transform 0.6s;
+    transition: transform 0.6s;
+  }
+  .cd-product-mockup::before {
+    /* mockup shadow */
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    /* play with these values to create a realistic shadow */
+    height: 45%;
+    /*box-shadow: -1px 9px 25px 216px rgba(0, 0, 0, 0.24);*/
+    /*-webkit-transform: translateZ(-36px) translateX(297px) translateY(338px);
+    -moz-transform: translateZ(-36px) translateX(297px) translateY(338px);
+    -ms-transform: translateZ(-36px) translateX(297px) translateY(338px);
+    -o-transform: translateZ(-36px) translateX(297px) translateY(338px);
+    transform: translateZ(-36px) translateX(297px) translateY(338px);*/
+    -webkit-transition: -webkit-transform 0.6s;
+    -moz-transition: -moz-transform 0.6s;
+    transition: transform 0.6s;
+  }
+  .is-product-tour .cd-product-mockup {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+  }
+  .is-product-tour .cd-product-mockup::before {
+    -webkit-transform: translateZ(-100px) translateX(226px) translateY(216px);
+    -moz-transform: translateZ(-100px) translateX(226px) translateY(216px);
+    -ms-transform: translateZ(-100px) translateX(226px) translateY(216px);
+    -o-transform: translateZ(-100px) translateX(226px) translateY(216px);
+    transform: translateZ(-100px) translateX(226px) translateY(216px);
+  }
+}
+
+.no-csstransforms3d .cd-product:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.no-csstransforms3d .cd-product-mockup {
+  float: left;
+}
+
+.no-csstransforms3d .cd-product-mockup::before {
+  display: none;
+}
+
+.cd-3d-right-side, .cd-3d-bottom-side {
+  display: none;
+}
+
+@media only screen and (min-width: 1170px) {
+  .cd-3d-right-side, .cd-3d-bottom-side {
+    display: block;
+    position: absolute;
+    left: 0;
+    background-image: url("https://s-media-cache-ak0.pinimg.com/236x/12/7f/bb/127fbbb1a08d7058c85ad0a2b5359489.jpg");
+    /* Firefox bug - 3D CSS transform, jagged edges */
+    outline: 1px solid transparent;
+  }
+  .cd-3d-right-side::after, .cd-3d-bottom-side::after {
+    /* darken the right/bottom sides */
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media only screen and (min-width: 1170px) {
+  .cd-3d-right-side {
+    top: -1px;
+    width: 10px;
+    height: 100%;
+    background-size: auto 100%;
+    background-position: right;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -ms-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+    -webkit-transform: translateZ(1px) translateX(450px) translateY(-1px) rotateY(-90deg);
+    -moz-transform: translateZ(1px) translateX(450px) translateY(-1px) rotateY(-90deg);
+    -ms-transform: translateZ(1px) translateX(450px) translateY(-1px) rotateY(-90deg);
+    -o-transform: translateZ(1px) translateX(450px) translateY(-1px) rotateY(-90deg);
+    transform: translateZ(1px) translateX(450px) translateY(-1px) rotateY(-90deg);
+  }
+  .cd-3d-bottom-side {
+    bottom: 0;
+    width: 100%;
+    height: 10px;
+    background-position: bottom center;
+    background-size: 100% auto;
+    -webkit-transform-origin: center bottom;
+    -moz-transform-origin: center bottom;
+    -ms-transform-origin: center bottom;
+    -o-transform-origin: center bottom;
+    transform-origin: center bottom;
+    -webkit-transform: translateZ(-1px) rotateX(-90deg);
+    -moz-transform: translateZ(-1px) rotateX(-90deg);
+    -ms-transform: translateZ(-1px) rotateX(-90deg);
+    -o-transform: translateZ(-1px) rotateX(-90deg);
+    transform: translateZ(-1px) rotateX(-90deg);
+  }
+  .cd-3d-bottom-side::after {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+}
+
+.no-csstransforms3d .cd-3d-right-side, .no-csstransforms3d .cd-3d-bottom-side {
+  display: none;
+}
+
+.cd-close-product-tour {
+  /* close icon - product tour */
+  display: none;
+}
+
+
+/*.mofoid{
+  box-shadow: -1px 9px 25px 216px rgba(0, 0, 0, 0.24);
+
+}*/
