@@ -21,7 +21,7 @@ try {
 
     let httpServer;
     if (process.env.NODE_ENV === 'development') {
-      httpServer = require('http').createServer(app);
+      httpServer = require('http').createServer(server);
     } else {
       let fs = require('fs');
       let options = {
@@ -30,9 +30,9 @@ try {
         cert: fs.readFileSync(process.env.CERT)
       };
       if (process.env.PROTOCOL === 'https') {
-        httpServer = require('https').createServer(options, app);
+        httpServer = require('https').createServer(options, server);
       } else {
-        httpServer = require('http').createServer(app);
+        httpServer = require('http').createServer(server);
       }
     }
 
