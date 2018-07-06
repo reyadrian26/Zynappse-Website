@@ -171,7 +171,7 @@ function (_Component) {
         className: "text-center  animatedParent animateOnce"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         width: 200,
-        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847140/zynappse_website/web.gif",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847140/zynappse_website/web_animation.gif",
         alt: "web",
         className: "animated growIn"
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
