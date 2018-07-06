@@ -147,7 +147,7 @@ function (_Component) {
         className: "text-center   animatedParent animateOnce"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         width: 200,
-        src: "/static/android.gif",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/android_animation.gif",
         alt: "android",
         className: "animated growIn"
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
@@ -159,7 +159,7 @@ function (_Component) {
         className: "text-center  animatedParent animateOnce"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         height: 200,
-        src: "/static/apple.gif",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530848464/zynappse_website/apple_animation.gif",
         alt: "apple",
         className: "animated growIn"
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
@@ -171,7 +171,7 @@ function (_Component) {
         className: "text-center  animatedParent animateOnce"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         width: 200,
-        src: "/static/web.gif",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847140/zynappse_website/web.gif",
         alt: "web",
         className: "animated growIn"
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {

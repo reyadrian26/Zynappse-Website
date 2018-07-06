@@ -169,7 +169,7 @@ function (_Component) {
         onClick: this.handleClick,
         className: "text-center animated fadeInRight"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-        src: "/static/pointer.svg",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/pointer.svg",
         alt: "location",
         width: 30
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
@@ -193,7 +193,7 @@ function (_Component) {
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         href: "tel:576-3727"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-        src: "/static/phone.svg",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/phone.svg",
         alt: "contact-no",
         width: 27
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
@@ -214,7 +214,7 @@ function (_Component) {
         href: "mailto:hi@zynappse.com?Subject=Hello%20",
         target: "_top"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-        src: "/static/mail.svg",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/mail.svg",
         alt: "email",
         width: 27
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
@@ -244,7 +244,7 @@ function (_Component) {
         href: "https://www.facebook.com/zynappse/",
         target: "_blank"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-        src: "/static/facebook.svg",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/facebook.svg",
         alt: "facebook",
         width: 50,
         style: {
@@ -257,7 +257,7 @@ function (_Component) {
         href: "https://www.youtube.com/channel/UCMB0M5r5vvQ1mowPyKJW8bQ",
         target: "_blank"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-        src: "/static/youtube.svg",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/youtube.svg",
         alt: "youtube",
         width: 50,
         style: {
@@ -270,7 +270,7 @@ function (_Component) {
         href: "https://ph.linkedin.com/in/zynappse-corporation-535885a2",
         target: "_blank"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-        src: "/static/linkedin.svg",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/linkedin.svg",
         alt: "linkedin",
         width: 50,
         style: {

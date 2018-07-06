@@ -144,7 +144,7 @@ function (_Component) {
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "img-logo exact-logo animated growIn delay-5000",
-        src: "/static/logo.png",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/logo.png",
         alt: "",
         style: {
           width: "250px",

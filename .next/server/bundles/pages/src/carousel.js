@@ -151,7 +151,7 @@ function (_Component) {
         className: "cd-product-mockup  animatedParent animateOnce"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "mofoid animated fadeInDown",
-        src: "/static/cards/rwm2.png",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/rwm2.png",
         alt: "rwm",
         width: 230
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
@@ -162,7 +162,7 @@ function (_Component) {
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "mofoid animated fadeInUp delay-500",
-        src: "/static/cards/rwm.png",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/rwm.png",
         alt: "rwm",
         width: 230
       })))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
@@ -186,7 +186,7 @@ function (_Component) {
         style: {
           paddingRight: "32px"
         },
-        src: "/static/android.svg",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/android_no_animation.svg",
         target: "_blank",
         height: "50"
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
@@ -194,7 +194,7 @@ function (_Component) {
         href: "https://itunes.apple.com/ph/app/rwm-mobile-app/id909015173?mt=8",
         target: "_blank"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-        src: "/static/apple.svg",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/apple_no_animation.svg",
         target: "_blank",
         height: "50"
       })))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Carousel"].Item, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
@@ -206,7 +206,7 @@ function (_Component) {
         className: "cd-product-mockup  animatedParent animateOnce"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "mofoid animated fadeInDown",
-        src: "/static/cards/alaska2.png",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/alaska2.png",
         alt: "alaska",
         width: 230
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
@@ -217,7 +217,7 @@ function (_Component) {
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "mofoid animated fadeInUp delay-500",
-        src: "/static/cards/alaska.png",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/alaska.png",
         alt: "alaska",
         width: 230
       })))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
@@ -241,7 +241,7 @@ function (_Component) {
         style: {
           paddingRight: "32px"
         },
-        src: "/static/android.svg",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/android_no_animation.svg",
         target: "_blank",
         height: "50"
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
@@ -249,7 +249,7 @@ function (_Component) {
         href: "https://itunes.apple.com/ph/app/alaska-aces/id743641908?mt=8",
         target: "_blank"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-        src: "/static/apple.svg",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/apple_no_animation.svg",
         target: "_blank",
         height: "50"
       })))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Carousel"].Item, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
@@ -261,7 +261,7 @@ function (_Component) {
         className: "cd-product-mockup  animatedParent animateOnce"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "mofoid animated fadeInDown",
-        src: "/static/cards/myblood2.png",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/myblood2.png",
         alt: "myblood",
         width: 230
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
@@ -272,7 +272,7 @@ function (_Component) {
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "mofoid animated fadeInUp delay-500",
-        src: "/static/cards/myblood.png",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/myblood.png",
         alt: "myblood",
         width: 230
       })))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
@@ -296,7 +296,7 @@ function (_Component) {
         style: {
           paddingRight: "32px"
         },
-        src: "/static/android.svg",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/android_no_animation.svg",
         target: "_blank",
         height: "50"
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
@@ -304,7 +304,7 @@ function (_Component) {
         href: "https://itunes.apple.com/ph/app/myblood-profile/id1208015547?mt=8",
         target: "_blank"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-        src: "/static/apple.svg",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/apple_no_animation.svg",
         target: "_blank",
         height: "50"
       })))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Carousel"].Item, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
@@ -316,7 +316,7 @@ function (_Component) {
         className: "cd-product-mockup  animatedParent animateOnce"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "mofoid animated fadeInDown",
-        src: "/static/cards/unfold2.png",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/unfold2.png",
         alt: "unfold",
         width: 230
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
@@ -327,7 +327,7 @@ function (_Component) {
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "mofoid animated fadeInUp delay-500",
-        src: "/static/cards/unfold.png",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/unfold.png",
         alt: "unfold",
         width: 230
       })))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
@@ -351,7 +351,7 @@ function (_Component) {
         style: {
           paddingRight: "32px"
         },
-        src: "/static/android.svg",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/android_no_animation.svg",
         target: "_blank",
         height: "50"
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
@@ -359,7 +359,7 @@ function (_Component) {
         href: "https://itunes.apple.com/ph/app/unfold-app/id830612465?mt=8",
         target: "_blank"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-        src: "/static/apple.svg",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/apple_no_animation.svg",
         target: "_blank",
         height: "50"
       })))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Carousel"].Item, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
@@ -371,7 +371,7 @@ function (_Component) {
         className: "cd-product-mockup  animatedParent animateOnce"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "mofoid animated fadeInDown",
-        src: "/static/cards/flashunt2.png",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/flashunt2.png",
         alt: "flashunt",
         width: 230
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
@@ -382,7 +382,7 @@ function (_Component) {
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "mofoid animated fadeInUp delay-500",
-        src: "/static/cards/flashunt.png",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/flashunt.png",
         alt: "flashunt",
         width: 230
       })))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
@@ -403,7 +403,7 @@ function (_Component) {
         href: "https://play.google.com/store/apps/details?id=com.zynappse.flashnt&hl=en",
         target: "_blank"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-        src: "/static/android.svg",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/android_no_animation.svg",
         target: "_blank",
         height: "50"
       })))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Carousel"].Item, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
@@ -415,7 +415,7 @@ function (_Component) {
         className: "cd-product-mockup  animatedParent animateOnce"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "mofoid animated fadeInDown",
-        src: "/static/cards/locali2.png",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/locali2.png",
         alt: "locali",
         width: 230
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
@@ -426,7 +426,7 @@ function (_Component) {
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "mofoid animated fadeInUp delay-500",
-        src: "/static/cards/locali.png",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/locali.png",
         alt: "locali",
         width: 230
       })))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
@@ -450,7 +450,7 @@ function (_Component) {
         href: "https://play.google.com/store/apps/details?id=com.zynappse.locali&hl=en",
         target: "_blank"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-        src: "/static/android.svg",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/android_no_animation.svg",
         target: "_blank",
         height: "50"
       }))))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Carousel"].Item, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
@@ -462,7 +462,7 @@ function (_Component) {
         className: "cd-product-mockup  animatedParent animateOnce"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "mofoid animated fadeInDown",
-        src: "/static/cards/oap2.png",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/oap2.png",
         alt: "oap",
         width: 230
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
@@ -473,7 +473,7 @@ function (_Component) {
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "mofoid animated fadeInUp delay-500",
-        src: "/static/cards/oap.png",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/oap.png",
         alt: "oap",
         width: 230
       })))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
@@ -497,7 +497,7 @@ function (_Component) {
         style: {
           paddingRight: "32px"
         },
-        src: "/static/android.svg",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/android_no_animation.svg",
         target: "_blank",
         height: "50"
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
@@ -505,7 +505,7 @@ function (_Component) {
         href: "https://itunes.apple.com/ph/app/our-awesome-planet/id926617833?mt=8",
         target: "_blank"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-        src: "/static/apple.svg",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/apple_no_animation.svg",
         target: "_blank",
         height: "50"
       })))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Carousel"].Item, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
@@ -519,7 +519,7 @@ function (_Component) {
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "mofoid animated tada",
-        src: "/static/cards/alaska-website.png",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/alaska-website.png",
         alt: "alaska-website",
         width: 400
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
@@ -540,7 +540,7 @@ function (_Component) {
         href: "https://www.alaskaaces.com.ph/",
         target: "_blank"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-        src: "/static/cards/alaska.png",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/alaska.png",
         target: "_blank",
         width: "50"
       })))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Carousel"].Item, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
@@ -554,7 +554,7 @@ function (_Component) {
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "mofoid animated tada",
-        src: "/static/cards/zygurtech.png",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/zygurtech.png",
         alt: "zygurtech",
         width: 400
       })))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
@@ -574,14 +574,14 @@ function (_Component) {
         href: "http://www.zygurtech.com/",
         target: "_blank"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-        src: "/static/web.svg",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/web.svg",
         target: "_blank",
         width: "50"
       }))))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
         md: 12,
         className: "text-center"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-        href: "/static/Zynappse_ProfilePortfolio.pdf",
+        href: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/Zynappse_ProfilePortfolio.pdf",
         download: "Zynappse_ProfilePortfolio",
         target: "_blank",
         className: "btn-custom",

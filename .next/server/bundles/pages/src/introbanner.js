@@ -150,15 +150,15 @@ function (_Component) {
         className: "animatedParent animateOnce"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
         className: "animated growIn delay-1000"
-      }, "We."), " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
+      }, "We."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
         className: "animated growIn delay-2000"
-      }, "Build."), " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
+      }, "Build."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
         className: "animated growIn delay-3000"
-      }, "Beautiful."), " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
+      }, "Beautiful."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
         className: "animated growIn delay-4000"
-      }, "Apps"), "  "), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
+      }, "Apps")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "animated growIn delay-5000",
-        src: "/static/zynappse.svg",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/zynappse.svg",
         width: 350,
         style: {
           zIndex: "3"

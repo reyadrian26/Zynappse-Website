@@ -9,16 +9,16 @@ class About extends Component {
       <div className="container">
         <Col md={12} className="margin-section animatedParent animateOnce">
           <Col md={3}>
-            <a href="https://www.appfutura.com/web-developers" target="_blank" className="animated growIn "><img width="200" src="https://www.appfutura.com/img/badges/badge-top-web-company.png" /></a>
+            <a href="https://www.appfutura.com/web-developers" target="_blank" className="animated growIn "><img width="200" src="https://www.appfutura.com/img/badges/badge-top-web-company.png" alt="apptura badge" /></a>
           </Col>
           <Col md={3}>
-          <a href="https://www.appfutura.com/ios-developers" target="_blank" className="animated growIn delay-500"><img width="200" src="https://www.appfutura.com/img/badges/badge-top-ios-company.png" /></a>
+          <a href="https://www.appfutura.com/ios-developers" target="_blank" className="animated growIn delay-500"><img width="200" src="https://www.appfutura.com/img/badges/badge-top-ios-company.png" alt="apptura badge" /></a>
           </Col>
           <Col md={3}>
-          <a href="https://www.appfutura.com/android-developers" target="_blank" className="animated growIn delay-1000"><img width="200" src="https://www.appfutura.com/img/badges/badge-top-android-company.png" /></a>
+          <a href="https://www.appfutura.com/android-developers" target="_blank" className="animated growIn delay-1000"><img width="200" src="https://www.appfutura.com/img/badges/badge-top-android-company.png" alt="apptura badge" /></a>
           </Col>
           <Col md={3}>
-          <a href="https://www.appfutura.com/app-developers" target="_blank" className="animated growIn delay-1500"><img width="200" src="https://www.appfutura.com/img/badges/badge-top-company.png" /></a>
+          <a href="https://www.appfutura.com/app-developers" target="_blank" className="animated growIn delay-1500"><img width="200" src="https://www.appfutura.com/img/badges/badge-top-company.png" alt="apptura badge" /></a>
           </Col>
         </Col>
         <Col md={12} className="margin-section animatedParent animateOnce">

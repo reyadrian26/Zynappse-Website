@@ -147,7 +147,7 @@ function (_Component) {
         className: "text-center animatedParent animateOnce"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "animated fadeInLeft",
-        src: "/static/app-solution.svg",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/app-solution.svg",
         alt: "appsolution",
         height: 200
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
@@ -161,7 +161,7 @@ function (_Component) {
         className: "text-center animatedParent animateOnce"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "animated fadeInLeft delay-250",
-        src: "/static/web-solution.svg",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/web-solution.svg",
         alt: "websolution",
         height: 200
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
@@ -175,7 +175,7 @@ function (_Component) {
         className: "text-center animatedParent animateOnce"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "animated fadeInLeft ",
-        src: "/static/cloud2.svg",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cloud2.svg",
         alt: "cloud",
         height: 200
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
@@ -189,7 +189,7 @@ function (_Component) {
         className: "text-center animatedParent animateOnce"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "animated fadeInLeft",
-        src: "/static/ai.svg",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/ai.svg",
         alt: "artificial-intelligence",
         height: 200
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
@@ -203,7 +203,7 @@ function (_Component) {
         className: "text-center animatedParent animateOnce"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "animated fadeInLeft ",
-        src: "/static/ar.svg",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/ar.svg",
         alt: "augmented-reality",
         height: 200
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {

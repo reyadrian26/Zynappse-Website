@@ -45,7 +45,7 @@ class Contact extends Component {
 
             <ButtonToolbar>
 
-              <p onClick={this.handleClick} className="text-center animated fadeInRight"><img src={"/static/pointer.svg"} alt="location" width={30}/>
+              <p onClick={this.handleClick} className="text-center animated fadeInRight"><img src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/pointer.svg"} alt="location" width={30}/>
                 <span style={{
                   paddingLeft: "20px"
                 }}>4F RFM Corporate Center, Pioneer cor Sheridan Sts., Mandaluyong City
@@ -59,7 +59,7 @@ class Contact extends Component {
             </ButtonToolbar>
 
             <p className="text-center animated fadeInRight delay-250">
-              <a href="tel:576-3727"><img src={"/static/phone.svg"} alt="contact-no" width={27}/></a>
+              <a href="tel:576-3727"><img src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/phone.svg"} alt="contact-no" width={27}/></a>
               <span style={{
                 paddingLeft: "20px"
               }}>
@@ -72,7 +72,7 @@ class Contact extends Component {
             <p className="text-center animated fadeInRight delay-500">
               <a style={{
                 color: "white"
-              }} href="mailto:hi@zynappse.com?Subject=Hello%20" target="_top"><img src={"/static/mail.svg"} alt="email" width={27}/></a>
+              }} href="mailto:hi@zynappse.com?Subject=Hello%20" target="_top"><img src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/mail.svg"} alt="email" width={27}/></a>
               <span style={{
                 paddingLeft: "20px"
               }}>
@@ -89,19 +89,19 @@ class Contact extends Component {
             }}>
               <a style={{
                 color: "white"
-              }} href="https://www.facebook.com/zynappse/" target="_blank"><img src={"/static/facebook.svg"} alt="facebook" width={50} style={{
+              }} href="https://www.facebook.com/zynappse/" target="_blank"><img src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/facebook.svg"} alt="facebook" width={50} style={{
         padding: "0 10px"
       }}/></a>
 
               <a style={{
                 color: "white"
-              }} href="https://www.youtube.com/channel/UCMB0M5r5vvQ1mowPyKJW8bQ" target="_blank"><img src={"/static/youtube.svg"} alt="youtube" width={50} style={{
+              }} href="https://www.youtube.com/channel/UCMB0M5r5vvQ1mowPyKJW8bQ" target="_blank"><img src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/youtube.svg"} alt="youtube" width={50} style={{
         padding: "0 10px"
       }}/></a>
 
               <a style={{
                 color: "white"
-              }} href="https://ph.linkedin.com/in/zynappse-corporation-535885a2" target="_blank"><img src={"/static/linkedin.svg"} alt="linkedin" width={50} style={{
+              }} href="https://ph.linkedin.com/in/zynappse-corporation-535885a2" target="_blank"><img src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/linkedin.svg"} alt="linkedin" width={50} style={{
         padding: "0 10px"
       }}/></a>
 

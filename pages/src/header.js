@@ -8,7 +8,7 @@ export default class Header extends Component {
     return (
       <div>
         <div className="logo-pos animateOnce animatedParent" style={{ position: "fixed", zIndex: "1031" }}>
-          <img className="img-logo exact-logo animated growIn delay-5000" src={"/static/logo.png"} alt="" style={{ width: "250px", paddingTop: "15px" }}/>
+          <img className="img-logo exact-logo animated growIn delay-5000" src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/logo.png"} alt="" style={{ width: "250px", paddingTop: "15px" }}/>
         </div>
         <Navbar inverse collapseOnSelect className="navbar-fixed-top" style={{ padding: "10px 0px" }}>
           <Navbar.Header>
