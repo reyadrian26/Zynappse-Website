@@ -19,11 +19,27 @@ try {
       return handle(req, res)
     })
 
-    server.listen(port, (err) => {
-      if (err)
-        throw err
-      console.log(`> Ready on http://localhost:${port}`)
-    })
+    let httpServer;
+    if (process.env.NODE_ENV === 'development') {
+      httpServer = require('http').createServer(app);
+    } else {
+      let fs = require('fs');
+      let options = {
+        ca: fs.readFileSync(process.env.CA),
+        key: fs.readFileSync(process.env.KEY),
+        cert: fs.readFileSync(process.env.CERT)
+      };
+      if (process.env.PROTOCOL === 'https') {
+        httpServer = require('https').createServer(options, app);
+      } else {
+        httpServer = require('http').createServer(app);
+      }
+    }
+
+    let port = process.env.PORT || 3000;
+    httpServer.listen(port, function() {
+      console.log(`server is running at port ${port}`)
+    });
   })
 } catch (e) {
   console.log(e)

@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "NODE_ENV=production PORT=2014 node app.js",
+    "start": "node app.js",
     "dev": "node app.js",
     "start:verold": "next start -p 2014",
     "build": "next build",
