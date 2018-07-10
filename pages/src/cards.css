@@ -74,6 +74,19 @@ Main components
 }
 
 @media only screen and (min-width: 1170px) {
+
+/*
+  .cd-product-mockup{
+   transform: matrix(0.8, 0.1, -0.44, 0.41, 35, 10);
+  }
+*/
+  /* .cards2{
+  transform: matrix(0.80, 0.10, -0.44, 0.41, 35, -355) !important;
+  } */
+  .cards-test{
+    transform: matrix(0.80, 0.10, -0.44, 0.41, 35, 170) !important;
+
+  }
   .cd-product-mockup {
     margin-bottom: 0;
     /* Force Hardware Acceleration in WebKit */
@@ -94,10 +107,10 @@ Main components
     -ms-transform-origin: center top;
     -o-transform-origin: center top;
     transform-origin: center top;
-    -webkit-transform: rotateX(-60deg) rotateZ(28deg) translateX(250px) translateY(324px);
-    -moz-transform: rrotateX(-60deg) rotateZ(28deg) translateX(250px) translateY(324px);
-    -ms-transform: rotateX(-60deg) rotateZ(28deg) translateX(250px) translateY(324px);
-    transform: rotateX(-60deg) rotateZ(28deg) translateX(250px) translateY(324px);
+    -webkit-transform: matrix(0.8, 0.1, -0.44, 0.41, 35, 10);
+    -moz-transform: matrix(0.8, 0.1, -0.44, 0.41, 35, 10);
+    -ms-transform: matrix(0.8, 0.1, -0.44, 0.41, 35, 10);
+    transform: matrix(0.8, 0.1, -0.44, 0.41, 35, 10);
     /*transform: rotateX(76deg) rotateZ(13deg)  rotateY(0deg) translateX(-135px) translateZ(-405px) translateY(-338px);*/
     -webkit-transition: -webkit-transform 0.6s;
     -moz-transition: -moz-transform 0.6s;
