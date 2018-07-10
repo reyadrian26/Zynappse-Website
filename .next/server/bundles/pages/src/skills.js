@@ -67,43 +67,42 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 9);
+/******/ 	return __webpack_require__(__webpack_require__.s = 24);
 /******/ })
 /************************************************************************/
-/******/ ([
-/* 0 */
+/******/ ({
+
+/***/ 0:
 /***/ (function(module, exports) {
 
 module.exports = require("react");
 
 /***/ }),
-/* 1 */,
-/* 2 */,
-/* 3 */,
-/* 4 */,
-/* 5 */,
-/* 6 */,
-/* 7 */,
-/* 8 */,
-/* 9 */
+
+/***/ 1:
+/***/ (function(module, exports) {
+
+module.exports = require("react-bootstrap");
+
+/***/ }),
+
+/***/ 24:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(10);
+module.exports = __webpack_require__(6);
 
 
 /***/ }),
-/* 10 */
+
+/***/ 6:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MyDocument; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_document__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_document___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_document__);
-
-
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_bootstrap__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_bootstrap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__);
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -118,64 +117,76 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+ // import {images} from './../../public/assets';
 
 
-var MyDocument =
+
+var Skills =
 /*#__PURE__*/
-function (_Document) {
-  _inherits(MyDocument, _Document);
+function (_Component) {
+  _inherits(Skills, _Component);
 
-  function MyDocument() {
-    _classCallCheck(this, MyDocument);
+  function Skills() {
+    _classCallCheck(this, Skills);
 
-    return _possibleConstructorReturn(this, (MyDocument.__proto__ || Object.getPrototypeOf(MyDocument)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (Skills.__proto__ || Object.getPrototypeOf(Skills)).apply(this, arguments));
   }
 
-  _createClass(MyDocument, [{
+  _createClass(Skills, [{
     key: "render",
     value: function render() {
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("html", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Head"], null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
-        href: "https://fonts.googleapis.com/css?family=Poppins:300,400,600|Raleway:400,600,700",
-        rel: "stylesheet"
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
-        rel: "stylesheet",
-        href: "/_next/static/style.css"
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
-        src: "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
-        rel: "stylesheet",
-        href: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
-        integrity: "sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u",
-        crossOrigin: "anonymous"
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
-        rel: "stylesheet",
-        href: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css",
-        integrity: "sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp",
-        crossOrigin: "anonymous"
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
-        src: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js",
-        integrity: "sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa",
-        crossOrigin: "anonymous"
-      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("body", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Main"], null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["NextScript"], null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
-        src: "/static/js/parallaxify.min.js"
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
-        src: "/static/js/css3-animate-it.js"
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
-        src: "/static/js/index.js"
-      })));
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        className: "container margin-section  animatedParent animateOnce",
+        id: "skills"
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
+        className: "text-center animated fadeInLeft"
+      }, "Technology Stack")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        className: "margin-section"
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
+        md: 4,
+        className: "text-center   animatedParent animateOnce"
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
+        width: 200,
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/android_animation.gif",
+        alt: "android",
+        className: "animated growIn"
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
+        className: "gradient animated growIn"
+      }, "99%"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+        className: "animated growIn"
+      }, "Android")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
+        md: 4,
+        className: "text-center  animatedParent animateOnce"
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
+        height: 200,
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530848464/zynappse_website/apple_animation.gif",
+        alt: "apple",
+        className: "animated growIn"
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
+        className: "gradient animated growIn"
+      }, "99%"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+        className: "animated growIn"
+      }, "IOS")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
+        md: 4,
+        className: "text-center  animatedParent animateOnce"
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
+        width: 200,
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847140/zynappse_website/web_animation.gif",
+        alt: "web",
+        className: "animated growIn"
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
+        className: "gradient animated growIn"
+      }, "99%"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+        className: "animated growIn"
+      }, "Web")));
     }
   }]);
 
-  return MyDocument;
-}(__WEBPACK_IMPORTED_MODULE_1_next_document___default.a);
+  return Skills;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
 
-
-
-/***/ }),
-/* 11 */
-/***/ (function(module, exports) {
-
-module.exports = require("next/document");
+/* harmony default export */ __webpack_exports__["default"] = (Skills);
 
 /***/ })
-/******/ ]);
+
+/******/ });
