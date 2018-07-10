@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node app.js",
-    "dev": "node app.js",
+    "dev": "next && node app.js",
     "start:verold": "next start -p 2014",
     "build": "next build",
     "old:start": "node app.js"
