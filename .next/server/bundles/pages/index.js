@@ -132,12 +132,12 @@ function (_Component) {
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Carousel"], {
         indicators: false
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Carousel"].Item, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
-        md: 6
+        md: 5
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         className: "cd-product"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         id: "cd-product-tour",
-        className: "cd-product-mockup  animatedParent animateOnce"
+        className: "cd-product-mockup cards-test animatedParent animateOnce"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "mofoid animated fadeInDown",
         src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/rwm2.png",
@@ -145,17 +145,14 @@ function (_Component) {
         width: 230
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         id: "cd-product-tour",
-        className: "cd-product-mockup cards2 animatedParent animateOnce",
-        style: {
-          transform: "rotateX(-60deg) rotateZ(28deg) translateX(250px) translateY(324px) translateZ(-189px)"
-        }
+        className: "cd-product-mockup cards2 animatedParent animateOnce"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "mofoid animated fadeInUp delay-500",
         src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/rwm.png",
         alt: "rwm",
         width: 230
       })))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
-        md: 6,
+        md: 7,
         className: "text-left   "
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Carousel"].Caption, {
         className: "animatedParent animateOnce text-left"
@@ -187,12 +184,12 @@ function (_Component) {
         target: "_blank",
         height: "50"
       })))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Carousel"].Item, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
-        md: 6
+        md: 5
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         className: "cd-product"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         id: "cd-product-tour",
-        className: "cd-product-mockup  animatedParent animateOnce"
+        className: "cd-product-mockup cards-test animatedParent animateOnce"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "mofoid animated fadeInDown",
         src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/alaska2.png",
@@ -200,17 +197,14 @@ function (_Component) {
         width: 230
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         id: "cd-product-tour",
-        className: "cd-product-mockup cards2 animatedParent animateOnce",
-        style: {
-          transform: "rotateX(-60deg) rotateZ(28deg) translateX(250px) translateY(324px) translateZ(-189px)"
-        }
+        className: "cd-product-mockup cards2 animatedParent animateOnce"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "mofoid animated fadeInUp delay-500",
         src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/alaska.png",
         alt: "alaska",
         width: 230
       })))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
-        md: 6,
+        md: 7,
         className: "text-left"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Carousel"].Caption, {
         className: "animatedParent animateOnce"
@@ -242,12 +236,12 @@ function (_Component) {
         target: "_blank",
         height: "50"
       })))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Carousel"].Item, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
-        md: 6
+        md: 5
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         className: "cd-product"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         id: "cd-product-tour",
-        className: "cd-product-mockup  animatedParent animateOnce"
+        className: "cd-product-mockup cards-test animatedParent animateOnce"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "mofoid animated fadeInDown",
         src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/myblood2.png",
@@ -255,17 +249,14 @@ function (_Component) {
         width: 230
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         id: "cd-product-tour",
-        className: "cd-product-mockup cards2 animatedParent animateOnce",
-        style: {
-          transform: "rotateX(-60deg) rotateZ(28deg) translateX(250px) translateY(324px) translateZ(-189px)"
-        }
+        className: "cd-product-mockup cards2 animatedParent animateOnce"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "mofoid animated fadeInUp delay-500",
         src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/myblood.png",
         alt: "myblood",
         width: 230
       })))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
-        md: 6,
+        md: 7,
         className: "text-left"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Carousel"].Caption, {
         className: "animatedParent animateOnce"
@@ -297,12 +288,12 @@ function (_Component) {
         target: "_blank",
         height: "50"
       })))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Carousel"].Item, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
-        md: 6
+        md: 5
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         className: "cd-product"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         id: "cd-product-tour",
-        className: "cd-product-mockup  animatedParent animateOnce"
+        className: "cd-product-mockup cards-test animatedParent animateOnce"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "mofoid animated fadeInDown",
         src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/unfold2.png",
@@ -310,17 +301,14 @@ function (_Component) {
         width: 230
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         id: "cd-product-tour",
-        className: "cd-product-mockup cards2 animatedParent animateOnce",
-        style: {
-          transform: "rotateX(-60deg) rotateZ(28deg) translateX(250px) translateY(324px) translateZ(-189px)"
-        }
+        className: "cd-product-mockup cards2 animatedParent animateOnce"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "mofoid animated fadeInUp delay-500",
         src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/unfold.png",
         alt: "unfold",
         width: 230
       })))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
-        md: 6,
+        md: 7,
         className: "text-left"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Carousel"].Caption, {
         className: "animatedParent animateOnce"
@@ -352,12 +340,12 @@ function (_Component) {
         target: "_blank",
         height: "50"
       })))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Carousel"].Item, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
-        md: 6
+        md: 5
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         className: "cd-product"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         id: "cd-product-tour",
-        className: "cd-product-mockup  animatedParent animateOnce"
+        className: "cd-product-mockup cards-test animatedParent animateOnce"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "mofoid animated fadeInDown",
         src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/flashunt2.png",
@@ -365,17 +353,14 @@ function (_Component) {
         width: 230
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         id: "cd-product-tour",
-        className: "cd-product-mockup cards2 animatedParent animateOnce",
-        style: {
-          transform: "rotateX(-60deg) rotateZ(28deg) translateX(250px) translateY(324px) translateZ(-189px)"
-        }
+        className: "cd-product-mockup cards2 animatedParent animateOnce"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "mofoid animated fadeInUp delay-500",
         src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/flashunt.png",
         alt: "flashunt",
         width: 230
       })))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
-        md: 6,
+        md: 7,
         className: "text-left"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Carousel"].Caption, {
         className: "animatedParent animateOnce"
@@ -396,12 +381,12 @@ function (_Component) {
         target: "_blank",
         height: "50"
       })))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Carousel"].Item, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
-        md: 6
+        md: 5
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         className: "cd-product"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         id: "cd-product-tour",
-        className: "cd-product-mockup  animatedParent animateOnce"
+        className: "cd-product-mockup cards-test animatedParent animateOnce"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "mofoid animated fadeInDown",
         src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/locali2.png",
@@ -409,17 +394,14 @@ function (_Component) {
         width: 230
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         id: "cd-product-tour",
-        className: "cd-product-mockup cards2 animatedParent animateOnce",
-        style: {
-          transform: "rotateX(-60deg) rotateZ(28deg) translateX(250px) translateY(324px) translateZ(-189px)"
-        }
+        className: "cd-product-mockup cards2 animatedParent animateOnce"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "mofoid animated fadeInUp delay-500",
         src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/locali.png",
         alt: "locali",
         width: 230
       })))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
-        md: 6,
+        md: 7,
         className: "text-left"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Carousel"].Caption, {
         className: "animatedParent animateOnce"
@@ -443,12 +425,12 @@ function (_Component) {
         target: "_blank",
         height: "50"
       }))))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Carousel"].Item, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
-        md: 6
+        md: 5
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         className: "cd-product"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         id: "cd-product-tour",
-        className: "cd-product-mockup  animatedParent animateOnce"
+        className: "cd-product-mockup cards-test animatedParent animateOnce"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "mofoid animated fadeInDown",
         src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/oap2.png",
@@ -456,17 +438,14 @@ function (_Component) {
         width: 230
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         id: "cd-product-tour",
-        className: "cd-product-mockup cards2 animatedParent animateOnce",
-        style: {
-          transform: "rotateX(-60deg) rotateZ(28deg) translateX(250px) translateY(324px) translateZ(-189px)"
-        }
+        className: "cd-product-mockup cards2 animatedParent animateOnce"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "mofoid animated fadeInUp delay-500",
         src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/oap.png",
         alt: "oap",
         width: 230
       })))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
-        md: 6,
+        md: 7,
         className: "text-left"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Carousel"].Caption, {
         className: "animatedParent animateOnce"
@@ -498,7 +477,7 @@ function (_Component) {
         target: "_blank",
         height: "50"
       })))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Carousel"].Item, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
-        md: 6
+        md: 5
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         className: "cd-product"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
@@ -514,7 +493,7 @@ function (_Component) {
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         className: "cd-close-product-tour cd-img-replace"
       }, "img2"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
-        md: 6,
+        md: 7,
         className: "text-left"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Carousel"].Caption, {
         className: "  animatedParent animateOnce"
@@ -529,11 +508,11 @@ function (_Component) {
         href: "https://www.alaskaaces.com.ph/",
         target: "_blank"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/alaska.png",
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/web.svg",
         target: "_blank",
         width: "50"
       })))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Carousel"].Item, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
-        md: 6
+        md: 5
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         className: "cd-product"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
@@ -547,7 +526,7 @@ function (_Component) {
         alt: "zygurtech",
         width: 400
       })))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
-        md: 6,
+        md: 7,
         className: "text-left"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Carousel"].Caption, {
         className: "  animatedParent animateOnce"
