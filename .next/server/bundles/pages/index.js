@@ -570,7 +570,7 @@ function (_Component) {
         md: 12,
         className: "text-center"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-        href: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/Zynappse_ProfilePortfolio.pdf",
+        href: "http://res.cloudinary.com/da0fky5vm/image/upload/v1530847128/zynappse_website/Zynappse_ProfilePortfolio.pdf",
         download: "Zynappse_ProfilePortfolio",
         target: "_blank",
         className: "btn-custom",

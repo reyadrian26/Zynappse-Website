@@ -273,7 +273,7 @@ export default class CarouselBanner extends Component {
 
         </Carousel>
         <Col md={12} className="text-center">
-          <a href={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/Zynappse_ProfilePortfolio.pdf"} download="Zynappse_ProfilePortfolio" target="_blank" className="btn-custom" style={{
+          <a href={"http://res.cloudinary.com/da0fky5vm/image/upload/v1530847128/zynappse_website/Zynappse_ProfilePortfolio.pdf"} download="Zynappse_ProfilePortfolio" target="_blank" className="btn-custom" style={{
             color: "#fff"
           }}>Download our Portfolio</a>
 
