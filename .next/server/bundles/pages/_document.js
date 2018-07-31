@@ -156,6 +156,13 @@ function (_Document) {
         src: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js",
         integrity: "sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa",
         crossOrigin: "anonymous"
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
+        dangerouslySetInnerHTML: {
+          __html: "window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;\nga('create', 'UA-XXXXX-Y', 'auto');\nga('send', 'pageview');"
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
+        async: true,
+        src: "https://www.google-analytics.com/analytics.js"
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("body", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Main"], null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["NextScript"], null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
         src: "/static/js/parallaxify.min.js"
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {

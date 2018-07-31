@@ -23,7 +23,8 @@ class App extends Component {
     return (<Row id="fullpage">
       <Head>
         <title>Zynappse Website</title>
-      </Head>
+
+    </Head>
       <Header/>
       <IntroBanner/>
       <Infographics/>

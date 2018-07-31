@@ -1311,12 +1311,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_skills_js__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_about_js__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_contact_js__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_react_router_ga__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_react_router_ga___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14_react_router_ga__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_react_ga__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_react_ga___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15_react_ga__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_next_head__ = __webpack_require__(22);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_16_next_head__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_next_head__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14_next_head__);
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -1351,8 +1347,6 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
-
-
 var App =
 /*#__PURE__*/
 function (_Component) {
@@ -1369,7 +1363,7 @@ function (_Component) {
     value: function render() {
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_react_bootstrap__["Row"], {
         id: "fullpage"
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_16_next_head___default.a, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("title", null, "Zynappse Website")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8__src_header_js__["default"], null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_10__src_introbanner_js__["default"], null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9__src_infographics_js__["default"], null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_14_next_head___default.a, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("title", null, "Zynappse Website")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8__src_header_js__["default"], null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_10__src_introbanner_js__["default"], null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9__src_infographics_js__["default"], null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         className: "margin-section"
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         className: "about",
@@ -1384,10 +1378,10 @@ function (_Component) {
   }]);
 
   return App;
-}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]); // export default App;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
 
-
-/* harmony default export */ __webpack_exports__["default"] = (__WEBPACK_IMPORTED_MODULE_6_next_ga___default()("UA-51162965-1", __WEBPACK_IMPORTED_MODULE_5_next_router___default.a)(App)); // <div className="cd-3d-right-side"></div>
+/* harmony default export */ __webpack_exports__["default"] = (App); // export default withGA("UA-51162965-1", Router)(App);
+// <div className="cd-3d-right-side"></div>
 // <div className="cd-3d-left-side"></div>
 // <div className="cd-3d-bottom-side"></div>
 
@@ -1429,18 +1423,6 @@ module.exports = require("next-ga");
 
 /***/ }),
 /* 20 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-router-ga");
-
-/***/ }),
-/* 21 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-ga");
-
-/***/ }),
-/* 22 */
 /***/ (function(module, exports) {
 
 module.exports = require("next/head");

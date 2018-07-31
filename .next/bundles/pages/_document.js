@@ -1757,38 +1757,53 @@ function (_Document) {
           fileName: _jsxFileName,
           lineNumber: 13
         }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
+        dangerouslySetInnerHTML: {
+          __html: "window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;\nga('create', 'UA-XXXXX-Y', 'auto');\nga('send', 'pageview');"
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
+        async: true,
+        src: "https://www.google-analytics.com/analytics.js",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        }
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("body", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 20
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Main"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 21
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 22
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
         src: "/static/js/parallaxify.min.js",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 24
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
         src: "/static/js/css3-animate-it.js",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 25
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
         src: "/static/js/index.js",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 26
         }
       })));
     }
