@@ -18,26 +18,25 @@ import Contact from './src/contact.js';
 // import {SectionsContainer, Section} from 'react-fullpage';
 import Analytics from 'react-router-ga';
 import ReactGA from 'react-ga';
-
+import Head from 'next/head'
 class App extends Component {
 
   render() {
-    return (
-      <Row id="fullpage">
-        <Header/>
-        <IntroBanner/>
-        <Infographics/>
-        <div className="margin-section"></div>
-        <div className="about" style={{
-          color: "white"
-        }} id="about">
-          <About/>
-        </div>
-        <Skills/>
-        <div className="margin-section"></div>
-        <Contact/>
-      </Row>
-    );
+    return (<Row id="fullpage">
+      <Head>
+        <title>Zynappse Website</title>
+      </Head>
+      <Header/>
+      <IntroBanner/>
+      <Infographics/>
+      <div className="margin-section"></div>
+      <div className="about" style={{   color: "white" }} id="about">
+        <About/>
+      </div>
+      <Skills/>
+      <div className="margin-section"></div>
+      <Contact/>
+    </Row>);
   }
 }
 
