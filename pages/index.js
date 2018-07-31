@@ -5,7 +5,8 @@ import './src/animations.css';
 import './src/App.css';
 import './src/index.css';
 import './src/cards.css';
-
+import Router from "next/router";
+import withGA from "next-ga";
 // import '/src/logo.svg';
 import {Row} from 'react-bootstrap';
 import Header from './src/header.js';
@@ -15,7 +16,11 @@ import Skills from './src/skills.js';
 import About from './src/about.js';
 import Contact from './src/contact.js';
 // import {SectionsContainer, Section} from 'react-fullpage';
+import Analytics from 'react-router-ga';
+import ReactGA from 'react-ga';
+
 class App extends Component {
+
   render() {
     return (
       <Row id="fullpage">
@@ -36,8 +41,8 @@ class App extends Component {
   }
 }
 
-export default App;
-
+// export default App;
+export default withGA("UA-51162965-1", Router)(App);
 // <div className="cd-3d-right-side"></div>
 // <div className="cd-3d-left-side"></div>
 // <div className="cd-3d-bottom-side"></div>
