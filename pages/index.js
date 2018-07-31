@@ -16,8 +16,6 @@ import Skills from './src/skills.js';
 import About from './src/about.js';
 import Contact from './src/contact.js';
 // import {SectionsContainer, Section} from 'react-fullpage';
-import Analytics from 'react-router-ga';
-import ReactGA from 'react-ga';
 import Head from 'next/head'
 class App extends Component {
 
@@ -40,8 +38,8 @@ class App extends Component {
   }
 }
 
-// export default App;
-export default withGA("UA-51162965-1", Router)(App);
+export default App;
+// export default withGA("UA-51162965-1", Router)(App);
 // <div className="cd-3d-right-side"></div>
 // <div className="cd-3d-left-side"></div>
 // <div className="cd-3d-bottom-side"></div>
