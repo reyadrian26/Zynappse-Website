@@ -158,7 +158,7 @@ function (_Document) {
         crossOrigin: "anonymous"
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
         dangerouslySetInnerHTML: {
-          __html: "window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;\nga('create', 'UA-XXXXX-Y', 'auto');\nga('send', 'pageview');"
+          __html: "window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;\nga('create', 'UA-51162965-1', 'auto');\nga('send', 'pageview');"
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
         async: true,
