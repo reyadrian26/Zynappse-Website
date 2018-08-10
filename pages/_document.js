@@ -18,8 +18,13 @@ ga('send', 'pageview');`}} />
  <script async src='https://www.google-analytics.com/analytics.js'></script>
         </Head>
         <body>
+          <script src="/static/js/facebook.js"></script>
           <Main/>
           <NextScript/>
+
+          <div id="fb-root"></div>
+          <div className="fb-customerchat" page_id="565098877011034">
+          </div>
 
           <script src="/static/js/parallaxify.min.js"></script>
           <script src="/static/js/css3-animate-it.js"></script>
