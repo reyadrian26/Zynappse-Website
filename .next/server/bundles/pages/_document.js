@@ -163,7 +163,14 @@ function (_Document) {
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
         async: true,
         src: "https://www.google-analytics.com/analytics.js"
-      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("body", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Main"], null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["NextScript"], null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
+      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("body", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
+        src: "/static/js/facebook.js"
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Main"], null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["NextScript"], null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        id: "fb-root"
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        className: "fb-customerchat",
+        page_id: "565098877011034"
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
         src: "/static/js/parallaxify.min.js"
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
         src: "/static/js/css3-animate-it.js"
