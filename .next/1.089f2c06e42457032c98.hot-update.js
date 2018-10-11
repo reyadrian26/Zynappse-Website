@@ -1,107 +1,16 @@
-module.exports =
-/******/ (function(modules) { // webpackBootstrap
-/******/ 	// The module cache
-/******/ 	var installedModules = {};
-/******/
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/
-/******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId]) {
-/******/ 			return installedModules[moduleId].exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = installedModules[moduleId] = {
-/******/ 			i: moduleId,
-/******/ 			l: false,
-/******/ 			exports: {}
-/******/ 		};
-/******/
-/******/ 		// Execute the module function
-/******/ 		var threw = true;
-/******/ 		try {
-/******/ 			modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-/******/ 			threw = false;
-/******/ 		} finally {
-/******/ 			if(threw) delete installedModules[moduleId];
-/******/ 		}
-/******/
-/******/ 		// Flag the module as loaded
-/******/ 		module.l = true;
-/******/
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/
-/******/
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = modules;
-/******/
-/******/ 	// expose the module cache
-/******/ 	__webpack_require__.c = installedModules;
-/******/
-/******/ 	// define getter function for harmony exports
-/******/ 	__webpack_require__.d = function(exports, name, getter) {
-/******/ 		if(!__webpack_require__.o(exports, name)) {
-/******/ 			Object.defineProperty(exports, name, {
-/******/ 				configurable: false,
-/******/ 				enumerable: true,
-/******/ 				get: getter
-/******/ 			});
-/******/ 		}
-/******/ 	};
-/******/
-/******/ 	// getDefaultExport function for compatibility with non-harmony modules
-/******/ 	__webpack_require__.n = function(module) {
-/******/ 		var getter = module && module.__esModule ?
-/******/ 			function getDefault() { return module['default']; } :
-/******/ 			function getModuleExports() { return module; };
-/******/ 		__webpack_require__.d(getter, 'a', getter);
-/******/ 		return getter;
-/******/ 	};
-/******/
-/******/ 	// Object.prototype.hasOwnProperty.call
-/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
-/******/
-/******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
-/******/
-/******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 9);
-/******/ })
-/************************************************************************/
-/******/ ([
-/* 0 */
-/***/ (function(module, exports) {
+webpackHotUpdate(1,{
 
-module.exports = require("react");
-
-/***/ }),
-/* 1 */,
-/* 2 */,
-/* 3 */,
-/* 4 */,
-/* 5 */,
-/* 6 */,
-/* 7 */,
-/* 8 */,
-/* 9 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(10);
-
-
-/***/ }),
-/* 10 */
+/***/ "./pages/_document.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MyDocument; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MyDocument; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_document__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_document__ = __webpack_require__("./node_modules/next/document.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_document___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_document__);
+var _jsxFileName = "/Users/marvieellainecalar/zynappse-website-react/pages/_document.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -134,40 +43,117 @@ function (_Document) {
   _createClass(MyDocument, [{
     key: "render",
     value: function render() {
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("html", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Head"], null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("html", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 6
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Head"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 7
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
         href: "https://fonts.googleapis.com/css?family=Poppins:300,400,600|Raleway:400,600,700",
-        rel: "stylesheet"
+        rel: "stylesheet",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 8
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
         rel: "stylesheet",
-        href: "/_next/static/style.css"
+        href: "/_next/static/style.css",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
-        src: "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+        src: "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
         src: "/static/js/bootstrap.js",
-        type: "text/javascript"
+        type: "text/javascript",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
         href: "/static/bootstrap.css",
-        rel: "stylesheet"
+        rel: "stylesheet",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
         dangerouslySetInnerHTML: {
           __html: "window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;\nga('create', 'UA-51162965-1', 'auto');\nga('send', 'pageview');"
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
         async: true,
-        src: "https://www.google-analytics.com/analytics.js"
-      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("body", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
-        src: "/static/js/facebook.js"
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Main"], null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["NextScript"], null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-        id: "fb-root"
+        src: "https://www.google-analytics.com/analytics.js",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        }
+      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("body", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
+        src: "/static/js/facebook.js",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Main"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["NextScript"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        id: "fb-root",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         className: "fb-customerchat",
-        page_id: "207401359461176"
+        page_id: "207401359461176",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
-        src: "/static/js/parallaxify.min.js"
+        src: "/static/js/parallaxify.min.js",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
-        src: "/static/js/css3-animate-it.js"
+        src: "/static/js/css3-animate-it.js",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30
+        }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
-        src: "/static/js/index.js"
+        src: "/static/js/index.js",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        }
       })));
     }
   }]);
@@ -181,12 +167,27 @@ function (_Document) {
 
 
 
+    (function (Component, route) {
+      if(!Component) return
+      if (false) return
+      module.hot.accept()
+      Component.__route = route
 
-/***/ }),
-/* 11 */
-/***/ (function(module, exports) {
+      if (module.hot.status() === 'idle') return
 
-module.exports = require("next/document");
+      var components = next.router.components
+      for (var r in components) {
+        if (!components.hasOwnProperty(r)) continue
+
+        if (components[r].Component.__route === route) {
+          next.router.update(r, Component)
+        }
+      }
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/_document")
+  
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ })
-/******/ ]);
+
+})
+//# sourceMappingURL=1.089f2c06e42457032c98.hot-update.js.map
