@@ -637,7 +637,7 @@ function (_Component) {
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         width: "200",
         src: "https://www.appfutura.com/img/badges/badge-top-web-company.png",
-        alt: "apptura badge"
+        alt: "appfutura badge"
       }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
         md: 3
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
@@ -647,7 +647,7 @@ function (_Component) {
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         width: "200",
         src: "https://www.appfutura.com/img/badges/badge-top-ios-company.png",
-        alt: "apptura badge"
+        alt: "appfutura badge"
       }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
         md: 3
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
@@ -657,7 +657,7 @@ function (_Component) {
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         width: "200",
         src: "https://www.appfutura.com/img/badges/badge-top-android-company.png",
-        alt: "apptura badge"
+        alt: "appfutura badge"
       }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
         md: 3
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
@@ -667,7 +667,7 @@ function (_Component) {
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         width: "200",
         src: "https://www.appfutura.com/img/badges/badge-top-company.png",
-        alt: "apptura badge"
+        alt: "appfutura badge"
       })))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
         md: 12,
         className: "margin-section animatedParent animateOnce"

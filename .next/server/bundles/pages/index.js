@@ -1024,7 +1024,7 @@ function (_Component) {
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         width: "200",
         src: "https://www.appfutura.com/img/badges/badge-top-web-company.png",
-        alt: "apptura badge"
+        alt: "appfutura badge"
       }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
         md: 3
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
@@ -1034,7 +1034,7 @@ function (_Component) {
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         width: "200",
         src: "https://www.appfutura.com/img/badges/badge-top-ios-company.png",
-        alt: "apptura badge"
+        alt: "appfutura badge"
       }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
         md: 3
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
@@ -1044,7 +1044,7 @@ function (_Component) {
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         width: "200",
         src: "https://www.appfutura.com/img/badges/badge-top-android-company.png",
-        alt: "apptura badge"
+        alt: "appfutura badge"
       }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
         md: 3
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
@@ -1054,7 +1054,7 @@ function (_Component) {
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         width: "200",
         src: "https://www.appfutura.com/img/badges/badge-top-company.png",
-        alt: "apptura badge"
+        alt: "appfutura badge"
       })))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
         md: 12,
         className: "margin-section animatedParent animateOnce"
@@ -1192,6 +1192,23 @@ function (_Component) {
           color: "white"
         }
       }, "+63. 2. 576-3727"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+        className: "text-center animated fadeInRight delay-350"
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+        href: "tel:639672763544"
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
+        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/phone.svg",
+        alt: "contact-no",
+        width: 27
+      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
+        style: {
+          paddingLeft: "20px"
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+        href: "tel:639672763544",
+        style: {
+          color: "white"
+        }
+      }, "+63967-276-3544"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
         className: "text-center animated fadeInRight delay-500"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         style: {

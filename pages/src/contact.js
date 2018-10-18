@@ -69,6 +69,18 @@ class Contact extends Component {
               </span>
             </p>
 
+            <p className="text-center animated fadeInRight delay-350">
+              <a href="tel:639672763544"><img src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/phone.svg"} alt="contact-no" width={27}/></a>
+              <span style={{
+                paddingLeft: "20px"
+              }}>
+                <a href="tel:639672763544" style={{
+                  color: "white"
+                }}>+63967-276-3544</a>
+              </span>
+            </p>
+
+
             <p className="text-center animated fadeInRight delay-500">
               <a style={{
                 color: "white"
