@@ -24,7 +24,7 @@ class Skills extends Component {
             <ProgressBar bsStyle="info" now={90} label="90%" />
           </Col>
           <Col md={4}>
-            <img src="http://macosicongallery.com/img/512/xcode-2015.png" alt="Xcode" width={50}/>
+            <img src="https://macosicongallery.com/img/512/xcode-2015.png" alt="Xcode" width={50}/>
             <span style={{marginLeft: "20px"}}>Xcode</span>
             <ProgressBar bsStyle="info" now={90} label="90%" />
 

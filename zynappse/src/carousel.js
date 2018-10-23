@@ -265,7 +265,7 @@ export default class CarouselBanner extends Component {
                 <p className="text-left">An IT company solutions based in US.
                 </p>
                 <Col md={12} className="text-left animated fadeInUp ">
-                  <a className="text-left" href="http://www.zygurtech.com/" target="_blank"><img src={images.web2} target="_blank" width="50"/></a>
+                  <a className="text-left" href="https://www.zygurtech.com/" target="_blank"><img src={images.web2} target="_blank" width="50"/></a>
                 </Col>
               </Carousel.Caption>
             </Col>

@@ -34,7 +34,7 @@ body {
 }*/
 
 .about {
-  background-image: url('http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/about.png');
+  background-image: url('https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/about.png');
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -43,7 +43,7 @@ body {
 }
 
 #parallax2 {
-  background-image: url('http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/parallax.png');
+  background-image: url('https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/parallax.png');
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -79,13 +79,13 @@ body {
     background-color: rgb(0, 0, 0);
   }
   100% {
-    background-image: url('http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/stars1.png');
+    background-image: url('https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/stars1.png');
     background-color: rgba(0, 0, 0, 0);
   }
 }
 
 #stars2 {
-  background-image: url('http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/stars2.png');
+  background-image: url('https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/stars2.png');
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -96,7 +96,7 @@ body {
 }
 
 #stars3 {
-  background-image: url('http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/stars3.png');
+  background-image: url('https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/stars3.png');
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -154,7 +154,7 @@ body {
 }
 
 .contact {
-  background-image: url('http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/contact.png');
+  background-image: url('https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/contact.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -236,7 +236,7 @@ h1 {
   transform-origin: top left;
   transform: skewY(4deg);
   width: 100%;
-  background-image: url('http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/bg.jpeg');
+  background-image: url('https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/bg.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -248,7 +248,7 @@ h1 {
   transform-origin: top left;
   transform: skewY(4deg);
   width: 100%;
-  /*background-image: url('http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/contact.png');*/
+  /*background-image: url('https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/contact.png');*/
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

@@ -15,11 +15,11 @@ export default class CarouselBanner extends Component {
             <Col md={5}>
               <div className="cd-product">
                 <div id="cd-product-tour" className="cd-product-mockup cards-test animatedParent animateOnce">
-                  <img className="mofoid animated fadeInDown" src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/rwm2.png"} alt="rwm" width={230}/>
+                  <img className="mofoid animated fadeInDown" src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/rwm2.png"} alt="rwm" width={230}/>
 
               </div>
                 <div id="cd-product-tour" className="cd-product-mockup cards2 animatedParent animateOnce" >
-                  <img className="mofoid animated fadeInUp delay-500" src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/rwm.png"} alt="rwm" width={230}/>
+                  <img className="mofoid animated fadeInUp delay-500" src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/rwm.png"} alt="rwm" width={230}/>
 
                 </div>
               </div>
@@ -33,9 +33,9 @@ export default class CarouselBanner extends Component {
                 <Col md={12} className="text-left animated fadeInUp delay-750">
                   <a href="https://play.google.com/store/apps/details?id=com.zynappse.rwmanila&hl=en" target="_blank"><img style={{
         paddingRight: "32px"
-      }} src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/android_no_animation.svg"} target="_blank" height="50"/></a>
+      }} src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/android_no_animation.svg"} target="_blank" height="50"/></a>
 
-                  <a className="text-left" href="https://itunes.apple.com/ph/app/rwm-mobile-app/id909015173?mt=8" target="_blank"><img src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/apple_no_animation.svg"} target="_blank" height="50"/></a>
+                  <a className="text-left" href="https://itunes.apple.com/ph/app/rwm-mobile-app/id909015173?mt=8" target="_blank"><img src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/apple_no_animation.svg"} target="_blank" height="50"/></a>
 
                 </Col>
               </Carousel.Caption>
@@ -45,10 +45,10 @@ export default class CarouselBanner extends Component {
             <Col md={5}>
               <div className="cd-product">
                 <div id="cd-product-tour" className="cd-product-mockup cards-test animatedParent animateOnce">
-                  <img className="mofoid animated fadeInDown" src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/alaska2.png"} alt="alaska" width={230}/>
+                  <img className="mofoid animated fadeInDown" src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/alaska2.png"} alt="alaska" width={230}/>
                 </div>
                 <div id="cd-product-tour" className="cd-product-mockup cards2 animatedParent animateOnce"  >
-                  <img className="mofoid animated fadeInUp delay-500" src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/alaska.png"} alt="alaska" width={230}/>
+                  <img className="mofoid animated fadeInUp delay-500" src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/alaska.png"} alt="alaska" width={230}/>
                 </div>
               </div>
             </Col>
@@ -62,9 +62,9 @@ export default class CarouselBanner extends Component {
 
                   <a href="https://play.google.com/store/apps/details?id=ph.com.alaskaaces&hl=en" target="_blank"><img style={{
         paddingRight: "32px"
-      }} src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/android_no_animation.svg"} target="_blank" height="50"/></a>
+      }} src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/android_no_animation.svg"} target="_blank" height="50"/></a>
 
-                  <a className="text-left" href="https://itunes.apple.com/ph/app/alaska-aces/id743641908?mt=8" target="_blank"><img src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/apple_no_animation.svg"} target="_blank" height="50"/></a>
+                  <a className="text-left" href="https://itunes.apple.com/ph/app/alaska-aces/id743641908?mt=8" target="_blank"><img src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/apple_no_animation.svg"} target="_blank" height="50"/></a>
 
                 </Col>
               </Carousel.Caption>
@@ -75,10 +75,10 @@ export default class CarouselBanner extends Component {
             <Col md={5}>
               <div className="cd-product">
                 <div id="cd-product-tour" className="cd-product-mockup cards-test animatedParent animateOnce">
-                  <img className="mofoid animated fadeInDown" src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/myblood2.png"} alt="myblood" width={230}/>
+                  <img className="mofoid animated fadeInDown" src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/myblood2.png"} alt="myblood" width={230}/>
                 </div>
                 <div id="cd-product-tour" className="cd-product-mockup cards2 animatedParent animateOnce"  >
-                  <img className="mofoid animated fadeInUp delay-500" src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/myblood.png"} alt="myblood" width={230}/>
+                  <img className="mofoid animated fadeInUp delay-500" src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/myblood.png"} alt="myblood" width={230}/>
                 </div>
               </div>
             </Col>
@@ -92,9 +92,9 @@ export default class CarouselBanner extends Component {
 
                   <a href="https://play.google.com/store/apps/details?id=com.mybloodprofile.myblood&hl=en" target="_blank"><img style={{
         paddingRight: "32px"
-      }} src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/android_no_animation.svg"} target="_blank" height="50"/></a>
+      }} src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/android_no_animation.svg"} target="_blank" height="50"/></a>
 
-                  <a className="text-left" href="https://itunes.apple.com/ph/app/myblood-profile/id1208015547?mt=8" target="_blank"><img src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/apple_no_animation.svg"} target="_blank" height="50"/></a>
+                  <a className="text-left" href="https://itunes.apple.com/ph/app/myblood-profile/id1208015547?mt=8" target="_blank"><img src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/apple_no_animation.svg"} target="_blank" height="50"/></a>
 
                 </Col>
               </Carousel.Caption>
@@ -105,10 +105,10 @@ export default class CarouselBanner extends Component {
             <Col md={5}>
               <div className="cd-product">
                 <div id="cd-product-tour" className="cd-product-mockup cards-test animatedParent animateOnce">
-                  <img className="mofoid animated fadeInDown" src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/unfold2.png"} alt="unfold" width={230}/>
+                  <img className="mofoid animated fadeInDown" src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/unfold2.png"} alt="unfold" width={230}/>
                 </div>
                 <div id="cd-product-tour" className="cd-product-mockup cards2 animatedParent animateOnce"  >
-                  <img className="mofoid animated fadeInUp delay-500" src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/unfold.png"} alt="unfold" width={230}/>
+                  <img className="mofoid animated fadeInUp delay-500" src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/unfold.png"} alt="unfold" width={230}/>
                 </div>
               </div>
             </Col>
@@ -122,9 +122,9 @@ export default class CarouselBanner extends Component {
 
                   <a href="https://play.google.com/store/apps/details?id=com.unfold.unfold&hl=en" target="_blank"><img style={{
         paddingRight: "32px"
-      }} src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/android_no_animation.svg"} target="_blank" height="50"/></a>
+      }} src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/android_no_animation.svg"} target="_blank" height="50"/></a>
 
-                  <a className="text-left" href="https://itunes.apple.com/ph/app/unfold-app/id830612465?mt=8" target="_blank"><img src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/apple_no_animation.svg"} target="_blank" height="50"/></a>
+                  <a className="text-left" href="https://itunes.apple.com/ph/app/unfold-app/id830612465?mt=8" target="_blank"><img src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/apple_no_animation.svg"} target="_blank" height="50"/></a>
 
                 </Col>
               </Carousel.Caption>
@@ -135,10 +135,10 @@ export default class CarouselBanner extends Component {
             <Col md={5}>
               <div className="cd-product">
                 <div id="cd-product-tour" className="cd-product-mockup cards-test animatedParent animateOnce">
-                  <img className="mofoid animated fadeInDown" src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/flashunt2.png"} alt="flashunt" width={230}/>
+                  <img className="mofoid animated fadeInDown" src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/flashunt2.png"} alt="flashunt" width={230}/>
                 </div>
                 <div id="cd-product-tour" className="cd-product-mockup cards2 animatedParent animateOnce"  >
-                  <img className="mofoid animated fadeInUp delay-500" src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/flashunt.png"} alt="flashunt" width={230}/>
+                  <img className="mofoid animated fadeInUp delay-500" src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/flashunt.png"} alt="flashunt" width={230}/>
                 </div>
               </div>
             </Col>
@@ -150,7 +150,7 @@ export default class CarouselBanner extends Component {
                 <p className="text-left animated fadeInUp delay-500">Available on:</p>
                 <Col md={12} className="text-left animated fadeInUp delay-750">
 
-                  <a href="https://play.google.com/store/apps/details?id=com.zynappse.flashnt&hl=en" target="_blank"><img src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/android_no_animation.svg"} target="_blank" height="50"/></a>
+                  <a href="https://play.google.com/store/apps/details?id=com.zynappse.flashnt&hl=en" target="_blank"><img src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/android_no_animation.svg"} target="_blank" height="50"/></a>
 
                 </Col>
               </Carousel.Caption>
@@ -161,10 +161,10 @@ export default class CarouselBanner extends Component {
             <Col md={5}>
               <div className="cd-product">
                 <div id="cd-product-tour" className="cd-product-mockup cards-test animatedParent animateOnce">
-                  <img className="mofoid animated fadeInDown" src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/locali2.png"} alt="locali" width={230}/>
+                  <img className="mofoid animated fadeInDown" src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/locali2.png"} alt="locali" width={230}/>
                 </div>
                 <div id="cd-product-tour" className="cd-product-mockup cards2 animatedParent animateOnce"  >
-                  <img className="mofoid animated fadeInUp delay-500" src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/locali.png"} alt="locali" width={230}/>
+                  <img className="mofoid animated fadeInUp delay-500" src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/locali.png"} alt="locali" width={230}/>
                 </div>
               </div>
             </Col>
@@ -176,7 +176,7 @@ export default class CarouselBanner extends Component {
                 <p className="text-left animated fadeInUp delay-500">Available on:</p>
                 <Col md={12} className="text-left animated fadeInUp delay-750">
                   <Col md={3} className="text-left">
-                    <a href="https://play.google.com/store/apps/details?id=com.zynappse.locali&hl=en" target="_blank"><img src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/android_no_animation.svg"} target="_blank" height="50"/></a>
+                    <a href="https://play.google.com/store/apps/details?id=com.zynappse.locali&hl=en" target="_blank"><img src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/android_no_animation.svg"} target="_blank" height="50"/></a>
                   </Col>
                 </Col>
               </Carousel.Caption>
@@ -187,10 +187,10 @@ export default class CarouselBanner extends Component {
             <Col md={5}>
               <div className="cd-product">
                 <div id="cd-product-tour" className="cd-product-mockup cards-test animatedParent animateOnce">
-                  <img className="mofoid animated fadeInDown" src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/oap2.png"} alt="oap" width={230}/>
+                  <img className="mofoid animated fadeInDown" src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/oap2.png"} alt="oap" width={230}/>
                 </div>
                 <div id="cd-product-tour" className="cd-product-mockup cards2 animatedParent animateOnce"  >
-                  <img className="mofoid animated fadeInUp delay-500" src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/oap.png"} alt="oap" width={230}/>
+                  <img className="mofoid animated fadeInUp delay-500" src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/oap.png"} alt="oap" width={230}/>
                 </div>
               </div>
             </Col>
@@ -204,9 +204,9 @@ export default class CarouselBanner extends Component {
 
                   <a href="https://play.google.com/store/apps/details?id=com.zynappse.ourawesomeplanet&hl=en" target="_blank"><img style={{
         paddingRight: "32px"
-      }} src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/android_no_animation.svg"} target="_blank" height="50"/></a>
+      }} src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/android_no_animation.svg"} target="_blank" height="50"/></a>
 
-                  <a className="text-left" href="https://itunes.apple.com/ph/app/our-awesome-planet/id926617833?mt=8" target="_blank"><img src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/apple_no_animation.svg"} target="_blank" height="50"/></a>
+                  <a className="text-left" href="https://itunes.apple.com/ph/app/our-awesome-planet/id926617833?mt=8" target="_blank"><img src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/apple_no_animation.svg"} target="_blank" height="50"/></a>
 
                 </Col>
               </Carousel.Caption>
@@ -219,7 +219,7 @@ export default class CarouselBanner extends Component {
                 <div className="  animatedParent animateOnce" style={{
                   width: "100%"
                 }}>
-                  <img className="mofoid animated tada" src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/alaska-website.png"} alt="alaska-website" width={400}/>
+                  <img className="mofoid animated tada" src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/alaska-website.png"} alt="alaska-website" width={400}/>
                 </div>
                 <a className="cd-close-product-tour cd-img-replace">img2</a>
               </div>
@@ -230,7 +230,7 @@ export default class CarouselBanner extends Component {
                 <p className="text-left">One of the famous PBA Sports Team in the Philippines.
                 </p>
                 <Col md={12} className="text-left animated fadeInUp ">
-                  <a href="https://www.alaskaaces.com.ph/" target="_blank"><img src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/web.svg"} target="_blank" width="50"/></a>
+                  <a href="https://www.alaskaaces.com.ph/" target="_blank"><img src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/web.svg"} target="_blank" width="50"/></a>
                 </Col>
               </Carousel.Caption>
             </Col>
@@ -242,7 +242,7 @@ export default class CarouselBanner extends Component {
                 <div className="  animatedParent animateOnce" style={{
                   width: "100%"
                 }}>
-                  <img className="mofoid animated tada" src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/zygurtech.png"} alt="zygurtech" width={400}/>
+                  <img className="mofoid animated tada" src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/zygurtech.png"} alt="zygurtech" width={400}/>
                 </div>
 
               </div>
@@ -253,7 +253,7 @@ export default class CarouselBanner extends Component {
                 <p className="text-left">An IT company solutions based in US.
                 </p>
                 <Col md={12} className="text-left animated fadeInUp ">
-                  <a className="text-left" href="http://www.zygurtech.com/" target="_blank"><img src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/web.svg"} target="_blank" width="50"/></a>
+                  <a className="text-left" href="https://www.zygurtech.com/" target="_blank"><img src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/web.svg"} target="_blank" width="50"/></a>
                 </Col>
               </Carousel.Caption>
             </Col>

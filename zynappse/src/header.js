@@ -27,4 +27,4 @@ export default class Header extends Component {
     );
   }
 }
-// <img className="img-logo exact-logo animated growIn" src="http://www.zynappse.com/wp-content/uploads/2015/04/zynappse-op.png" alt="" style={{ width: "200px", paddingTop: "6px" }}/>
+// <img className="img-logo exact-logo animated growIn" src="https://www.zynappse.com/wp-content/uploads/2015/04/zynappse-op.png" alt="" style={{ width: "200px", paddingTop: "6px" }}/>
