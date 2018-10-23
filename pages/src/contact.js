@@ -70,7 +70,7 @@ class Contact extends Component {
             </p>
 
             <p className="text-center animated fadeInRight delay-350">
-              <a href="tel:639672763544"><img src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/phone.svg"} alt="contact-no" width={27}/></a>
+              <a href="tel:639672763544"><img src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/phone.svg"} alt="contact-no" width={27}/></a>
               <span style={{
                 paddingLeft: "20px"
               }}>

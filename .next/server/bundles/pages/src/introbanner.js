@@ -158,7 +158,7 @@ function (_Component) {
         className: "animated growIn delay-4000"
       }, "Apps")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "animated growIn delay-5000",
-        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/zynappse.svg",
+        src: "https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/zynappse.svg",
         width: 350,
         style: {
           zIndex: "3"

@@ -210,7 +210,7 @@ function (_Component) {
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         href: "tel:639672763544"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-        src: "http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/phone.svg",
+        src: "https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/phone.svg",
         alt: "contact-no",
         width: 27
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {

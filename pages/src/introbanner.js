@@ -19,7 +19,7 @@ class IntroBanner extends Component {
                   <span className="animated growIn delay-3000">Beautiful.</span>
                   <span className="animated growIn delay-4000">Apps</span>
                 </h1>
-                <img className="animated growIn delay-5000" src={"http://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/zynappse.svg"} width={350} style={{
+                <img className="animated growIn delay-5000" src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/zynappse.svg"} width={350} style={{
                   zIndex: "3"
                 }} alt="banner"/>
               </div>
