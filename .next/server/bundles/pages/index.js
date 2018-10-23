@@ -549,7 +549,7 @@ function (_Component) {
         md: 12,
         className: "text-center"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-        href: "https://www.zynappse.com/static/js/Zynappse_ProfilePortfolio.pdf",
+        href: "/static/Zynappse_ProfilePortfolio.pdf",
         download: "Zynappse_ProfilePortfolio",
         target: "_blank",
         className: "btn-custom",

@@ -261,7 +261,7 @@ export default class CarouselBanner extends Component {
 
         </Carousel>
         <Col md={12} className="text-center">
-          <a href={"https://www.zynappse.com/static/js/Zynappse_ProfilePortfolio.pdf"} download="Zynappse_ProfilePortfolio" target="_blank" className="btn-custom" style={{
+          <a href="/static/Zynappse_ProfilePortfolio.pdf" download="Zynappse_ProfilePortfolio" target="_blank" className="btn-custom" style={{
             color: "#fff"
           }}>Download our Portfolio</a>
 
