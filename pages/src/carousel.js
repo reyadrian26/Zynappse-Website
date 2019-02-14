@@ -44,27 +44,59 @@ export default class CarouselBanner extends Component {
           <Carousel.Item>
             <Col md={5}>
               <div className="cd-product">
-                <div id="cd-product-tour" className="cd-product-mockup cards-test animatedParent animateOnce">
-                  <img className="mofoid animated fadeInDown" src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/alaska2.png"} alt="alaska" width={230}/>
+                <div id="cd-product-tour" className="cd-product-mockup cards-test ">
+                  <img className="mofoid  " src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/alaska2.png"} alt="alaska" width={230}/>
                 </div>
-                <div id="cd-product-tour" className="cd-product-mockup cards2 animatedParent animateOnce"  >
-                  <img className="mofoid animated fadeInUp delay-500" src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/alaska.png"} alt="alaska" width={230}/>
+                <div id="cd-product-tour" className="cd-product-mockup cards2 "  >
+                  <img className="mofoid " src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/alaska.png"} alt="alaska" width={230}/>
                 </div>
               </div>
             </Col>
             <Col md={7} className="text-left">
-              <Carousel.Caption className="animatedParent animateOnce">
-                <h3 className="text-left animated fadeInUp ">Alaska Aces</h3>
-                <p className="text-left animated fadeInUp delay-250 ">The Official Alaska Aces PBA Basketball Team iPhone App. Stay connected to the Alaska Aces everywhere you go. Get Alaska Aces news, player profiles, schedules and more.
+              <Carousel.Caption >
+                <h3 className="text-left   ">Alaska Aces</h3>
+                <p className="text-left  ">The Official Alaska Aces PBA Basketball Team iPhone App. Stay connected to the Alaska Aces everywhere you go. Get Alaska Aces news, player profiles, schedules and more.
                 </p>
-                <p className="text-left animated fadeInUp delay-500">Available on:</p>
-                <Col md={12} className="text-left animated fadeInUp delay-750">
+                <p className="text-left  ">Available on:</p>
+                <Col md={12} className="text-left">
 
                   <a href="https://play.google.com/store/apps/details?id=ph.com.alaskaaces&hl=en" target="_blank"><img style={{
         paddingRight: "32px"
       }} src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/android_no_animation.svg"} target="_blank" height="50"/></a>
 
                   <a className="text-left" href="https://itunes.apple.com/ph/app/alaska-aces/id743641908?mt=8" target="_blank"><img src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/apple_no_animation.svg"} target="_blank" height="50"/></a>
+
+                </Col>
+              </Carousel.Caption>
+            </Col>
+          </Carousel.Item>
+          <Carousel.Item>
+            <Col md={5}>
+              <div className="cd-product">
+                <div style={{
+                  width: "100%"
+                }}>
+                  <img className="mofoid  " src={"/static/jobstream.jpg"} alt="zygurtech" width={400}/>
+                </div>
+
+              </div>
+            </Col>
+            <Col md={7} className="text-left">
+              <Carousel.Caption className="   ">
+                <h3 className="text-left">JobStream</h3>
+                <p className="text-left">JobStream is a new innovative recruitment platform that connects employers to jobseekers.
+                </p>
+                <p className="text-left">Available on:</p>
+                <Col md={12} className="text-left">
+                  <a href="https://www.jobstreamapp.com/" target="_blank"><img style={{
+        paddingRight: "32px"
+      }} src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/web.svg"} target="_blank" height="50"/></a>
+
+                  <a href="https://play.google.com/store/apps/details?id=com.jobstreaminc.jobstreamapp&hl=en" target="_blank"><img style={{
+        paddingRight: "32px"
+      }} src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/android_no_animation.svg"} target="_blank" height="50"/></a>
+
+                  <a className="text-left" href="https://itunes.apple.com/us/app/jobstream-app/id1254453926?mt=8" target="_blank"><img src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/apple_no_animation.svg"} target="_blank" height="50"/></a>
 
                 </Col>
               </Carousel.Caption>
@@ -258,6 +290,8 @@ export default class CarouselBanner extends Component {
               </Carousel.Caption>
             </Col>
           </Carousel.Item>
+
+
 
         </Carousel>
         <Col md={12} className="text-center">

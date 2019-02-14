@@ -192,34 +192,32 @@ function (_Component) {
         className: "cd-product"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         id: "cd-product-tour",
-        className: "cd-product-mockup cards-test animatedParent animateOnce"
+        className: "cd-product-mockup cards-test "
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-        className: "mofoid animated fadeInDown",
+        className: "mofoid  ",
         src: "https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/alaska2.png",
         alt: "alaska",
         width: 230
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         id: "cd-product-tour",
-        className: "cd-product-mockup cards2 animatedParent animateOnce"
+        className: "cd-product-mockup cards2 "
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-        className: "mofoid animated fadeInUp delay-500",
+        className: "mofoid ",
         src: "https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/cards/alaska.png",
         alt: "alaska",
         width: 230
       })))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
         md: 7,
         className: "text-left"
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Carousel"].Caption, {
-        className: "animatedParent animateOnce"
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
-        className: "text-left animated fadeInUp "
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Carousel"].Caption, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
+        className: "text-left   "
       }, "Alaska Aces"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-        className: "text-left animated fadeInUp delay-250 "
+        className: "text-left  "
       }, "The Official Alaska Aces PBA Basketball Team iPhone App. Stay connected to the Alaska Aces everywhere you go. Get Alaska Aces news, player profiles, schedules and more."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-        className: "text-left animated fadeInUp delay-500"
+        className: "text-left  "
       }, "Available on:"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
         md: 12,
-        className: "text-left animated fadeInUp delay-750"
+        className: "text-left"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         href: "https://play.google.com/store/apps/details?id=ph.com.alaskaaces&hl=en",
         target: "_blank"
@@ -233,6 +231,61 @@ function (_Component) {
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         className: "text-left",
         href: "https://itunes.apple.com/ph/app/alaska-aces/id743641908?mt=8",
+        target: "_blank"
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
+        src: "https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/apple_no_animation.svg",
+        target: "_blank",
+        height: "50"
+      })))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Carousel"].Item, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
+        md: 5
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        className: "cd-product"
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        style: {
+          width: "100%"
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
+        className: "mofoid  ",
+        src: "/static/jobstream.jpg",
+        alt: "zygurtech",
+        width: 400
+      })))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
+        md: 7,
+        className: "text-left"
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Carousel"].Caption, {
+        className: "   "
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
+        className: "text-left"
+      }, "JobStream"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+        className: "text-left"
+      }, "JobStream is a new innovative recruitment platform that connects employers to jobseekers."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+        className: "text-left"
+      }, "Available on:"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Col"], {
+        md: 12,
+        className: "text-left"
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+        href: "https://www.jobstreamapp.com/",
+        target: "_blank"
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
+        style: {
+          paddingRight: "32px"
+        },
+        src: "https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/web.svg",
+        target: "_blank",
+        height: "50"
+      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+        href: "https://play.google.com/store/apps/details?id=com.jobstreaminc.jobstreamapp&hl=en",
+        target: "_blank"
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
+        style: {
+          paddingRight: "32px"
+        },
+        src: "https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/android_no_animation.svg",
+        target: "_blank",
+        height: "50"
+      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+        className: "text-left",
+        href: "https://itunes.apple.com/us/app/jobstream-app/id1254453926?mt=8",
         target: "_blank"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         src: "https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/apple_no_animation.svg",
