@@ -48,7 +48,8 @@ class Contact extends Component {
               <p onClick={this.handleClick} className="text-center animated fadeInRight"><img src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/pointer.svg"} alt="location" width={30}/>
                 <span style={{
                   paddingLeft: "20px"
-                }}>4F RFM Corporate Center, Pioneer cor Sheridan Sts., Mandaluyong City
+                }}>Unit 202 2nd Floor #19 Libertad Plaza Building Libertad Street, Brgy. Highway Hills Mandaluyong City 1550
+
                 </span>
               </p>
               <Overlay show={this.state.show} target={this.state.target} placement="top" container={this} containerPadding={20}>
@@ -65,7 +66,7 @@ class Contact extends Component {
               }}>
                 <a href="tel:576-3727" style={{
                   color: "white"
-                }}>+63. 2. 576-3727</a>
+                }}>+63. 8. 291-4837</a>
               </span>
             </p>
 
