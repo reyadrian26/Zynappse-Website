@@ -176,7 +176,7 @@ function (_Component) {
         style: {
           paddingLeft: "20px"
         }
-      }, "4F RFM Corporate Center, Pioneer cor Sheridan Sts., Mandaluyong City")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Overlay"], {
+      }, "Unit 202 2nd Floor #19 Libertad Plaza Building Libertad Street, Brgy. Highway Hills Mandaluyong City 1550")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_bootstrap__["Overlay"], {
         show: this.state.show,
         target: this.state.target,
         placement: "top",
@@ -205,7 +205,7 @@ function (_Component) {
         style: {
           color: "white"
         }
-      }, "+63. 2. 576-3727"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+      }, "+63. 8. 291-4837"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
         className: "text-center animated fadeInRight delay-350"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         href: "tel:639672763544"
