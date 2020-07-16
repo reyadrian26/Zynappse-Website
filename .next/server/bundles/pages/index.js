@@ -1240,28 +1240,11 @@ function (_Component) {
           paddingLeft: "20px"
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-        href: "tel:576-3727",
+        href: "tel:+63282914837",
         style: {
           color: "white"
         }
       }, "+63. 8. 291-4837"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-        className: "text-center animated fadeInRight delay-350"
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-        href: "tel:639672763544"
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-        src: "https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/phone.svg",
-        alt: "contact-no",
-        width: 27
-      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-        style: {
-          paddingLeft: "20px"
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-        href: "tel:639672763544",
-        style: {
-          color: "white"
-        }
-      }, "+63967-276-3544"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
         className: "text-center animated fadeInRight delay-500"
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         style: {
