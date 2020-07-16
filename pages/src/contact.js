@@ -64,13 +64,13 @@ class Contact extends Component {
               <span style={{
                 paddingLeft: "20px"
               }}>
-                <a href="tel:576-3727" style={{
+                <a href="tel:+63282914837" style={{
                   color: "white"
                 }}>+63. 8. 291-4837</a>
               </span>
             </p>
 
-            <p className="text-center animated fadeInRight delay-350">
+            {/*<p className="text-center animated fadeInRight delay-350">
               <a href="tel:639672763544"><img src={"https://res.cloudinary.com/da0fky5vm/image/upload/f_auto/v1530847128/zynappse_website/phone.svg"} alt="contact-no" width={27}/></a>
               <span style={{
                 paddingLeft: "20px"
@@ -79,7 +79,7 @@ class Contact extends Component {
                   color: "white"
                 }}>+63967-276-3544</a>
               </span>
-            </p>
+            </p>*/}
 
 
             <p className="text-center animated fadeInRight delay-500">
