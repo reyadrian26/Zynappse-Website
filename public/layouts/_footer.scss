@@ -1,0 +1,267 @@
+.footerCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden !important;
+}
+
+.footerBackground{
+    width: 104.58vw;
+    height: 30.74vh;
+    background: $frosted-bg;
+    backdrop-filter: $backdrop-filter;
+    -webkit-backdrop-filter: $backdrop-filter;
+    box-shadow: $frosted-shadow;
+    position: absolute;
+    bottom: 0 !important;
+}
+
+.zyLogo{
+    position: absolute;
+    left: 3.6vw;
+    top: 75vh;
+    height: 5.74vh;
+    width: 3.333vw;
+}
+
+.zyText{
+    position: absolute;
+    left: 8.333vw;
+    top: 75vh;
+    width: 17.188vw;
+    height: 3.70vh;
+}
+
+.footerTagline{
+    top: 80vh;
+    left: 8.333vw;
+    text-align: left;
+    font: normal normal normal 0.83vw/1.94vh $segoe-font;
+    color: $white;
+    opacity: 1;
+    position: absolute;
+}
+
+.servicesCont{
+    position: absolute;
+    width: 14.58vw;
+    height: 14.07vh;
+    left: 42.5vw !important;
+    top: 75vh;
+}
+
+.footerHeader{
+    position: absolute;
+    text-align: left !important;
+    font: normal normal bold 1.04vw/2.5vh $segoe-font !important;
+    color: $header-color !important;
+}
+
+.footerList{
+    padding-top: 1.85vh !important;
+}
+
+.footerItem{
+    text-align: left !important;
+    font: normal normal normal 0.83vw/1.94vh $segoe-font;
+    color: $header-color !important;
+    white-space: nowrap !important;
+    padding-top: 1.39vh !important;
+}
+
+.skillsCont{
+    position: absolute;
+    left: 61.93vw !important;
+    width: 3.7vw !important;
+    height: 14.07vh;
+    top: 75vh;
+}
+
+.contactCont{
+    position: absolute;
+    left: 73.49vw !important;
+    width: 20.21vw !important;
+    height: 20vh;
+    top: 75vh;
+}
+
+.contactItem{
+    white-space: normal !important;
+    padding-left: 1.82vw !important;
+    padding-bottom: 0.93vh !important;
+}
+
+.locationIcon{
+    position: absolute;
+    top: 6vh !important;
+}
+
+.phoneIcon{
+    position: absolute;
+    top: 12.5vh !important;
+}
+
+.mailIcon{
+    position: absolute;
+    top: 16vh !important;
+}
+
+// -------------------------- responsiveness -------------------
+@media screen and (min-width: 481px) and (max-width: 1024px){
+    .footerBackground{
+        width: 104.58vw;
+        height: 20.74vh;
+    }
+
+    .zyLogo{
+        left: 3.6vw;
+        top: 82vh;
+        height: 9.74vh;
+        width: 7.333vw;
+    }
+
+    .zyText{
+        left: 12.33vw;
+        top: 82vh;
+        width: 21.188vw;
+        height: 7.70vh;
+    }
+
+    .footerTagline{
+        top: 85vh;
+        left: 12.33vw;
+        font: normal normal normal 1vw/1.26 $segoe-font;
+    }
+
+    .servicesCont{
+        width: 14.58vw;
+        height: 14.07vh;
+        left: 37vw !important;
+        top: 82vh;
+    }
+
+    .footerHeader{
+        font: normal normal bold 2.04vw/3.5vh $segoe-font !important;
+    }
+
+    .footerList{
+        padding-top: 1.85vh !important;
+    }
+
+    .footerItem{
+        font: normal normal normal 1.25vw/2.31vh $segoe-font;
+        padding-top: 1.39vh !important;
+    }
+
+    .skillsCont{
+        left: 65vw !important;
+        top: 82vh;
+    }
+
+    .contactCont{
+        left: 77vw !important;
+        top: 82vh;
+    }
+
+    .contactItem{
+        padding-left: 3.5vw !important;
+        padding-bottom: 0.93vh !important;
+    }
+
+    .locationIcon{
+        top: 4.5vh !important;
+
+    }
+
+    .phoneIcon{
+        top: 11vh !important;
+
+    }
+
+    .mailIcon{
+        top: 14.25vh !important;
+
+    }
+}
+
+@include mobile{
+    .footerBackground{
+        width: 104.58vw;
+        height: 15.74vh;
+    }
+
+    .zyLogo{
+        left: 3.6vw;
+        top: 87vh;
+        height: 10.74vh;
+        width: 8.33vw;
+    }
+
+    .zyText{
+        left: 13vw;
+        top: 87vh;
+        width: 21.188vw;
+        height: 7.70vh;
+    }
+
+    .footerTagline{
+        left: 13vw;
+        top: 89.5vh;
+        font: normal normal normal 1.5vw/1.76 $segoe-font;
+    }
+
+    .servicesCont{
+        width: 14.58vw;
+        height: 14.07vh;
+        left: 37vw !important;
+        top: 87vh;
+    }
+
+    .footerHeader{
+        font: normal normal bold 2.04vw/3.5vh $segoe-font !important;
+    }
+
+    .footerList{
+        padding-top: 1vh !important;
+    }
+
+    .footerItem{
+        font: normal normal normal 1.5vw/2.56vh $segoe-font;
+        padding-top: 1vh !important;
+        white-space: normal !important;
+
+    }
+
+    .skillsCont{
+        left: 58vw !important;
+        top: 87vh;
+    }
+
+    .contactCont{
+        left: 75vw !important;
+        top: 87vh;
+    }
+
+    .contactItem{
+        padding-left: 3.5vw !important;
+        padding-bottom: 0 !important;
+    }
+
+    .locationIcon{
+        top: 3vh !important;
+        height: 0.833vw;
+        width: 1.75vw;
+    }
+
+    .phoneIcon{
+        top: 7.25vh !important;
+        height: 0.781vw;
+        width: 1.75vw;
+    }
+
+    .mailIcon{
+        top: 9.25vh !important;
+        width: 1.75vw;
+
+    }
+}

@@ -1,0 +1,324 @@
+.NewProjectsContainer {
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
+  background-color: $background-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 27.963vh;
+
+  .ProjectsLabel {
+    color: $header-color;
+    font-size: clamp(45px, 2.34375vw, 2.34375vw);
+    margin-top: 22.3148vh;
+    margin-bottom: 7.962963vh;
+    font-family: $general-font;
+  }
+
+  .GlassContainer {
+    width: 35.3541667vw;
+    height: 9.25925926vh;
+    background: $glasscolor;
+    backdrop-filter: $backdrop-filter;
+    -webkit-backdrop-filter: $backdrop-filter;
+    border-radius: 10px;
+    border: $glassborder;
+    margin-top: 2.962963vh;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      margin-right: 1.5625vw;
+      width: clamp(50px, 4vw, 4vw);
+      height: clamp(50px, 4vw, 4vw);
+    }
+  }
+
+  .MobileLabel,
+  .WebsiteLabel,
+  .ContentLabel {
+    color: $header-color;
+    font-size: clamp(20px, 1.3541667vw, 1.3541667vw);
+    margin-top: 3.42592593vh;
+    margin-bottom: 3.42592593vh;
+    line-height: 2.5vh;
+    font-family: $general-font;
+  }
+
+  .RedLine {
+    position: absolute;
+    left: 97%;
+    background-color: $accent-text-color;
+    border-radius: 100px;
+    width: 0.3vw;
+    opacity: 0;
+  }
+
+  .CircleContainer {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    width: 86.77083333vw;
+    height: 154.25925926vh;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .CarouselContainer {
+    opacity: 0;
+    position: absolute;
+    width: 60.8182vw;
+    height: 45.0741vh;
+    background: $glasscolor;
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+    border-radius: 10px;
+    top: 32%;
+    left: 40%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    .Inner {
+      white-space: nowrap;
+      transition: transform 0.3s;
+    }
+
+    .CarouselItem {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      height: clamp(100px, 40.25925926vh, 40.25925926vh);
+      width: 100%;
+    }
+
+    .CarouselDiv1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      width: 100%;
+    }
+
+    .CarouselImage {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 25%;
+      height: 100%;
+      padding: 40px 5px 40px 35px;
+    }
+
+    .CarouselImage > img {
+      height: auto;
+      width: auto;
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+    .CarouselText {
+      display: flex;
+      flex-direction: column;
+      width: 75%;
+      height: 100%;
+      justify-content: center;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .CarouselProjName {
+      white-space: normal;
+      line-height: 5vh;
+      color: $white;
+      font-size: 2.1354vw;
+      width: 100%;
+      margin-bottom: 0.65104vh;
+      font-family: $segoe-font;
+      letter-spacing: -0.06406vw;
+      margin-right: 6.5625vw;
+    }
+
+    .CarouselProjDetails {
+      white-space: normal;
+      color: $white;
+      font-size: 0.8333vw;
+      width: 100%;
+      margin-bottom: 1vw;
+      font-family: $segoe-font;
+      letter-spacing: -0.025vw;
+      line-height: 1.9444vh;
+      padding-right: 6.5625vw;
+    }
+
+    .CarouselProjCountry {
+      white-space: normal;
+      color: $white;
+      font-size: 0.8333vw;
+      width: 100%;
+      font-family: $segoe-font;
+      letter-spacing: -0.025vw;
+      line-height: 1.9444vh;
+      margin-top: 0.5111vh;
+    }
+
+    .CarouselProjPlatform {
+      white-space: normal;
+      color: $white;
+      font-size: 0.8333vw;
+      width: 100%;
+      font-family: $segoe-font;
+      letter-spacing: -0.025vw;
+      line-height: 1.9444vh;
+      margin-top: 0.5111vh;
+    }
+
+    .CarouselProjCountry > span {
+      margin-left: 5.3271vw;
+    }
+    .CarouselProjPlatform > span {
+      margin-left: 4.84375vw;
+    }
+
+    .CarouselButtons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .Indicators {
+      display: flex;
+      align-items: center;
+    }
+
+    .Indicators > button {
+      margin: 2px;
+      background: none;
+      border: none;
+    }
+
+    .IndicatorActive {
+      accent-color: black;
+      cursor: pointer;
+    }
+  }
+  .MobileCarousel {
+    display: none;
+    width: 86.78vw;
+    height: 100%;
+    background: $glasscolor;
+    backdrop-filter: $backdrop-filter;
+    -webkit-backdrop-filter: $backdrop-filter;
+    border-radius: 10px;
+    margin-top: clamp(33px, 2.962963vh, 2.962963vh);
+
+    .ArrowNextMobileButton {
+      width: 5vw;
+      height: 5vw;
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      opacity: 0.8;
+      cursor: pointer;
+    }
+
+    .ArrowPrevMobileButton {
+      z-index: 9999;
+      width: 5vw;
+      height: 5vw;
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      transform: translateY(-50%);
+      opacity: 0.8;
+      cursor: pointer;
+    }
+
+    .SlideContainer {
+      padding-left: 6.96vw;
+      padding-right: 6.96vw;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      .ImageContainer {
+        margin-top: 2.94vh;
+        width: 100%;
+        height: 20.04vh;
+        display: flex;
+        justify-content: center;
+        img {
+          width: auto;
+          height: auto;
+          max-width: 100%;
+          max-height: 100%;
+        }
+      }
+      .MobileProjectLabel {
+        color: $white;
+        font-family: $segoe-font;
+        font-size: 34px;
+        line-height: 6vh;
+        letter-spacing: -0.25vw;
+        margin-bottom: 1.64vh;
+      }
+      .MobileDetail {
+        color: $white;
+        font-size: 16px;
+        line-height: 4vh;
+        letter-spacing: 0.03vw;
+        font-family: $segoe-font;
+      }
+      .MobileCountry {
+        color: $white;
+        font-size: 16px;
+        letter-spacing: -0.12vw;
+        line-height: 3vh;
+        margin-top: 6vh;
+      }
+      .MobileType {
+        color: $white;
+        font-size: 16px;
+        letter-spacing: -0.12vw;
+        line-height: 3vh;
+        margin-top: 0.62vh;
+        margin-bottom: 5vh;
+      }
+      .MobileCountry > span {
+        margin-left: 21.8vw;
+      }
+      .MobileType > span {
+        margin-left: 20.52vw;
+      }
+    }
+  }
+  .DivCon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 899px) {
+  .GlassContainer {
+    width: 80vw !important;
+    height: 100px !important;
+    margin-top: 30px !important;
+  }
+  .MobileCarousel {
+    display: block !important;
+  }
+
+  .RedLine {
+    left: 98.5% !important;
+    width: 0.5vw !important;
+  }
+}

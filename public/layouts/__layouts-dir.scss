@@ -1,0 +1,23 @@
+/*
+This file is used to contain all component imports.
+Files inside this folder can contain specific element styles and layout. 
+*/
+
+@import "custom";
+@import "pages";
+
+// ------ page layouts ----- //
+@import "skills-page";
+@import "accomplishments-page";
+@import "services";
+@import "new-contactus-page";
+@import "products-and-services-page";
+@import "new-projects-page";
+@import "new-meet-the-founders-page";
+@import "footer";
+@import "tech-stack-page";
+@import "landing";
+@import "tech-stack-page";
+@import "./about-us-page-new";
+@import "carousel";
+@import "nav-bar";

@@ -1,0 +1,208 @@
+.NewContactUsContainer {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  background-image: $bodyimage;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: $background-color;
+
+  .ContactUsLabelContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: clamp(217px, 20.0926vh, 20.0926vh);
+    font-size: clamp(30px, 1.5625vw, 1.5625vw);
+    font-family: $general-font;
+
+    .ContactLabel {
+      color: $header-color;
+    }
+
+    .UsLabel {
+      color: $accent-text-color;
+      padding-left: 0.5%;
+    }
+  }
+
+  .DetailsContainer {
+    margin: 5vh;
+    display: flex;
+    justify-content: center;
+    .DetailsBackground {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      border-radius: 0.5208vw;
+      margin: 2.6528vh;
+      height: 68.43796vh;
+      width: 60.8609vw;
+      background: $glass;
+      backdrop-filter: $backdrop-filter;
+      -webkit-backdrop-filter: $backdrop-filter;
+      box-shadow: $frosted-shadow;
+      border: none;
+
+      .WeWantLabel {
+        color: $header-color;
+        font-size: clamp(20px, 2.0833vw, 2.0833vw);
+        margin: clamp(5px, 3.8648vh, 3.8648vh);
+        font-family: $segoe-font-bold;
+        line-height: 4.9074vh;
+      }
+      .DetailColContainer {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: space-evenly;
+        padding: 10px;
+        .DetailCol1 {
+          .TellUsLabel {
+            color: $header-color;
+            font-size: clamp(20px, 1.5625vw, 1.5625vw);
+            margin-top: clamp(5px, 4vh, 4vh);
+            margin-bottom: clamp(20px, 2.5926vh, 2.5926vh);
+            font-family: $segoe-font;
+            line-height: 2.96296vh;
+          }
+          .NameLabel {
+            color: $header-color;
+            font-size: clamp(16px, 0.8333vw, 0.8333vw);
+            font-family: $segoe-font;
+            line-height: 1.94444vh;
+            margin-bottom: clamp(5px, 1vh, 1vh);
+            margin-top: clamp(5px, 1vh, 1vh);
+          }
+          .NameInput {
+            width: 21.71875vw;
+            height: clamp(41.32px, 3.7963vh, 3.7963vh);
+            background-color: $background-color;
+            color: $header-color;
+            border-radius: clamp(10px, 0.5208vw, 0.5208vw);
+            border: 0.05208vw solid $glassborder;
+          }
+          .EmailLabel {
+            color: $header-color;
+            font-size: clamp(16px, 0.8333vw, 0.8333vw);
+            margin-top: clamp(5px, 1.57037vh, 1.57037vh);
+            margin-bottom: clamp(5px, 1vh, 1vh);
+            font-family: $segoe-font;
+            line-height: 1.94444vh;
+          }
+          .EmailInput {
+            width: 21.71875vw;
+            height: clamp(41.32px, 3.7963vh, 3.7963vh);
+            background-color: $background-color;
+            color: $header-color;
+            border-radius: clamp(10px, 0.5208vw, 0.5208vw);
+            border: 0.05208vw solid $glassborder;
+          }
+          .MessageLabel {
+            font-family: $segoe-font;
+            color: $header-color;
+            font-size: clamp(16px, 0.8333vw, 0.8333vw);
+            margin-top: clamp(5px, 1.57037vh, 1.57037vh);
+            margin-bottom: clamp(5px, 1vh, 1vh);
+            line-height: 1.94444vh;
+          }
+          .MessageTextarea {
+            width: 21.6698vw;
+            height: clamp(41.32px, 19.46296vh, 19.46296vh);
+            background-color: $background-color;
+            border-radius: clamp(10px, 0.5208vw, 0.5208vw);
+            color: $header-color;
+            margin-bottom: 8.45833vh;
+            resize: none;
+          }
+        }
+        .DetailCol2 {
+          .ImageContainer {
+            position: relative;
+            top: -4%;
+            width: 28.125vw;
+            height: clamp(200px, 41.574vh, 41.574vh);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+              width: auto;
+              height: auto;
+              max-width: 100%;
+              max-height: 100%;
+            }
+          }
+          .SubmitButton {
+            cursor: pointer;
+            background-color: $button-color;
+            border-radius: clamp(10px, 0.5208vw, 0.5208vw);
+            width: clamp(191px, 9.9479vw, 9.9479vw);
+            height: clamp(61px, 5.6481vh, 5.6481vh);
+            color: $header-color;
+            font-size: clamp(20px, 1.0417vw, 1.0417vw);
+            border: none;
+            margin-top: 2vh;
+            margin-left: 16vw;
+            font-family: $segoe-font;
+            line-height: 3.14815vh;
+          }
+        }
+      }
+    }
+  }
+  .RedCircleContainer {
+    z-index: -1;
+    position: absolute;
+    bottom: -50%;
+    width: 100%;
+    height: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+      opacity: 0.4;
+    }
+  }
+}
+
+@media only screen and (max-width: 899px) {
+  .DetailsContainer {
+    .DetailsBackground {
+      margin: 0 !important;
+      height: 100% !important;
+      width: 100% !important;
+
+      .DetailColContainer {
+        flex-direction: column;
+        align-items: center;
+        .DetailCol1 {
+          .TellUsLabel {
+            margin-top: 2vh !important;
+          }
+          .NameInput {
+            width: 100% !important;
+          }
+          .EmailInput {
+            width: 100% !important;
+          }
+          .MessageTextarea {
+            width: 100% !important;
+            margin-bottom: 0 !important;
+          }
+        }
+        .DetailCol2 {
+          .ImageContainer {
+            display: none !important;
+            img {
+              display: none !important;
+            }
+          }
+          .SubmitButton {
+            margin-left: 0 !important;
+            font-size: 3vw !important;
+          }
+        }
+      }
+    }
+  }
+}

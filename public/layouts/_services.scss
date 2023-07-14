@@ -1,0 +1,212 @@
+.NewServicesContainer {
+  margin-top: 10.5vw;
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
+  background-color: $background-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 22.03704vh;
+
+  .OurServicesLabel {
+    margin-top: 11.5741vh;
+    color: $header-color;
+    font-size: 2.34375vw;
+    margin-bottom: 8.9815vh;
+    line-height: 4.3519vh;
+    font-family: $general-font;
+  }
+  .GlassContainer {
+    position: relative;
+    margin-left: 35vw;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    .GlassBox {
+      margin-bottom: 2.96296vh;
+      width: 55.875vw;
+      height: 9.2593vh;
+      display: flex;
+      align-items: center;
+      background: $glassbackground;
+      backdrop-filter: blur(2.60417vw);
+      -webkit-backdrop-filter: blur(2.60417vw);
+      border-radius: 0.52083vw;
+      border: $glassborder;
+      cursor: pointer;
+
+      .WhiteWord {
+        font-family: $general-font;
+        color: $header-color;
+        font-size: 1.5625vw;
+        line-height: 2.963vh;
+        margin-left: 2.4479vw;
+      }
+      .RedWord {
+        color: $accent-text-color;
+      }
+      .RedLine {
+        position: absolute;
+        left: 1.4%;
+        background-color: $accent-text-color;
+        border-radius: 100px;
+        width: 0.3vw;
+        opacity: 0;
+      }
+    }
+  }
+  .RedCircleContainer {
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 8%;
+    left: 38.22917vw;
+    width: 23.59375vw;
+    height: 41.94444vh;
+    img {
+      width: auto;
+      height: auto;
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+  .DotsContainer {
+    position: absolute;
+    left: 0;
+    margin-left: 3.33333vw;
+    margin-top: 11.5741vh;
+    height: 41.5625vw;
+    width: 42.59259vh;
+    img {
+      width: auto;
+      height: auto;
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+  .OuterCircle {
+    width: 27.13542vw;
+    height: 49.24074vh;
+    border: 3.125vw solid #1a1a1a;
+    border-radius: 15.625vw;
+    position: absolute;
+    margin-top: 25.46296vh;
+    left: -14%;
+  }
+  .InnerCircle {
+    width: 16.27604vw;
+    height: 28.98148vh;
+    background-color: #1a1a1a;
+    border-radius: 15.625vw;
+    position: absolute;
+    top: 34.16667vh;
+    left: -8%;
+  }
+  .MobileImageContainer {
+    position: absolute;
+    top: 27.74074vh;
+    width: 25.54167vw;
+    height: 45.90741vh;
+    left: 15.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: auto;
+      height: auto;
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+  .FirstCounter {
+    position: absolute;
+    top: 43.95278vh;
+    left: 0.5%;
+    color: $header-color;
+    font-family: $general-font;
+    font-size: 1.5625vw;
+  }
+  .SecondCounter {
+    position: absolute;
+    top: 54.80093vh;
+    left: 0.5%;
+    color: $header-color;
+    font-family: $general-font;
+    font-size: 1.5625vw;
+  }
+
+  .RedNumber {
+    color: $accent-text-color;
+  }
+  .CounterLine {
+    position: absolute;
+    top: 48.5vh;
+    left: 1.4%;
+    background-color: $header-color;
+    width: 0.05208vw;
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 899px) {
+  .NewServicesContainer {
+    .OurServicesLabel {
+      font-size: 45px;
+      margin-bottom: 93px;
+    }
+    .GlassContainer {
+      height: 100% !important;
+      margin-left: 0;
+      align-items: center;
+      .GlassBox {
+        margin-bottom: 32px;
+        height: 100px;
+        width: 90%;
+        pointer-events: none;
+        justify-content: center;
+        .RedLine {
+          display: none;
+        }
+        .WhiteWord {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  .RedCircleContainer {
+    display: none;
+    img {
+      display: none;
+    }
+  }
+  .DotsContainer {
+    display: none;
+  }
+  .OuterCircle {
+    display: none;
+  }
+  .InnerCircle {
+    display: none;
+  }
+  .FirstCounter {
+    display: none;
+  }
+  .SecondCounter {
+    display: none;
+  }
+  .CounterLine {
+    display: none;
+  }
+  .MobileImageContainer {
+    display: none !important;
+    img {
+      display: none !important;
+    }
+  }
+}

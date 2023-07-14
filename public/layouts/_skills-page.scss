@@ -1,0 +1,453 @@
+.skillsContainer{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    opacity: 1; 
+    background: $background-color 0% 0% no-repeat padding-box;
+    display: flex;
+    z-index: 1;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+}
+
+.textBackground{
+    left: -18.13vw;
+    border-radius: 0.52vw;
+    position: absolute;
+    background: $frosted-bg;
+    backdrop-filter: $backdrop-filter;
+    -webkit-backdrop-filter: $backdrop-filter;
+    box-shadow: $frosted-shadow;
+    width: 86.82vw;
+    height: 25.37vh;
+    top: 37.04vh;
+}
+
+.skillsHeading{
+    width: 33.23vw;
+    height: 9.17vh;
+    text-align: left;
+    letter-spacing: 0px;
+    color: $white;
+    text-transform: uppercase;
+    opacity: 1;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 1;
+    left: 30.37vw;
+    font: normal normal bold 3.85vw/9.17vh $segoe-font ;
+    top: 43.06vh;
+}
+
+.scrollableCont{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    left: auto;
+    overflow-x: hidden;
+    scrollbar-width: 0;
+}
+
+.scrollableCont::-webkit-scrollbar { 
+    display: none;
+}
+
+.section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+
+.androidImg{
+    position: absolute;
+    width: 51.62vw;
+    height: 91.76vh;
+    top: 5.56vh;
+    left: 25vw;
+}
+
+.androidTime{
+    width: 8.13vw;
+    height: 12.13vh;
+    text-align: left;
+    letter-spacing: -0.09vw;
+    color: $white;
+    opacity: 1;
+    position: absolute;
+    transform: rotate(25deg);
+    font: normal normal normal 3.13vw/7.41vh $segoe-font ;
+    top: 25vh;
+    left: 48.5vw;
+}
+
+.androidDate{
+    width: 7.14vw;
+    height: 7.5vh;
+    text-align: left;
+    letter-spacing: -0.02vw;
+    color: $white;
+    opacity: 1;
+    position: absolute;
+    transform: rotate(25deg);
+    white-space: nowrap;
+    font: normal normal 400 0.78vw/1.85vh $segoe-font ;
+    top: 31vh;
+    left: 47.5vw;
+}
+
+.androidTitle{
+    width: 5.73vw;
+    height: 3.06vh;
+    text-align: left;
+    letter-spacing: 0px;
+    color: $white;
+    text-transform: uppercase;
+    opacity: 1;
+    position: absolute;
+    font: normal normal normal 1.30vw/3.06vh $segoe-font ;
+    left: 56vw;
+    top: 53.24vh;
+}
+
+.webImg{
+    position: absolute;
+    width: 101.93vw;
+    height: 105.37vh;
+    left: 2.60vw;
+    top: 94.91vh;
+}
+
+.webTitle{
+    width: 5.73vw;
+    height: 3.06vh;
+    text-align: left;
+    letter-spacing: 0px;
+    color: $white;
+    text-transform: uppercase;
+    opacity: 1;
+    position: absolute;
+    font: normal normal normal 1.30vw/3.06vh $segoe-font ;
+    left: 31.25vw;
+    top: 53.24vh;
+}
+
+.iosImg{
+    position: absolute;
+    width: 28.65vw;
+    height: 65.56vh;
+    top: 217.59vh;
+    left: 35.17vw;
+}
+
+.iosTime{
+    width: 8.13vw;
+    height: 12.13vh;
+    text-align: left;
+    letter-spacing: -0.09vw;
+    color: $white;
+    opacity: 1;
+    transform: rotate(-20deg);
+    position: absolute; 
+    font: normal normal normal 3.13vw/7.41vh $segoe-font ;
+    left: 43.49vw;
+    top: 226.85vh;
+}
+
+.iosDate{
+    width: 7.14vw;
+    height: 7.5vh;
+    text-align: left;
+    letter-spacing: -0.02vw;
+    color: $white;
+    opacity: 1;
+    transform: rotate(-20deg);
+    position: absolute; 
+    white-space: nowrap;
+    font: normal normal 400 0.78vw/1.85vh $segoe-font ;
+    left: 44.17vw;
+    top: 232.87vh;
+}
+
+.iosTitle{
+    width: 5.73vw;
+    height: 3.06vh;
+    text-align: left;
+    letter-spacing: 0px;
+    color: $white;
+    text-transform: uppercase;
+    opacity: 1;
+    position: absolute;
+    font: normal normal normal 1.30vw/3.06vh $segoe-font ;
+    left: 59.90vw;
+    top: 53.24vh;
+}
+
+.iosLine{
+    border: 3px solid white;
+    border-radius: 5px;
+    position: absolute;
+    transform: rotate(-20deg);
+    width: 6.88vw;
+    left: 50.68vw;
+    top: 272.50vh;
+}
+// ------------------------------ responsiveness --------------------
+@media screen and (min-width: 1440px) and (max-width: 1499px) {
+    .iosLine{
+        left: 50.68vw;
+        top: 267.5vh;
+    }
+}
+
+@include tablet {
+    .textBackground{
+        width: 102vw;
+        top: 40.04vh;
+        height: 19vh;
+    }
+    .skillsHeading{
+        left: 10.81vw;
+        font: normal normal bold 7.81vw/8.30vh $segoe-font;
+        top: 42.97vh;
+    }
+    .androidImg{
+        width: 93.23vw;
+        height: 74.32vh;
+        top: 15vh;
+        left: 3vw;
+    }
+    
+    .androidTime{
+        font: normal normal normal 5.86vw/6.35vh $segoe-font;
+        top: 29vh;
+        left: 46vw;
+    }
+    
+    .androidDate{
+        font: normal normal 400 1.6vw/1.67vh $segoe-font;
+        top: 34vh;
+        left: 44vw;
+    }
+    
+    .androidTitle{
+        font: normal normal normal 2.87vw/2.93vh $segoe-font;
+        left: 63.15vw;
+        top: 53.71vh;
+    }
+    .webImg{
+        width: 189.71vw;
+        height: 62.30vh;
+        left: -38.41vw;
+        top: 107.42vh;
+    }
+    
+    .webTitle{
+        font: normal normal normal 2.87vw/2.93vh $segoe-font;
+        left: 13.02vw;
+        top: 51.27vh;
+    }
+    
+    .iosImg{
+        width: 54.69vw;
+        height: 56.45vh;
+        top: 223.14vh;
+        left: 22vw;
+    }
+    
+    .iosTime{
+        font: normal normal normal 5.86vw/6.35vh $segoe-font;
+        left: 38.75vw;
+        top: 232vh;
+    }
+    
+    .iosDate{
+        font: normal normal 400 1.56vw/11.66vh $segoe-font;
+        left: 37.11vw;
+        top: 233vh;
+    }
+    
+    .iosTitle{
+        font: normal normal normal 2.87vw/2.93vh $segoe-font;
+        left: 68.36vw;
+        top: 51.27vh;
+    }
+    
+    .iosLine{
+        width: 13.02vw;
+        left: 51.25vw;
+        top: 268vh;
+    }
+
+}
+
+@include phablet {
+    .textBackground{
+        width: 102vw;
+        top: 41.46vh;
+        height: 16vh;
+    }
+    .skillsHeading{
+        left: 8vw;
+        font: normal normal bold 50px/7.81vh $segoe-font;
+        top: 43.75vh;
+    }
+    .androidImg{
+        width: 95.83vw;
+        height: 59.90vh;
+        top: 20vh;
+        left: 3vw;
+    }
+    
+    .androidTime{
+        font: normal normal normal 5.83vw/5.73vh $segoe-font;
+        top: 32.5vh;
+        left: 46vw;
+    }
+    
+    .androidDate{
+        font: normal normal 400 1.33vw/1.35vh $segoe-font;
+        top: 36.5vh;
+        left: 45vw;
+    }
+    
+    .androidTitle{
+        font: normal normal normal 3.33vw/2.92vh $segoe-font;
+        left: 60vw;
+        top: 53.65vh;
+    }
+    .webImg{
+        width: 209.50vw;
+        height: 45.63vh;
+        left: -47vw;
+        top: 110.94vh;
+    }
+    
+    .webTitle{
+        font: normal normal normal 3.33vw/22.92vh $segoe-font;
+        left: 10vw;
+        top: 42.5vh;
+    }
+    
+    .iosImg{
+        width: 57vw;
+        height: 52.08vh;
+        top: 226.56vh;
+        left: 19.17vw;
+    }
+    
+    .iosTime{
+        font: normal normal normal 5.83vw/5.73vh $segoe-font;
+        left: 37.50vw;
+        top: 233vh;
+    }
+    
+    .iosDate{
+        font: normal normal 400 1.33vw/1.35vh $segoe-font;
+        left: 38.83vw;
+        top: 237.5vh;
+    }
+    
+    .iosTitle{
+        font: normal normal normal 3.33vw/2.92vh $segoe-font;
+        left: 68.33vw;
+        top: 51.04vh;
+    }
+    
+    .iosLine{
+        width: 13.33vw;
+        left: 50vw;
+        top: 265.10vh;
+    }
+
+}
+
+@include mobile {
+    .textBackground{
+        width: 86.11vw;
+        top: 43.50vh;
+        height: 12vh;
+        left: -2.78vw;
+    }
+    .skillsHeading{
+        left: 15vw;
+        font: normal normal bold 7.50vw/6.50vh $segoe-font;
+        top: 43.13vh;
+    }
+    .androidImg{
+        width: 97.22vw;
+        height: 43.75vh;
+        top: 27.88vh;
+        left: 1.39vw;
+    }
+    
+    .androidTime{
+        font: normal normal normal 5.56vw/5vh $segoe-font;
+        top: 34vh;
+        left: 45vw;
+    }
+    
+    .androidDate{
+        font: normal normal 400 1.67vw/1.38vh $segoe-font;
+        top: 37.5vh;
+        left: 43.5vw;
+    }
+    
+    .androidTitle{
+        font: normal normal normal 3.33vw/2.50vh $segoe-font;
+        left: 59.72vw;
+        top: 51.88vh;
+    }
+    .webImg{
+        width: 202.78vw;
+        height: 5vh;
+        left: -43.89vw;
+        top: 123.13vh;
+    }
+    
+    .webTitle{
+        font: normal normal normal 3.33vw/2.50vh $segoe-font;
+        left: 16vw;
+        top: 48.75vh;
+    }
+    
+    .iosImg{
+        width: 56.94vw;
+        height: 45.38vh;
+        top: 233.12vh;
+        left: 19.44vw;
+    }
+    
+    .iosTime{
+        font: normal normal normal 5.56vw/5vh $segoe-font;
+        left: 39vw;
+        top: 236vh;
+    }
+    
+    .iosDate{
+        font: normal normal 400 1.67vw/1.38vh $segoe-font;
+        left: 38vw;
+        top: 240vh;
+    }
+    
+    .iosTitle{
+        font: normal normal normal 3.33vw/2.50vh $segoe-font;
+        left: 68.06vw;
+        top: 48.75vh;
+    }
+    
+    .iosLine{
+        width: 12.50vw;
+        left: 50.56vw;
+        top: 260.5vh;
+        border: 2px solid white;
+    }
+}

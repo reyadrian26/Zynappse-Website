@@ -1,0 +1,116 @@
+.navBar {
+    position: fixed !important;
+    top: 25px;
+    z-index: 9999;
+    width: 100%;
+    height: 8.06vh;
+}
+
+.logoBackground{
+    border-radius: 0.52vw;
+    position: absolute;
+    background: $frosted-bg;
+    backdrop-filter: $backdrop-filter;
+    -webkit-backdrop-filter: $backdrop-filter;
+    box-shadow: $frosted-shadow;
+
+    top: 1vh;
+    left: -3.54vw;
+    width: 29.27vw;
+    height: 8.06vh;
+}
+
+.zyNavLogo{
+    position: absolute;
+    left: 4.06vw;
+    top: 2.25vh;
+    height: 5.74vh;
+    width: 3.333vw;
+}
+.zyNavText{
+    position: absolute;
+    top: 2.75vh;
+    left: 7.86vw;
+    width: 17.19vw;
+    height: 3.70vh;
+}
+
+.navItem{
+    top: 7.04vh;
+    width: 4.48vw;
+    height: 2.78vh;
+    text-align: left;
+    font: normal normal normal 1.04vw/2.78vh $general-font !important;
+    letter-spacing: 0.6px !important;
+    color: #CCCCCC !important;
+    position: absolute !important;
+    text-transform: uppercase !important;
+    cursor: pointer;
+}
+
+.homeNav{
+    left: 51.77vw;
+}
+
+.aboutNav{
+    left: 60.57vw;
+}
+
+.portfolioNav{
+    left: 70.63vw;
+}
+
+.skillsNav{
+    left: 82.66vw;
+}
+
+.contactNav{
+    left: 91.88vw;
+}
+
+// ----------------- responsiveness --------------------------------
+
+@include mobile{
+    .logoBackground{
+        height: 3vh;
+        top: 0vh;
+    }
+    .zyNavText{
+        top: 0.3vh;
+    }
+
+    .navBar{
+        top: -1.5vh !important;
+    }
+    .zyNavLogo{
+        top: 0.7vh;
+    }
+    .navItem{
+        top: 2.75vh;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+    .logoBackground{
+        height: 4vh;
+        top: 0vh;
+    }
+    .zyNavText{
+        top: 1vh;
+    }
+
+    .navBar{
+        top: -1.5vh !important;
+    }
+    .zyNavLogo{
+        top: 0.8vh;
+    }
+    .navItem{
+        top: 3.5vh;
+    }
+}
+
+
+
+
+  

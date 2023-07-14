@@ -1,0 +1,144 @@
+.Container {
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
+  background-color: $background-color;
+  width: 100%;
+  height: 100%;
+
+  .FlexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5.3148vh;
+
+    .Heading {
+      line-height: 6.2037vh;
+      text-align: center;
+      color: $header-color;
+      font-size: 2.6042vw;
+      margin-left: 3vw;
+      padding: 1vh;
+      font-family: $segoe-font-bold;
+    }
+
+    .Button {
+      cursor: pointer;
+      line-height: 2.5vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: $header-color;
+      text-align: center;
+      border: 0.15625vw solid $button-color;
+      border-radius: 0.5208vw;
+      width: 15.46875vw;
+      font-family: $segoe-font-bold;
+      height: 5.6481vh;
+      margin-right: 4.3229vw;
+      font-size: 1.0417vw;
+    }
+  }
+
+  .CarouselContainer {
+    width: 93vw;
+    height: clamp(50px, 40.25925926vh, 40.25925926vh);
+    cursor: pointer;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    margin-left: 7vw;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    .Inner {
+      white-space: nowrap;
+      transition: transform 1s linear;
+    }
+
+    .CarouselItem {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 3vw;
+    }
+
+    .CarouselImage {
+      width: clamp(40px, 40.25925926vh, 40.25925926vh);
+      height: clamp(40px, 30.25925926vh, 30.25925926vh);
+      margin-bottom: 1.5vh;
+    }
+
+    .CarouselProjName {
+      line-height: 4.1667vh;
+      font-size: 1.5625vw;
+      margin-bottom: 1.5vh;
+      color: $header-color;
+      font-family: $general-font;
+    }
+
+    .CarouselProjType {
+      line-height: 1.8519vh;
+      font-size: 0.9375vw;
+      color: $accent-text-color;
+      font-family: $segoe-font;
+    }
+
+    .CarouselProjType > span {
+      float: right;
+    }
+
+    .arrow {
+      color: $header-color;
+    }
+
+    .ArrowContainer {
+      z-index: 5;
+      margin-left: 89vw;
+      margin-top: 13vh;
+      position: absolute;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      width: 2vw;
+      height: 4vh;
+      background-color: $accent-text-color;
+      border-radius: 5vw;
+      box-shadow: 0px 0px 400px 200px rgba(0, 0, 0, 0.7);
+      -webkit-box-shadow: 0px 0px 400px 200px rgba(0, 0, 0, 0.7);
+      -moz-box-shadow: 0px 0px 400px 200px rgba(0, 0, 0, 0.7);
+    }
+
+    .Arrow {
+      font-size: 1vw;
+      font-weight: bold;
+    }
+  }
+}
+
+@media only screen and (max-width: 899px) {
+  .Heading {
+    font-size: 30px !important;
+  }
+  .Button {
+    width: 129px !important;
+    font-size: 15px !important;
+  }
+  .CarouselProjName {
+    font-size: 20px !important;
+  }
+  .CarouselProjType {
+    font-size: 15px !important;
+  }
+  .ArrowContainer {
+    width: 30px !important;
+    height: 30px !important;
+    margin-left: 80vw !important;
+    box-shadow: 0px 0px 400px 120px rgba(0, 0, 0, 0.7) !important;
+  }
+  .Arrow {
+    font-size: 16px !important;
+  }
+}

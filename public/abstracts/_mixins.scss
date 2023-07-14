@@ -1,0 +1,84 @@
+// mobile responsive mixins
+    
+@mixin large-screen {
+    @media screen and (min-width: 1600px) and (max-width: 1920px) {
+        @content;
+    }
+}
+
+@mixin medium-screen {
+    @media screen and (min-width: 1200px) and (max-width: 1599px) {
+      @content;
+    }
+}
+
+@mixin small-screen {
+  @media screen and (min-width: 1025px) and (max-width: 1199px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin phablet {
+    @media screen and (min-width: 481px) and (max-width: 767px) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media screen and (min-width: 320px) and (max-width: 480px) {
+        @content;
+    }
+}
+
+@mixin mobile-s {
+  @media screen and (max-width: 320px) {
+    @content;
+  }
+}
+
+@mixin textEllipsis($width) {
+  width: $width;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@mixin media($keys...) {
+  @each $key in $keys {
+    @if ($key == large-screen) {
+      @include large-screen {
+        @content;
+      }
+    } @else if ($key == medium-screen) {
+      @include medium-screen {
+        @content;
+      }
+    } @else if ($key == small-screen) {
+      @include small-screen() {
+        @content;
+      }
+    } @else if ($key == tablet) {
+      @include tablet {
+        @content;
+      }
+    } @else if ($key == phablet) {
+      @include phablet {
+        @content;
+      }
+    } @else if ($key == mobile) {
+      @include mobile {
+        @content;
+      }
+    } @else if ($key == mobile-s) {
+      @include mobile-s {
+        @content;
+      }
+    }
+  }
+}

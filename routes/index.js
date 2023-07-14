@@ -1,9 +1,18 @@
-var express = require('express');
-var router = express.Router();
+let express = require('express');
+let router = express.Router();
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+// let ROUTES = [
+//   {
+//     pathname: "/Tests",
+//     app: require("")
+//   }
+// ];
+
+// for (let route of ROUTES) {
+//   router.use(
+//     route.pathname,
+//     route.app
+//   );
+// }
 
 module.exports = router;

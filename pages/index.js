@@ -1,46 +1,49 @@
-import React, {Component} from 'react';
-// import '../static/css/index.css';
-// import '../static/css/bootstrap.css';
-import './src/animations.css';
-import './src/App.css';
-import './src/index.css';
-import './src/cards.css';
-import Router from "next/router";
-import withGA from "next-ga";
-// import '/src/logo.svg';
-import {Row} from 'react-bootstrap';
-import Header from './src/header.js';
-import Infographics from './src/infographics.js';
-import IntroBanner from './src/introbanner.js';
-import Skills from './src/skills.js';
-import About from './src/about.js';
-import Contact from './src/contact.js';
-// import {SectionsContainer, Section} from 'react-fullpage';
-import Head from 'next/head'
-class App extends Component {
+/** COMPONENTS */
+import UnderConstructionWrapper from "components/generics/UnderConstructionWrapper";
+import MainLayout from "layout/main";
+import Landing from "components/Landing"
+import Services from "components/Services";
+import AboutUsComponent2 from "../components/NewAboutUs/page2_index";
+import AboutUsComponent from "../components/NewAboutUs/index";
+import NewContactUs from "/components/NewContactUs";
+import ProductsAndServices from "components/ProductsAndServices";
+import NewProjects from "components/New-Projects-page";
+import SkillsComponent from "components/Skills";
+import AccomplishmentsComponent from "../components/AccomplishmentsPage";
+import NewMeetTheFoundersComponent from "../components/NewMeetTheFounders";
+import TechStackComponent from "components/TechStack";
+import Carousel from "../components/Carousel";
+import NavBar from "components/NavBar"
 
-  render() {
-    return (<Row id="fullpage">
-      <Head>
-        <title>Zynappse Website</title>
+const Home = (props) => {
+  let mainLayoutProps = {
+    ...props,
+    hasMetaTags: true,
+  };
 
-    </Head>
-      <Header/>
-      <IntroBanner/>
-      <Infographics/>
-      <div className="margin-section"></div>
-      <div className="about" style={{   color: "white" }} id="about">
-        <About/>
-      </div>
-      <Skills/>
-      <div className="margin-section"></div>
-      <Contact/>
-    </Row>);
-  }
-}
+  return (
+    <MainLayout {...mainLayoutProps}>
+      <NavBar />
+      
+      {/* Web 1920 – 1 */}
+      <Landing />
+      <Services />
+      <AboutUsComponent />
+      <NewProjects />
+      <AccomplishmentsComponent />
+      <SkillsComponent />
+      <TechStackComponent />
 
-export default App;
-// export default withGA("UA-51162965-1", Router)(App);
-// <div className="cd-3d-right-side"></div>
-// <div className="cd-3d-left-side"></div>
-// <div className="cd-3d-bottom-side"></div>
+      {/* Web 1920 – 6 */}
+      {/* <NewContactUs /> */}
+
+      {/* Web 1920 – 5 */}
+      {/* <AboutUsComponent2 />
+      <ProductsAndServices />
+      <Carousel />
+      <NewMeetTheFoundersComponent /> */}
+    </MainLayout>
+  );
+};
+
+export default UnderConstructionWrapper(Home);
