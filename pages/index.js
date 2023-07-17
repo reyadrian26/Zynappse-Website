@@ -15,10 +15,13 @@ import TechStackComponent from "components/TechStack";
 import Carousel from "../components/Carousel";
 import NavBar from "components/NavBar"
 
+import { getLocalizedString } from "strings";
+
 const Home = (props) => {
   let mainLayoutProps = {
     ...props,
     hasMetaTags: true,
+    title: getLocalizedString("META_HOME_PAGE_LABEL"),
   };
 
   return (

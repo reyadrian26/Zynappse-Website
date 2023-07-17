@@ -4,6 +4,7 @@ import Image from "next/image";
 
 /** COMPONENTS */
 import { images } from "components/assets";
+import { getLocalizedString } from "strings";
 
 const Boxes = dynamic(() => import("./Boxes"));
 
@@ -14,18 +15,15 @@ function Content() {
   return (
     <div className={style.newLanding_container}>
       <div className={style.newLanding_header}>
-        <h1>We Build Beautiful</h1>
-        <h2>Apps</h2>
+        <h1>{getLocalizedString("LANDING_WE_BUILD_BEAUTIFUL_LABEL")}</h1>
+        <h2>{getLocalizedString("LANDING_APPS_LABEL")}</h2>
       </div>
       <div className={style.newLanding_subheader}>
         <h4>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          {getLocalizedString("LANDING_CONTENT_LABEL")}
         </h4>
         <div className={style.learn_more}>
-          <h5>Learn More</h5>
+          <h5>{getLocalizedString("LANDING_LEARN_MORE_LABEL")}</h5>
           <div className={style.arrow_container}>
             <Image
               className={style.arrow_left}

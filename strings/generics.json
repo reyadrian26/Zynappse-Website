@@ -88,7 +88,18 @@
   "FOOTER_SERVICES": "SERVICES",
   "FOOTER_SKILLS": "SKILLS",
   "FOOTER_CONTACT": "CONTACT",
+
+  "META_HOME_PAGE_LABEL": "Zynappse",
   
+  "LANDING_WE_BUILD_BEAUTIFUL_LABEL": "We Build Beautiful",
+  "LANDING_APPS_LABEL": "Apps",
+  "LANDING_LEARN_MORE_LABEL": "Learn More",
+  "LANDING_CONTENT_LABEL": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  "LANDING_OUR_SERVICES_LABEL": "Our Services",
+  "LANDING_ABOUT_US_LABEL": "About Us",
+  "LANDING_PROJECTS_LABEL": "Projects",
+  "LANDING_ACCOMPLISHMENT_LABEL": "Accomplishments",
+  "LANDING_CONTACT_US_LABEL": "Contact Us",
 
   "SERVICES_MOBILE_LABEL": "MOBILE ",
   "SERVICES_APPS_LABEL": "APPS",
@@ -99,6 +110,8 @@
   "SERVICES_ARTIFICIAL_LABEL": "ARTIFICIAL ",
   "SERVICES_INTELLIGENCE_LABEL": "INTELLIGENCE",
   "SERVICES_AUGMENTED_LABEL": "AUGMENTED ",
-  "SERVICES_REALITY_LABEL": "REALITY"
-
+  "SERVICES_REALITY_LABEL": "REALITY",
+  "SERVICES_OUR_SERVICES_LABEL": "OUR SERVICES",
+  "SERVICES_ZERO_LABEL": "0",
+  "SERVICES_ZERO_FIVE_LABEL": "05"
 }

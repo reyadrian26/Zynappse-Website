@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 
 /** COMPONENTS */
 import { images } from "components/assets";
+import { getLocalizedString } from "strings";
 
 /** STYLES */
 import style from "styles/main.module.scss";
@@ -69,7 +70,7 @@ const NewServices = () => {
 
   return (
     <div className={style.NewServicesContainer}>
-      <div className={style.OurServicesLabel}>OUR SERVICES</div>
+      <div className={style.OurServicesLabel}>{getLocalizedString("SERVICES_OUR_SERVICES_LABEL")}</div>
       <div className={style.GlassContainer}>
 
         {
@@ -135,7 +136,7 @@ const NewServices = () => {
                   <Image src={image} layout="fill" objectFit="contain" />
                 </motion.div>
                 <div className={style.FirstCounter}>
-                  0
+                  {getLocalizedString("SERVICES_ZERO_LABEL")}
                   <motion.span
                     key={count}
                     variants={up}
@@ -147,7 +148,7 @@ const NewServices = () => {
                     {count}
                   </motion.span>
                 </div>
-                <div className={style.SecondCounter}>05</div>
+                <div className={style.SecondCounter}>{getLocalizedString("SERVICES_ZERO_FIVE_LABEL")}</div>
                 <div className={style.CounterLine}></div>
               </>
             ) : null}
