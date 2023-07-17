@@ -5,13 +5,16 @@ import dynamic from "next/dynamic";
 const Content = dynamic(() => import("./Content"));
 const Background = dynamic(() => import("./Background"));
 
-const index = () => {
+/** STYLES */
+import style from "styles/main.module.scss";
+
+const Landing = () => {
   return (
-    <div>
+    <div className={style.landingPage}>
       <Background />
       <Content />
     </div>
   );
 };
 
-export default index;
+export default Landing;

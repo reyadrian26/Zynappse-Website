@@ -9,7 +9,7 @@ import style from "styles/main.module.scss";
 
 function Background() {
   return (
-    <div className={style.newLanding_body}>
+    <div className={style.landingBody}>
       <Image
         src={images.zynappseLandingBackground}
         width={1920}
@@ -17,9 +17,9 @@ function Background() {
         layout="fill"
         // objectFit="contain"
       />
-      <div className={style.logo_container}>
+      <div className={style.logoContainer}>
         <Image
-          className={style.z_logo}
+          className={style.zynappseLogo}
           src={images.zynappseLogo}
           width={1920}
           height={1193}

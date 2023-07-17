@@ -10,59 +10,59 @@ import style from "styles/main.module.scss";
 
 function Boxes() {
   return (
-    <div className={style.grid_container}>
-      <div className={style.box_item1}>
+    <div className={style.gridContainer}>
+      <div className={style.servicesBoxItem}>
         <h1>{getLocalizedString("LANDING_OUR_SERVICES_LABEL")}</h1>
-        <div className={style.icon1}>
+        <div className={style.servicesIconWrapper}>
           <Image
-            className={style.our_services_icon}
+            className={style.servicesIcon}
             src={images.zynappseServicesIcon}
-            height={52}
-            width={52}
+            height={50}
+            width={50}
           />
         </div>
       </div>
-      <div className={style.box_item2}>
+      <div className={style.aboutUsBoxItem}>
         <h1>{getLocalizedString("LANDING_ABOUT_US_LABEL")}</h1>
-        <div className={style.icon2}>
+        <div className={style.aboutUsIconWrapper}>
           <Image
-            className={style.about_us_icon}
+            className={style.aboutUsIcon}
             src={images.zynappseAboutIcon}
-            height={53}
-            width={54}
+            height={50}
+            width={50}
           />
         </div>
       </div>
-      <div className={style.box_item3}>
+      <div className={style.projectsBoxItem}>
         <h1>{getLocalizedString("LANDING_PROJECTS_LABEL")}</h1>
-        <div className={style.icon3}>
+        <div className={style.projectsIconWrapper}>
           <Image
-            className={style.projects_icon}
+            className={style.projectsIcon}
             src={images.zynappseProjectIcon}
-            height={43}
-            width={52}
+            height={50}
+            width={50}
           />
         </div>
       </div>
-      <div className={style.box_item4}>
+      <div className={style.accomplismentBoxItem}>
         <h1>{getLocalizedString("LANDING_ACCOMPLISHMENT_LABEL")}</h1>
-        <div className={style.icon4}>
+        <div className={style.accomplismentIconWrapper}>
           <Image
-            className={style.accomplishments_icon}
+            className={style.accomplismentIcon}
             src={images.zynappseAccomplismentIcon}
-            height={53}
-            width={47}
+            height={50}
+            width={50}
           />
         </div>
       </div>
-      <div className={style.box_item5}>
+      <div className={style.contactBoxItem}>
         <h1>{getLocalizedString("LANDING_CONTACT_US_LABEL")}</h1>
-        <div className={style.icon5}>
+        <div className={style.contactIconWrapper}>
           <Image
-            className={style.contact_us_icon}
+            className={style.contactIcon}
             src={images.zynappseContactIcon}
-            height={58}
-            width={70}
+            height={50}
+            width={55}
           />
         </div>
       </div>
