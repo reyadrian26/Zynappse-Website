@@ -55,7 +55,7 @@ export default class MenuExampleSecondary extends Component {
             className={`${style['navItem']} ${style['homeNav']}`}
           />
         </Link>
-        <Link href='/#aboutContainer'>
+        <Link href='/about-us'>
           <MenuItem
             name="about"
             onClick={this.handleItemClick}

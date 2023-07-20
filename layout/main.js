@@ -10,6 +10,7 @@ import { bindActionCreators } from "redux";
 /** COMPONENTS */
 const Head = dynamic(() => import("components/generics/Head.js"));
 const LoaderComponent = dynamic(() => import("components/generics/Loader.js"));
+const Header = dynamic(() => import("components/generics/Header"));
 
 /** STYLES */
 import style from "styles/main.module.scss";
@@ -22,6 +23,7 @@ const MainLayout = (props) => {
         authenticated, 
         hasMetaTags,
         mainContainerStyle,
+        hasHeader
     } = props;
 
     const [isLoading, setIsLoading] = useState(true)
@@ -36,6 +38,8 @@ const MainLayout = (props) => {
         React.cloneElement(child, {})
     );
 
+    let headerProps = { ...props }
+
     let onRenderContentComponent = "";
 
     if (
@@ -46,6 +50,35 @@ const MainLayout = (props) => {
         )
     ) { onRenderContentComponent = childrenWithProps; } 
     else { onRenderContentComponent = (<LoaderComponent />); }
+    
+    let onRenderNavigationComponents = "";
+
+    if (hasHeader) {
+        onRenderNavigationComponents = (
+            <div>
+                {                     
+                    hasHeader &&
+                    (<Header { ...headerProps } />)
+                }
+                <div 
+                    className={ [
+                        style.content, 
+                        isLoading 
+                            ? style.displayNone 
+                            : ""
+                    ].join(" ") }>         
+
+                    <div className={ style.mainGridContainer }>
+                        {
+                            <div>
+                                { onRenderContentComponent } 
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        )
+    }
 
     return (
         <div
@@ -59,7 +92,7 @@ const MainLayout = (props) => {
                 hasMetaTags &&
                 (<Head { ...props } />)
             }
-            { onRenderContentComponent }
+            { onRenderNavigationComponents }
 
         </div>
     );

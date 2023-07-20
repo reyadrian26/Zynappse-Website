@@ -18,13 +18,14 @@ const Index = () => {
                 <div className={styles.executivesFirstRow}>
                     {firstRowExecutives.map((executive, index) => (
                         <div key={index} className={styles['column' + executive.id]}>
-                            <div className={styles.imageContainer}>
-                                <Image
-                                    src={executive.imageFile}
-                                    alt={executive.alt}
-                                    height={190}
-                                    width={190}
-                                    className={styles.imageStyle}/>
+                            <div className={styles.teamProfileWrapper}>
+                                <div className={styles.imageContainer}>
+                                    <Image
+                                        src={executive.imageFile}
+                                        alt={executive.alt}
+                                        layout='fill'
+                                        className={styles.imageStyle}/>
+                                </div>
                             </div>
                             <h2 className={styles.executiveName}>
                                 {executive.name}
@@ -41,14 +42,14 @@ const Index = () => {
                 <div className={styles.executivesSecondRow}>
                     {secondRowExecutives.map((executive, index) => (
                         <div key={index} className={styles['column' + executive.id]}>
-                            <div className={styles.imageContainer}>
-                                <Image
-                                    src={executive.imageFile}
-                                    alt={executive.alt}
-                                    height={190}
-                                    width={190}
-                                    className={styles.imageStyle}
-                                />
+                            <div className={styles.teamProfileWrapper}>
+                                <div className={styles.imageContainer}>
+                                    <Image
+                                        src={executive.imageFile}
+                                        alt={executive.alt}
+                                        layout='fill'
+                                        className={styles.imageStyle}/>
+                                </div>
                             </div>
                             <h2 className={styles.executiveName}>
                                 {executive.name}
@@ -73,9 +74,9 @@ const Index = () => {
                         -Lorem Ipsum
                     </p>
                 </div>
-                <div className={styles.meetTheFoundersFooter}>
+                {/* <div className={styles.meetTheFoundersFooter}>
                     <Footer/>
-                </div>
+                </div> */}
             </div>
         </div>
 

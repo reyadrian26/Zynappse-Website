@@ -1,53 +1,67 @@
 //Note: Background dotted image not added yet. 
 .executivesContainer {
-    top: 0px;
-    left: 0px;
-    width: 1920px !important;
-    height: 2427px !important;
-    background: $background-color 0% 0% no-repeat padding-box;
     opacity: 1;
     position: relative;
+    margin-top: 5em;
+    padding-bottom: 5em;
 }
 
 .executivesDiv {
-    top: 4744px !important;
-    width: 1344px !important;
-    height: 1374px !important;
-    opacity: 1;
-    margin: auto 288px auto 288px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+
+    @include media(tablet, phablet, mobile) {
+        gap: 2em;
+    }
 
     .executiveTitle {
-        top: 4744px !important;
-        left: 735px !important;
-        width: 450px !important;
-        height: 67px !important;
         text-align: center;
         font: normal normal bold 50px/67px $segoe-font;
         letter-spacing: 0px;
         color: $header-color;
         opacity: 1;
-        margin: auto 447px auto 447px;
-        white-space: nowrap;
+        // margin: auto 447px auto 447px;
     }
 }
 
 .executivesFirstRow {
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
+    width: 1000px;
+
+    @include small-screen {
+        width: 970px;
+    }
+
+    @include media(tablet, phablet, mobile) {
+        flex-direction: column;
+        gap: 2em;
+        align-items: center !important;
+        width: 100%;
+    }
 
     .columnCEO,
     .columnCIO,
     .columnCMO {
-        margin: 98px 78px 91px 0px;
+        padding: 2.5em 1em 2.5em 1em;
         top: 4909px;
-        width: 396px;
-        height: 559px;
+        width: 300px;
         background: rgba(98, 98, 98, 0.28) 0% 0% no-repeat padding-box;
         backdrop-filter: blur(50px);
         -webkit-backdrop-filter: blur(50px);
         box-shadow: $frosted-shadow;
         border-radius: 10px;
-        opacity: 1;
+
+        @include media( phablet, mobile) {
+            width: 80vw;
+        }
+
+        @include tablet {
+            width: 70vw;
+        }
     }
 
     .columnCEO {
@@ -66,69 +80,106 @@
 .executivesSecondRow {
     justify-content: center;
     display: flex;
+    gap: 3.5em;
+
+    @include media(tablet, phablet, mobile) {
+        flex-direction: column;
+        gap: 2em;
+    }
 
     .columnCTO,
     .columnMDirector {
-        top: 5559px;
-        left: 525px;
-        width: 396px;
-        height: 559px;
+        padding: 2.5em 1em 2.5em 1em;
+        // top: 4909px;
+        width: 300px;
         background: rgba(98, 98, 98, 0.28) 0% 0% no-repeat padding-box;
         backdrop-filter: blur(50px);
         -webkit-backdrop-filter: blur(50px);
+        box-shadow: $frosted-shadow;
         border-radius: 10px;
-        opacity: 1;
+
+        @include media( phablet, mobile) {
+            width: 80vw;
+        }
+
+        @include tablet {
+            width: 70vw;
+        }
     }
 
-    .columnCTO {
-        margin: 0px 78px 0px 237px;
-    }
+    // .columnCTO {
+    //     margin: 0px 78px 0px 237px;
+    // }
 
-    .columnMDirector {
-        margin: 0px 237px 0px 0px;
-    }
+    // .columnMDirector {
+    //     margin: 0px 237px 0px 0px;
+    // }
 }
 
-.imageContainer {
-    margin: 86px 103px 0px 103px;
+.teamProfileWrapper{
+    display: flex;
+    justify-content: center;
+    .imageContainer {
+        position: relative;
+        width: 140px;
+        height: 140px;
+
+        @include small-screen {
+            width: 120px;
+            height: 120px;
+        }
+    }
 }
 
 .executiveName {
     text-align: center;
-    font: normal normal normal 30px/45px $general-font;
+    font-family: $general-font;
+    font-size: 30px;
     text-transform: uppercase;
     letter-spacing: 0px;
     color: $header-color;
     opacity: 1;
     width: 100% !important;
-    height: 45px !important;
-    margin: 0px !important;
+    margin: 10px 0 0 0!important;
+
+    @include small-screen {
+        font-size: 24px;
+    }
 }
 
 .executivePosition {
     text-align: center;
-    font: normal normal normal 18px/20px $segoe-font;
+    font-family: $segoe-font;
+    font-size: 18px;
     letter-spacing: 0.18px;
     color: $accent-text-color;
     opacity: 1;
     margin: 1px 0px 36px 0px;
+
+    @include small-screen {
+        font-size: 16px;
+    }
 }
 
 .executiveDescription {
-    width: 318px;
-    height: 113px;
+    width: auto;
     text-align: center;
-    margin: auto 39px auto 39px;
-    font: normal normal normal 18px/20px $segoe-font;
+    font-family: $segoe-font;
+    font-size: 14px;
     letter-spacing: 0.18px;
     color: $header-color;
     opacity: 1;
+    padding-inline: 10px;
 }
 
 .placeHolderContainer {
-    width: 808px;
+    padding-inline: 20vw;
     height: 113px;
-    margin: 280px auto 0px auto;
+    margin: 8em auto 0px auto;
+
+    @include media(tablet, phablet, mobile) {
+        margin-top: 5em;
+    }
 
     .placeholderDiv {
         text-align: center;
@@ -174,536 +225,536 @@
 }
 
 // ****************Laptop
-@media screen and (min-width:1023px) and (max-width:1280px) {
-    .executivesContainer {
-        width: 100% !important;
-        height: 2427px !important;
-    }
+// @media screen and (min-width:1023px) and (max-width:1280px) {
+//     .executivesContainer {
+//         width: 100% !important;
+//         height: 2427px !important;
+//     }
 
-    .executivesDiv {
-        width: 100% !important;
-        height: 1374px !important;
-        margin: auto 0em auto 0em;
+//     .executivesDiv {
+//         width: 100% !important;
+//         height: 1374px !important;
+//         margin: auto 0em auto 0em;
 
-        .executiveTitle {
-            width: 100% !important;
-            height: auto !important;
-            font: normal normal bold 4.5rem/6rem $segoe-font;
-            margin: auto;
-        }
-    }
+//         .executiveTitle {
+//             width: 100% !important;
+//             height: auto !important;
+//             font: normal normal bold 4.5rem/6rem $segoe-font;
+//             margin: auto;
+//         }
+//     }
 
-    .executivesFirstRow {
-        .columnCEO,
-        .columnCIO,
-        .columnCMO {
-            margin: 3em 1em 3em 1em !important;
-            width: 30% !important;
-            height: auto;
-        }
-    }
+//     .executivesFirstRow {
+//         .columnCEO,
+//         .columnCIO,
+//         .columnCMO {
+//             margin: 3em 1em 3em 1em !important;
+//             width: 30% !important;
+//             height: auto;
+//         }
+//     }
 
-    .executivesSecondRow {
-        .columnCTO,
-        .columnMDirector {
-            margin: 1em 3em 3em 1em !important;
-            width: 30% !important;
-            height: 450px;
-        }
+//     .executivesSecondRow {
+//         .columnCTO,
+//         .columnMDirector {
+//             margin: 1em 3em 3em 1em !important;
+//             width: 30% !important;
+//             height: 450px;
+//         }
 
-    }
+//     }
 
-    .imageContainer {
-        margin: 3rem auto;
-        display: flex;
-        justify-content: center;
-        width: 100% !important;
-    }
+//     .imageContainer {
+//         margin: 3rem auto;
+//         display: flex;
+//         justify-content: center;
+//         width: 100% !important;
+//     }
 
-    .executiveName {
-        font: normal normal normal 2.5em/3rem $general-font;
-        width: 100% !important;
-        height: 45px !important;
-        margin: -1.2em auto auto auto !important;
-    }
+//     .executiveName {
+//         font: normal normal normal 2.5em/3rem $general-font;
+//         width: 100% !important;
+//         height: 45px !important;
+//         margin: -1.2em auto auto auto !important;
+//     }
 
-    .executivePosition {
-        font: normal normal normal 18px/20px $segoe-font;
-        margin: 0rem auto -1rem auto !important;
-    }
+//     .executivePosition {
+//         font: normal normal normal 18px/20px $segoe-font;
+//         margin: 0rem auto -1rem auto !important;
+//     }
 
-    .executiveDescription {
-        width: 70%;
-        height: auto;
-        padding: 1rem 1rem;
-        margin: 3.5rem auto 3rem auto !important;
-        font: normal normal normal 1rem/1rem $segoe-font;
-        display: flex;
-        justify-content: center;
-        width: 100% !important;
+//     .executiveDescription {
+//         width: 70%;
+//         height: auto;
+//         padding: 1rem 1rem;
+//         margin: 3.5rem auto 3rem auto !important;
+//         font: normal normal normal 1rem/1rem $segoe-font;
+//         display: flex;
+//         justify-content: center;
+//         width: 100% !important;
 
-    }
+//     }
 
-    .placeHolderContainer {
-        width: 55%;
-        height: 113px;
-        margin: 0rem auto;
+//     .placeHolderContainer {
+//         width: 55%;
+//         height: 113px;
+//         margin: 0rem auto;
 
-        .placeholderDiv {
-            font: normal normal normal 1rem/1rem $segoe-font;
-        }
-    }
+//         .placeholderDiv {
+//             font: normal normal normal 1rem/1rem $segoe-font;
+//         }
+//     }
 
-    .meetTheFoundersFooter{      
-        .footerBackground{
-          top: 306.25vh;
-          width: 100%;
-        }
+//     .meetTheFoundersFooter{      
+//         .footerBackground{
+//           top: 306.25vh;
+//           width: 100%;
+//         }
         
-        .zyLogo{
-          top: 312vh;
-        }
+//         .zyLogo{
+//           top: 312vh;
+//         }
         
-        .zyText{
-          top: 312vh;
-        }
+//         .zyText{
+//           top: 312vh;
+//         }
         
-        .footerTagline{
-          top: 317vh;
-        }
+//         .footerTagline{
+//           top: 317vh;
+//         }
         
-        .servicesCont{
-          top: 312vh;
-        }
+//         .servicesCont{
+//           top: 312vh;
+//         }
         
-        .skillsCont{
-          top: 312vh;
-        }
+//         .skillsCont{
+//           top: 312vh;
+//         }
         
-        .contactCont{
-          top: 312vh;
-        }
-  }
+//         .contactCont{
+//           top: 312vh;
+//         }
+//   }
 
-}
+// }
 
 // ******************* 4K ****************
-@media screen and (min-width: 2560px) {
-    .executivesContainer {
-        top: 0px;
-        left: 0px;
-        width: 100% !important;
-        height: 2427px !important;
-    }
+// @media screen and (min-width: 2560px) {
+//     .executivesContainer {
+//         top: 0px;
+//         left: 0px;
+//         width: 100% !important;
+//         height: 2427px !important;
+//     }
 
-    .executivesDiv {
-        width: 1344px !important;
-        height: 1374px !important;
+//     .executivesDiv {
+//         width: 1344px !important;
+//         height: 1374px !important;
 
-        .executiveTitle {
-            width: 100% !important;
-            height: auto !important;
-            font: normal normal bold 6em/1em $segoe-font;
-            margin: auto 4.5em;
-        }
-    }
+//         .executiveTitle {
+//             width: 100% !important;
+//             height: auto !important;
+//             font: normal normal bold 6em/1em $segoe-font;
+//             margin: auto 4.5em;
+//         }
+//     }
 
-    .executivesFirstRow {
-        width: 2000px;
+//     .executivesFirstRow {
+//         width: 2000px;
 
-        .columnCEO,
-        .columnCIO,
-        .columnCMO {
-            margin: 100px 50px 91px 50px;
-            width: 550px !important;
-            height: 700px;
-        }
-    }
+//         .columnCEO,
+//         .columnCIO,
+//         .columnCMO {
+//             margin: 100px 50px 91px 50px;
+//             width: 550px !important;
+//             height: 700px;
+//         }
+//     }
 
-    .executivesSecondRow {
-        width: 2000px;
+//     .executivesSecondRow {
+//         width: 2000px;
 
-        .columnCTO,
-        .columnMDirector {
-            margin: 100px 50px 91px 50px;
-            width: 550px !important;
-            height: 700px !important;
-        }
+//         .columnCTO,
+//         .columnMDirector {
+//             margin: 100px 50px 91px 50px;
+//             width: 550px !important;
+//             height: 700px !important;
+//         }
 
-        .columnCTO {
-            margin: 0px 78px 0px 237px;
-        }
+//         .columnCTO {
+//             margin: 0px 78px 0px 237px;
+//         }
 
-        .columnMDirector {
-            margin: 0px 237px 0px 0px;
-        }
-    }
+//         .columnMDirector {
+//             margin: 0px 237px 0px 0px;
+//         }
+//     }
 
-    .imageContainer {
-        margin: 4rem auto;
-        display: flex;
-        justify-content: center;
-        width: 50% !important;
-        height: 25%;
-    }
+//     .imageContainer {
+//         margin: 4rem auto;
+//         display: flex;
+//         justify-content: center;
+//         width: 50% !important;
+//         height: 25%;
+//     }
 
-    .executiveName {
-        font: normal normal normal 4rem/5rem $general-font;
-        text-transform: uppercase;
-        width: 100% !important;
-        height: 45px !important;
-        margin: -2rem 0rem !important;
-    }
+//     .executiveName {
+//         font: normal normal normal 4rem/5rem $general-font;
+//         text-transform: uppercase;
+//         width: 100% !important;
+//         height: 45px !important;
+//         margin: -2rem 0rem !important;
+//     }
 
-    .executivePosition {
-        font: normal normal normal 2rem/3rem $segoe-font;
-        margin: 3rem 0rem;
-    }
+//     .executivePosition {
+//         font: normal normal normal 2rem/3rem $segoe-font;
+//         margin: 3rem 0rem;
+//     }
 
-    .executiveDescription {
-        width: 80%;
-        height: auto;
-        margin: auto 4rem;
-        font: normal normal normal 2rem/2rem $segoe-font;
-    }
+//     .executiveDescription {
+//         width: 80%;
+//         height: auto;
+//         margin: auto 4rem;
+//         font: normal normal normal 2rem/2rem $segoe-font;
+//     }
 
-    .placeHolderContainer {
-        width: 43%;
-        height: 113px;
-        margin: 550px auto 0px auto;
+//     .placeHolderContainer {
+//         width: 43%;
+//         height: 113px;
+//         margin: 550px auto 0px auto;
 
-        .placeholderDiv {
-            text-align: center;
-            font: normal normal normal 2rem/2rem $segoe-font;
-        }
-    }
+//         .placeholderDiv {
+//             text-align: center;
+//             font: normal normal normal 2rem/2rem $segoe-font;
+//         }
+//     }
 
-}
+// }
 
 // ****************Mobile
 
 // fix images size on mobile
 //mobile responsiveness of footer needs to be fixed as the mobile responsiveness of the component is still not polished.
-@media screen and (min-width: 320px) and (max-width: 480px) {
-    .executivesContainer {
-        width: 100% !important;
-        height: 2427px !important;
-        background: $background-color 0% 0% no-repeat padding-box;
-        align-items: center;
-        justify-content: center;
-    }
+// @media screen and (min-width: 320px) and (max-width: 480px) {
+//     .executivesContainer {
+//         width: 100% !important;
+//         height: 2427px !important;
+//         background: $background-color 0% 0% no-repeat padding-box;
+//         align-items: center;
+//         justify-content: center;
+//     }
 
-    .executivesDiv {
-        width: 100% !important;
-        height: 1374px !important;
-        margin: 0px 0px 0px 0px;
+//     .executivesDiv {
+//         width: 100% !important;
+//         height: 1374px !important;
+//         margin: 0px 0px 0px 0px;
 
-        .executiveTitle {
-            width: 100% !important;
-            height: 30px !important;
-            font: normal normal bold 2em/2em $segoe-font;
-            margin: auto;
-        }
-    }
+//         .executiveTitle {
+//             width: 100% !important;
+//             height: 30px !important;
+//             font: normal normal bold 2em/2em $segoe-font;
+//             margin: auto;
+//         }
+//     }
 
-    .executivesFirstRow {
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+//     .executivesFirstRow {
+//         justify-content: center;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
 
-        .columnCEO,
-        .columnCIO,
-        .columnCMO {
-            margin: 3em 2.8em 0px 3.5em !important;
-            width: 40vh;
-            height: 60vh;
-        }
-    }
+//         .columnCEO,
+//         .columnCIO,
+//         .columnCMO {
+//             margin: 3em 2.8em 0px 3.5em !important;
+//             width: 40vh;
+//             height: 60vh;
+//         }
+//     }
 
-    .executivesSecondRow {
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+//     .executivesSecondRow {
+//         justify-content: center;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
 
-        .columnCTO,
-        .columnMDirector {
-            margin: 3em 2.8em 0px 3.5em !important;
-            width: 40vh;
-            height: 60vh;
-        }
+//         .columnCTO,
+//         .columnMDirector {
+//             margin: 3em 2.8em 0px 3.5em !important;
+//             width: 40vh;
+//             height: 60vh;
+//         }
 
-    }
+//     }
 
-    .imageContainer {
-        margin: 2em 5em 0em 5em !important;
-        width: 40%;
-        height: 40%;
-        max-width: 100%;
-    }
+//     .imageContainer {
+//         margin: 2em 5em 0em 5em !important;
+//         width: 40%;
+//         height: 40%;
+//         max-width: 100%;
+//     }
 
-    .executiveName {
-        font: normal normal normal 2rem/.005rem $general-font;
-        width: 100% !important;
-        height: 45px !important;
-        margin: -.5em auto auto auto !important;
-    }
+//     .executiveName {
+//         font: normal normal normal 2rem/.005rem $general-font;
+//         width: 100% !important;
+//         height: 45px !important;
+//         margin: -.5em auto auto auto !important;
+//     }
 
-    .executivePosition {
-        font: normal normal normal 1rem/.0001rem $segoe-font;
-        margin: -1.5em auto 1em auto;
-    }
+//     .executivePosition {
+//         font: normal normal normal 1rem/.0001rem $segoe-font;
+//         margin: -1.5em auto 1em auto;
+//     }
 
-    .executiveDescription {
-        width: 90%;
-        height: auto;
-        margin: 3.5em 1em !important;
-        font: normal normal normal .8em/1em $segoe-font;
-    }
+//     .executiveDescription {
+//         width: 90%;
+//         height: auto;
+//         margin: 3.5em 1em !important;
+//         font: normal normal normal .8em/1em $segoe-font;
+//     }
 
-    .placeHolderContainer {
-        width: 60%;
-        height: 50px;
-        margin-top: 50em;
-        text-align: center;
+//     .placeHolderContainer {
+//         width: 60%;
+//         height: 50px;
+//         margin-top: 50em;
+//         text-align: center;
 
-        .placeholderDiv {
-            font: normal normal normal .6em/.8em $segoe-font;
-            letter-spacing: .1em;
-        }
-    }
+//         .placeholderDiv {
+//             font: normal normal normal .6em/.8em $segoe-font;
+//             letter-spacing: .1em;
+//         }
+//     }
 
-    .meetTheFoundersFooter{      
-        .footerBackground{
-            width: 100vw;
-            top: 335vh;
-        }
+//     .meetTheFoundersFooter{      
+//         .footerBackground{
+//             width: 100vw;
+//             top: 335vh;
+//         }
         
-        .zyLogo{
-          top: 338vh;
-        }
+//         .zyLogo{
+//           top: 338vh;
+//         }
         
-        .zyText{
-            top: 338vh;
-        }
+//         .zyText{
+//             top: 338vh;
+//         }
         
-        .footerTagline{
-          top: 340vh;
-        }
+//         .footerTagline{
+//           top: 340vh;
+//         }
         
-        .servicesCont{
-            top: 338vh;
-        }
+//         .servicesCont{
+//             top: 338vh;
+//         }
         
-        .skillsCont{
-            top: 338vh;
-        }
+//         .skillsCont{
+//             top: 338vh;
+//         }
         
-        .contactCont{
-            top: 338vh;
-        }
-  }
+//         .contactCont{
+//             top: 338vh;
+//         }
+//   }
 
-}
+// }
 
-//******************Tablet
-@media screen and (min-width: 768px) and (max-width: 886px) {
-    .executivesContainer {
-        width: 100% !important;
-        height: 1400px !important;
-        background: $background-color 0% 0% no-repeat padding-box;
-        align-items: center;
-        justify-content: center;
-        overflow: auto !important;
-    }
+// //******************Tablet
+// @media screen and (min-width: 768px) and (max-width: 886px) {
+//     .executivesContainer {
+//         width: 100% !important;
+//         height: 1400px !important;
+//         background: $background-color 0% 0% no-repeat padding-box;
+//         align-items: center;
+//         justify-content: center;
+//         overflow: auto !important;
+//     }
 
-    .executivesDiv {
-        width: 100% !important;
-        height: 1374px !important;
-        margin: 0px 0px 0px 0px;
+//     .executivesDiv {
+//         width: 100% !important;
+//         height: 1374px !important;
+//         margin: 0px 0px 0px 0px;
 
-        .executiveTitle {
-            width: 100% !important;
-            height: 30px !important;
-            font: normal normal bold 3em/2em $segoe-font;
-            margin: auto auto .5em auto;
-        }
-    }
+//         .executiveTitle {
+//             width: 100% !important;
+//             height: 30px !important;
+//             font: normal normal bold 3em/2em $segoe-font;
+//             margin: auto auto .5em auto;
+//         }
+//     }
 
-    .executivesFirstRow {
-        justify-content: center;
-        display: flex;
+//     .executivesFirstRow {
+//         justify-content: center;
+//         display: flex;
 
-        .columnCEO,
-        .columnCIO,
-        .columnCMO {
-            margin: 3em .5em 0em 1em;
-            width: 30%;
-            height: auto;
-        }
-    }
+//         .columnCEO,
+//         .columnCIO,
+//         .columnCMO {
+//             margin: 3em .5em 0em 1em;
+//             width: 30%;
+//             height: auto;
+//         }
+//     }
 
-    .executivesSecondRow {
-        justify-content: center;
-        display: flex;
+//     .executivesSecondRow {
+//         justify-content: center;
+//         display: flex;
 
-        .columnCTO,
-        .columnMDirector {
-            margin: 3em 2em 0em 2em;
-            width: 30% !important;
-            height: auto;
-        }
+//         .columnCTO,
+//         .columnMDirector {
+//             margin: 3em 2em 0em 2em;
+//             width: 30% !important;
+//             height: auto;
+//         }
 
-    }
+//     }
 
-    .imageContainer {
-        margin: 2em 5em .3em 5em !important;
-        width: 40%;
-        height: 40%;
-    }
+//     .imageContainer {
+//         margin: 2em 5em .3em 5em !important;
+//         width: 40%;
+//         height: 40%;
+//     }
 
-    .executiveName {
-        font: normal normal normal 2rem/.5rem $general-font;
-        width: 100% !important;
-        height: 45px !important;
-        margin: -.5em auto 0rem auto !important;
-    }
+//     .executiveName {
+//         font: normal normal normal 2rem/.5rem $general-font;
+//         width: 100% !important;
+//         height: 45px !important;
+//         margin: -.5em auto 0rem auto !important;
+//     }
 
-    .executivePosition {
-        font: normal normal normal 1rem/1rem $segoe-font;
-        margin: -1.8rem auto 1.5rem auto !important;
-    }
+//     .executivePosition {
+//         font: normal normal normal 1rem/1rem $segoe-font;
+//         margin: -1.8rem auto 1.5rem auto !important;
+//     }
 
-    .executiveDescription {
-        width: 90%;
-        height: 113px;
-        margin: auto;
-        font: normal normal normal .8em/1em $segoe-font;
-        letter-spacing: .1em;
-    }
+//     .executiveDescription {
+//         width: 90%;
+//         height: 113px;
+//         margin: auto;
+//         font: normal normal normal .8em/1em $segoe-font;
+//         letter-spacing: .1em;
+//     }
 
-    .placeHolderContainer {
-        width: 60%;
-        height: 50px;
-        margin-top: -38em;
+//     .placeHolderContainer {
+//         width: 60%;
+//         height: 50px;
+//         margin-top: -38em;
 
-        .placeholderDiv {
-            font: normal normal normal .8em/1em $segoe-font;
-            letter-spacing: .1em;
-        }
-    }
+//         .placeholderDiv {
+//             font: normal normal normal .8em/1em $segoe-font;
+//             letter-spacing: .1em;
+//         }
+//     }
 
-    .meetTheFoundersFooter{      
-        .footerBackground{
-            width: 100vw;
-            top: 115.5vh;
-        }
+//     .meetTheFoundersFooter{      
+//         .footerBackground{
+//             width: 100vw;
+//             top: 115.5vh;
+//         }
         
-        .zyLogo{
-          top: 119vh;
-        }
+//         .zyLogo{
+//           top: 119vh;
+//         }
         
-        .zyText{
-            top: 119vh;
-        }
+//         .zyText{
+//             top: 119vh;
+//         }
         
-        .footerTagline{
-          top: 121vh;
-        }
+//         .footerTagline{
+//           top: 121vh;
+//         }
         
-        .servicesCont{
-            top: 119vh;
-        }
+//         .servicesCont{
+//             top: 119vh;
+//         }
         
-        .skillsCont{
-            top: 119vh;
-        }
+//         .skillsCont{
+//             top: 119vh;
+//         }
         
-        .contactCont{
-            top: 119vh;
-        }
-    } 
+//         .contactCont{
+//             top: 119vh;
+//         }
+//     } 
 
-}
+// }
 
-// ********************Laptop L
-@media screen and (min-width:1366px) and (max-width:1599px) {
-    .executivesContainer {
-        width: 100% !important;
-        height: 2427px !important;
-    }
+// // ********************Laptop L
+// @media screen and (min-width:1366px) and (max-width:1599px) {
+//     .executivesContainer {
+//         width: 100% !important;
+//         height: 2427px !important;
+//     }
 
-    .executivesDiv {
-        width: 100% !important;
-        height: 1374px !important;
-        margin: auto 0em auto 0em;
+//     .executivesDiv {
+//         width: 100% !important;
+//         height: 1374px !important;
+//         margin: auto 0em auto 0em;
 
-        .executiveTitle {
-            width: 100% !important;
-            height: auto !important;
-            font: normal normal bold 4.5rem/6rem $segoe-font;
-            margin: auto;
-        }
-    }
+//         .executiveTitle {
+//             width: 100% !important;
+//             height: auto !important;
+//             font: normal normal bold 4.5rem/6rem $segoe-font;
+//             margin: auto;
+//         }
+//     }
 
-    .executivesFirstRow {
-        .columnCEO,
-        .columnCIO,
-        .columnCMO {
-            margin: 3em 1em 3em 1em !important;
-            width: 23% !important;
-            height: auto;
-        }
-    }
+//     .executivesFirstRow {
+//         .columnCEO,
+//         .columnCIO,
+//         .columnCMO {
+//             margin: 3em 1em 3em 1em !important;
+//             width: 23% !important;
+//             height: auto;
+//         }
+//     }
 
-    .executivesSecondRow {
-        .columnCTO,
-        .columnMDirector {
-            margin: 1em 3em 3em 1em !important;
-            width: 23% !important;
-            height: 450px;
-        }
-    }
+//     .executivesSecondRow {
+//         .columnCTO,
+//         .columnMDirector {
+//             margin: 1em 3em 3em 1em !important;
+//             width: 23% !important;
+//             height: 450px;
+//         }
+//     }
 
-    .imageContainer {
-        margin: 3rem auto;
-        display: flex;
-        justify-content: center;
-        width: 100% !important;
-    }
+//     .imageContainer {
+//         margin: 3rem auto;
+//         display: flex;
+//         justify-content: center;
+//         width: 100% !important;
+//     }
 
-    .executiveName {
-        font: normal normal normal 2.5em/3rem $general-font;
-        width: 100% !important;
-        height: 45px !important;
-        margin: -1.2em auto auto auto !important;
-    }
+//     .executiveName {
+//         font: normal normal normal 2.5em/3rem $general-font;
+//         width: 100% !important;
+//         height: 45px !important;
+//         margin: -1.2em auto auto auto !important;
+//     }
 
-    .executivePosition {
-        font: normal normal normal 18px/20px $segoe-font;
-        margin: 0rem auto -1rem auto !important;
-    }
+//     .executivePosition {
+//         font: normal normal normal 18px/20px $segoe-font;
+//         margin: 0rem auto -1rem auto !important;
+//     }
 
-    .executiveDescription {
-        width: 70%;
-        height: auto;
-        padding: 1rem 1rem;
-        margin: 3.5rem auto 3rem auto !important;
-        font: normal normal normal 1rem/1rem $segoe-font;
-        display: flex;
-        justify-content: center;
-        width: 100% !important;
+//     .executiveDescription {
+//         width: 70%;
+//         height: auto;
+//         padding: 1rem 1rem;
+//         margin: 3.5rem auto 3rem auto !important;
+//         font: normal normal normal 1rem/1rem $segoe-font;
+//         display: flex;
+//         justify-content: center;
+//         width: 100% !important;
 
-    }
+//     }
 
-    .placeHolderContainer {
-        width: 40%;
-        height: 113px;
-        margin: 0rem auto;
+//     .placeHolderContainer {
+//         width: 40%;
+//         height: 113px;
+//         margin: 0rem auto;
 
-        .placeholderDiv {
-            font: normal normal normal 1rem/1rem $segoe-font;
-        }
-    }
-}
+//         .placeholderDiv {
+//             font: normal normal normal 1rem/1rem $segoe-font;
+//         }
+//     }
+// }

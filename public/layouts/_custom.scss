@@ -36,3 +36,30 @@
     top: 60%;
   }
 }
+
+.content {
+  min-height: 100vh;
+  position: relative;
+
+  @include large-screen {
+      min-height: 80vh;
+  }
+
+  @include medium-screen {
+    min-height: 80vh;
+  }
+
+  .imageContainer {
+      
+    > span {
+      position: unset !important;
+    }
+      
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
+  }  
+}

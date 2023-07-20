@@ -8,7 +8,7 @@ const ProductsAndServices = () => {
           PRODUCTS AND <span className={styles.RedWord}>SERVICES</span>
         </div>
         <div className={styles.GlassContainer}>
-          <div className={styles.Col1}>
+          <div className={[styles.Col1, styles.mobGlassContainer].join(" ")}>
             <div className={styles.GlassBox}>
               CLOUD BASED SOLUTIONS
               <img src="/ProductsAndServices/cloudicon.svg" />
@@ -26,7 +26,7 @@ const ProductsAndServices = () => {
               <img src="/ProductsAndServices/ai-icon.svg" />
             </div>
           </div>
-          <div className={styles.Col2}>
+          <div className={[styles.Col2, styles.mobGlassContainer].join(" ")}>
             {" "}
             <div className={styles.GlassBox}>
               AUGMENTED REALITY
@@ -44,7 +44,7 @@ const ProductsAndServices = () => {
               UI/UX <img src="/ProductsAndServices/ui-ux-icon.svg" />
             </div>
           </div>
-          <div className={styles.Col3}>
+          <div className={[styles.Col3, styles.mobGlassContainer].join(" ")}>
             {" "}
             <div className={styles.GlassBox}>
               PROJECT MANAGEMENT

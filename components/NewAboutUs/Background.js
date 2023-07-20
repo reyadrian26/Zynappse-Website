@@ -4,25 +4,18 @@ import Image from "next/image";
 
 function Background() {
   return (
-    <div className={styles.page2_body}>
-      <div className={styles.page2_bg}>
-        <Image
-          src="/static/newAboutUs-page/Group 1891.png"
-          width={1920}
-          height={1080}
-        />
-        <div className={styles.circle1}>
+    <div className={styles.aboutPageMobileCircleBackground}>
+      <div className={styles.circleImageWrapper}>
+        <div className={styles.circle}>
           <Image
             src="/static/newAboutUs-page/Group 1903-half.png"
-            width={657}
-            height={1464}
+            layout="fill"
           />
         </div>
-        <div className={styles.circle2}>
+        <div className={styles.circle}>
           <Image
             src="/static/newAboutUs-page/Group 2067-half.png"
-            width={657}
-            height={1463}
+            layout="fill"
           />
         </div>
       </div>

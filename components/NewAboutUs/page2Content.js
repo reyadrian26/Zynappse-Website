@@ -4,23 +4,20 @@ import Image from "next/image";
 import Background from "./Background";
 function page2Content() {
   return (
-    <div className={styles.page2_body}>
+    <div className={styles.aboutUsContent}>
       <Background />
-      <div className={styles.page2_container}>
-        <div className={styles.page2_header}>
-          <h3>ABOUT US</h3>
+      <div className={styles.aboutUsContentWrapper}>
+        <div className={styles.aboutUsHeaderContainer}>
+          <h3>ABOUT <span>US</span></h3>
           <h1>We Build Beautiful Apps</h1>
         </div>
-        <div className={styles.page2_img}>
-          <div className={styles.phone_img}>
-            <Image
-              src="/static/newAboutUs-page/Mask Group 1.png"
-              width={609}
-              height={794}
-            />
-          </div>
+        <div className={styles.phoneImage}>
+          <Image
+            src="/static/newAboutUs-page/Mask Group 1.png"
+            layout="fill"
+          />
         </div>
-        <div className={styles.page2_mission}>
+        <div className={styles.missionText}>
           <h4>
             “Zynappse’ mission is to design and provide custom applications by
             combining modern technologies, top-of-the-line equipment with

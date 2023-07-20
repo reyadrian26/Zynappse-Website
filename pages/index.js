@@ -21,6 +21,7 @@ const Home = (props) => {
   let mainLayoutProps = {
     ...props,
     hasMetaTags: true,
+    hasHeader: true,
     title: getLocalizedString("META_HOME_PAGE_LABEL"),
   };
 

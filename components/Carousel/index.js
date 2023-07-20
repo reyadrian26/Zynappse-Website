@@ -38,7 +38,7 @@ const Carousel = () => {
   }
 
   return (
-    <div className={styles.Container}>
+    <div className={styles.carouselContainer}>
       <div className={styles.FlexContainer}>
         {" "}
         <div className={styles.Heading}>Some of our Projects</div>

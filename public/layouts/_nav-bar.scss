@@ -1,9 +1,207 @@
-.navBar {
+.headerDesktopWrapper {
+    @include media(mobile, phablet, tablet){
+        display: none;
+    }
+}
+
+.headerMobileWrapper {
+    display: none;
+
+    @include media(mobile, phablet, tablet) {
+        display: block;
+    }
+
+    .headerMobileContainer {
+        width: 100vw;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-inline: 20px;
+        position: fixed;
+        z-index: 5;
+
+        .zyNavLogo{
+            position: relative;
+            height: 50px;
+            width: 50px;
+            margin-left: 20px;
+        }
+
+        @media screen and (min-width: 768px) and (max-width: 1024px),
+        (min-width: 481px) and (max-width: 767px),
+        (min-width: 320px) and (max-width: 480px) {
+        // BURGER PLACEHOLDERS
+        %nav-icon {
+            width: 30px;
+            height: 5px;
+            position: relative;
+            transform: rotate(0deg);
+            transition: all ease-in-out 500ms;
+            cursor: pointer;
+        }
+    
+        %nav-icon-span {
+            display: block;
+            position: absolute;
+            height: 3px;
+            width: 100%;
+            background: $white;
+            border-radius: 9px;
+            opacity: 1;
+            left: 0;
+            transform: rotate(0deg);
+            transition: all ease 250ms;
+        }
+    
+        // burger style and animation
+        .burgerWrapper,
+        .burgerWrapperGeneric {
+            display: none !important;
+        
+            @extend %nav-icon;
+            margin-left: auto;
+            height: 25px;
+            position: absolute;
+            top: 50%;
+            right: 3em;
+            transform: translateY(-50%);
+            z-index: 5;
+    
+            @include media (tablet, phablet, mobile) {
+                display: block !important;
+                margin-top: 0;
+            }
+    
+            &:active,
+            &.visited {
+                outline: none !important;
+                -webkit-tap-highlight-color: transparent;
+            }
+    
+            span {
+                @extend %nav-icon-span;
+        
+                &:nth-child(1) {
+                    top: 0;
+                }
+        
+                &:nth-child(2),
+                &:nth-child(3) {
+                    top: 9px;
+                }
+        
+                &:nth-child(4) {
+                    top: 18px;
+                }
+            }
+    
+            &.open {
+                span {
+                    &:nth-child(1) {
+                        top: 18px;
+                        width: 0%;
+                        left: 50%;
+                        opacity: 0;
+                    }
+            
+                    &:nth-child(2) {
+                        transform: rotate(45deg);
+                    }
+            
+                    &:nth-child(3) {
+                        transform: rotate(-45deg);
+                    }
+            
+                    &:nth-child(4) {
+                        top: 18px;
+                        width: 0%;
+                        left: 50%;
+                        opacity: 0;
+                    }
+                }
+            }
+        }
+    
+            .burgerWrapperGeneric {
+                @extend %nav-icon;
+                margin-left: auto;
+                height: 25px;
+                position: relative;
+                top: unset !important;
+                right: unset !important;
+                transform: translateY(-15%);
+            }
+        }
+    }
+    
+    .headerMobileContent {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        background: $glassbackground;
+        backdrop-filter: $backdrop-filter;  
+        width: 300px;
+        height: 100vh;
+        z-index: 4;
+        transition: right ease 1.2s;
+        padding: 8em 2em;
+
+        &[data-open="true"] {
+            right: 0;
+        }
+
+        .mobNavBar {
+            .mobMenu {
+                background: none !important;
+                box-shadow: none !important;
+                border: none !important;
+
+                &::after {
+                    display: none;
+                }
+
+                .navItem{
+                    font-family:  $general-font !important;
+                    font-size: 20px;
+                    letter-spacing: 0.6px !important;
+                    color: #CCCCCC !important;
+                    text-transform: uppercase !important;
+                    cursor: pointer;
+                    text-shadow: 2px 2px 4px $background-color;
+                }
+            }
+        }
+    }
+}
+
+.navBar, .navBarScrolled {
     position: fixed !important;
-    top: 25px;
     z-index: 9999;
     width: 100%;
-    height: 8.06vh;
+    height: 120px;
+    padding: 2em;
+    display: flex !important;
+    justify-content: space-between !important;
+    margin-inline: 0 !important;
+
+    &::after {
+        display: none !important;
+    }
+
+    &.navBarScrolled {
+        background: $glassbackground;
+        backdrop-filter: $backdrop-filter;
+        -webkit-backdrop-filter: $backdrop-filter;
+        border-radius: 10px;
+        border: $glassborder;
+        position: relative;
+        height: 120px;
+
+        @include media(mobile, phablet, tablet){
+            display: none;
+        }
+    }
 }
 
 .logoBackground{
@@ -20,95 +218,101 @@
     height: 8.06vh;
 }
 
-.zyNavLogo{
-    position: absolute;
-    left: 4.06vw;
-    top: 2.25vh;
-    height: 5.74vh;
-    width: 3.333vw;
+.leftNavBar {
+    display: flex;
+
+    .zyNavLogo{
+        position: relative;
+        height: 65px;
+        width: 42px;
+    }
+    .zyNavText{
+        margin-left: 12px;
+        position: relative;
+        width: 250px;
+        height: 90px;
+    }
 }
-.zyNavText{
-    position: absolute;
-    top: 2.75vh;
-    left: 7.86vw;
-    width: 17.19vw;
-    height: 3.70vh;
+.rightNavBar {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+
+    @include small-screen {
+        width: 700px;
+    }
+
+    .navItem{
+        font-family:  $general-font !important;
+        font-size: 20px;
+        letter-spacing: 0.6px !important;
+        color: #CCCCCC !important;
+        text-transform: uppercase !important;
+        cursor: pointer;
+    }
 }
 
-.navItem{
-    top: 7.04vh;
-    width: 4.48vw;
-    height: 2.78vh;
-    text-align: left;
-    font: normal normal normal 1.04vw/2.78vh $general-font !important;
-    letter-spacing: 0.6px !important;
-    color: #CCCCCC !important;
-    position: absolute !important;
-    text-transform: uppercase !important;
-    cursor: pointer;
-}
+// .homeNav{
+//     left: 51.77vw;
+// }
 
-.homeNav{
-    left: 51.77vw;
-}
+// .aboutNav{
+//     left: 60.57vw;
+// }
 
-.aboutNav{
-    left: 60.57vw;
-}
+// .portfolioNav{
+//     left: 70.63vw;
+// }
 
-.portfolioNav{
-    left: 70.63vw;
-}
+// .skillsNav{
+//     left: 82.66vw;
+// }
 
-.skillsNav{
-    left: 82.66vw;
-}
-
-.contactNav{
-    left: 91.88vw;
-}
+// .contactNav{
+//     left: 91.88vw;
+// }
 
 // ----------------- responsiveness --------------------------------
 
-@include mobile{
-    .logoBackground{
-        height: 3vh;
-        top: 0vh;
-    }
-    .zyNavText{
-        top: 0.3vh;
-    }
+// @include mobile{
+//     .logoBackground{
+//         height: 3vh;
+//         top: 0vh;
+//     }
+//     .zyNavText{
+//         top: 0.3vh;
+//     }
 
-    .navBar{
-        top: -1.5vh !important;
-    }
-    .zyNavLogo{
-        top: 0.7vh;
-    }
-    .navItem{
-        top: 2.75vh;
-    }
-}
+//     .navBar{
+//         top: -1.5vh !important;
+//     }
+//     .zyNavLogo{
+//         top: 0.7vh;
+//     }
+//     .navItem{
+//         top: 2.75vh;
+//     }
+// }
 
-@media screen and (min-width: 481px) and (max-width: 1024px) {
-    .logoBackground{
-        height: 4vh;
-        top: 0vh;
-    }
-    .zyNavText{
-        top: 1vh;
-    }
+// @media screen and (min-width: 481px) and (max-width: 1024px) {
+//     .logoBackground{
+//         height: 4vh;
+//         top: 0vh;
+//     }
+//     .zyNavText{
+//         top: 1vh;
+//     }
 
-    .navBar{
-        top: -1.5vh !important;
-    }
-    .zyNavLogo{
-        top: 0.8vh;
-    }
-    .navItem{
-        top: 3.5vh;
-    }
-}
+//     .navBar{
+//         top: -1.5vh !important;
+//     }
+//     .zyNavLogo{
+//         top: 0.8vh;
+//     }
+//     .navItem{
+//         top: 3.5vh;
+//     }
+// }
 
 
 
