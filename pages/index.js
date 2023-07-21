@@ -10,6 +10,7 @@ import NewContactUs from "/components/NewContactUs";
 import ProductsAndServices from "components/ProductsAndServices";
 import NewMeetTheFoundersComponent from "../components/NewMeetTheFounders";
 import Carousel from "../components/Carousel";
+import { images } from "components/assets";
 
 import NavBar from "components/NavBar"
 
