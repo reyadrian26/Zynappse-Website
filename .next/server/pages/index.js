@@ -1,8 +1,8 @@
 "use strict";
 (() => {
 var exports = {};
-exports.id = 5405;
-exports.ids = [5405];
+exports.id = 405;
+exports.ids = [405];
 exports.modules = {
 
 /***/ 9520:
@@ -316,7 +316,7 @@ const ProjectsComponent = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_1__["default"
         ]
     }
 });
-const SkillsComponent = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_1__["default"])(()=>__webpack_require__.e(/* import() */ 5625).then(__webpack_require__.bind(__webpack_require__, 5625))
+const SkillsComponent = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_1__["default"])(()=>__webpack_require__.e(/* import() */ 625).then(__webpack_require__.bind(__webpack_require__, 5625))
 , {
     loadableGenerated: {
         modules: [
@@ -324,7 +324,7 @@ const SkillsComponent = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_1__["default"])
         ]
     }
 });
-const TechStackComponent = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_1__["default"])(()=>__webpack_require__.e(/* import() */ 3912).then(__webpack_require__.bind(__webpack_require__, 3912))
+const TechStackComponent = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_1__["default"])(()=>__webpack_require__.e(/* import() */ 912).then(__webpack_require__.bind(__webpack_require__, 3912))
 , {
     loadableGenerated: {
         modules: [
@@ -332,7 +332,7 @@ const TechStackComponent = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_1__["default
         ]
     }
 });
-const AccomplishmentsComponent = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_1__["default"])(()=>__webpack_require__.e(/* import() */ 6720).then(__webpack_require__.bind(__webpack_require__, 6720))
+const AccomplishmentsComponent = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_1__["default"])(()=>__webpack_require__.e(/* import() */ 720).then(__webpack_require__.bind(__webpack_require__, 6720))
 , {
     loadableGenerated: {
         modules: [
@@ -1034,7 +1034,7 @@ module.exports = import("framer-motion");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [1397,676,1664,5675,5152,8333,971,912,7757,9046,2847,6589,8126,274], () => (__webpack_exec__(4369)));
+var __webpack_exports__ = __webpack_require__.X(0, [397,676,664,675,152,971,142,757,46,847,589,126,274], () => (__webpack_exec__(4369)));
 module.exports = __webpack_exports__;
 
 })();

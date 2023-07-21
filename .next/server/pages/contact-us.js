@@ -1,8 +1,8 @@
 "use strict";
 (() => {
 var exports = {};
-exports.id = 8455;
-exports.ids = [8455];
+exports.id = 455;
+exports.ids = [455];
 exports.modules = {
 
 /***/ 2181:
@@ -25,7 +25,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const MainLayout = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_1__["default"])(()=>__webpack_require__.e(/* import() */ 9046).then(__webpack_require__.bind(__webpack_require__, 9046))
+const MainLayout = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_1__["default"])(()=>__webpack_require__.e(/* import() */ 46).then(__webpack_require__.bind(__webpack_require__, 9046))
 , {
     loadableGenerated: {
         modules: [
@@ -237,7 +237,7 @@ module.exports = require("semantic-ui-react");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [1397,676,1664,5675,5152,8333,971,912,7757,8126], () => (__webpack_exec__(2181)));
+var __webpack_exports__ = __webpack_require__.X(0, [397,676,664,675,152,971,142,757,126], () => (__webpack_exec__(2181)));
 module.exports = __webpack_exports__;
 
 })();

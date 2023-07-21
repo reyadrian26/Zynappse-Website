@@ -1,8 +1,8 @@
 "use strict";
 (() => {
 var exports = {};
-exports.id = 2888;
-exports.ids = [2888];
+exports.id = 888;
+exports.ids = [888];
 exports.modules = {
 
 /***/ 9912:
@@ -144,7 +144,7 @@ const MyApp = (props)=>{
     /** Dynamic import CSS */ (0,external_react_.useEffect)(()=>{
         let isIgnore = false;
         const loadCss = async ()=>{
-            await __webpack_require__.e(/* import() */ 8819).then(__webpack_require__.t.bind(__webpack_require__, 8819, 23));
+            await __webpack_require__.e(/* import() */ 819).then(__webpack_require__.t.bind(__webpack_require__, 8819, 23));
         };
         if (!isIgnore) {
             loadCss();
@@ -252,7 +252,7 @@ module.exports = require("redux");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [5152], () => (__webpack_exec__(4635)));
+var __webpack_exports__ = __webpack_require__.X(0, [152], () => (__webpack_exec__(4635)));
 module.exports = __webpack_exports__;
 
 })();

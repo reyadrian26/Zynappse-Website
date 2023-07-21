@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 /** LIBRARIES */ 
 
 /** COMPONENTS */ 
-const Content = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_1__["default"])(()=>__webpack_require__.e(/* import() */ 1629).then(__webpack_require__.bind(__webpack_require__, 1629))
+const Content = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_1__["default"])(()=>__webpack_require__.e(/* import() */ 629).then(__webpack_require__.bind(__webpack_require__, 1629))
 , {
     loadableGenerated: {
         modules: [

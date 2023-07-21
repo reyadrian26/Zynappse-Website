@@ -1,8 +1,8 @@
 "use strict";
 (() => {
 var exports = {};
-exports.id = 8552;
-exports.ids = [8552];
+exports.id = 552;
+exports.ids = [552];
 exports.modules = {
 
 /***/ 2011:
@@ -15,12 +15,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5152);
-/* harmony import */ var strings__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(912);
-/* harmony import */ var strings__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(strings__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var components_assets__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(971);
+/* harmony import */ var layout_main__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(9046);
+/* harmony import */ var strings__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(912);
+/* harmony import */ var strings__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(strings__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var components_assets__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(971);
 
 /** LIBRARIES */ 
-/** COMPONENTS */ const AboutUs = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_1__["default"])(()=>Promise.all(/* import() */[__webpack_require__.e(1397), __webpack_require__.e(676), __webpack_require__.e(1664), __webpack_require__.e(5675), __webpack_require__.e(7757), __webpack_require__.e(9022)]).then(__webpack_require__.bind(__webpack_require__, 9022))
+/** COMPONENTS */ const AboutUs = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_1__["default"])(()=>Promise.all(/* import() */[__webpack_require__.e(397), __webpack_require__.e(676), __webpack_require__.e(664), __webpack_require__.e(675), __webpack_require__.e(757), __webpack_require__.e(22)]).then(__webpack_require__.bind(__webpack_require__, 9022))
 , {
     loadableGenerated: {
         modules: [
@@ -28,14 +29,8 @@ __webpack_require__.r(__webpack_exports__);
         ]
     }
 });
-const MainLayout = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_1__["default"])(()=>Promise.all(/* import() */[__webpack_require__.e(8333), __webpack_require__.e(9046)]).then(__webpack_require__.bind(__webpack_require__, 9046))
-, {
-    loadableGenerated: {
-        modules: [
-            "about-us.js -> " + "layout/main"
-        ]
-    }
-});
+// const MainLayout = dynamic(() => import("layout/main"));
+
 
 
 const AboutUsPage = (props)=>{
@@ -43,13 +38,13 @@ const AboutUsPage = (props)=>{
         ...props,
         hasMetaTags: true,
         hasHeader: true,
-        title: (0,strings__WEBPACK_IMPORTED_MODULE_2__.getLocalizedString)("META_ABOUT_PAGE_LABEL"),
-        imageUrl: `${components_assets__WEBPACK_IMPORTED_MODULE_3__/* .images.genericMetaImage */ .W.genericMetaImage}`,
+        title: (0,strings__WEBPACK_IMPORTED_MODULE_3__.getLocalizedString)("META_ABOUT_PAGE_LABEL"),
+        imageUrl: `${components_assets__WEBPACK_IMPORTED_MODULE_4__/* .images.genericMetaImage */ .W.genericMetaImage}`,
         imageAlt: `zynappse`,
         imageWidth: 600,
         imageHeight: 600
     };
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(MainLayout, {
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(layout_main__WEBPACK_IMPORTED_MODULE_2__["default"], {
         ...mainLayoutProps,
         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(AboutUs, {})
     });
@@ -255,7 +250,7 @@ module.exports = import("framer-motion");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [5152,971,912], () => (__webpack_exec__(2011)));
+var __webpack_exports__ = __webpack_require__.X(0, [152,971,142,46], () => (__webpack_exec__(2011)));
 module.exports = __webpack_exports__;
 
 })();

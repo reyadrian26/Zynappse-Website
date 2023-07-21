@@ -17,7 +17,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styles_main_module_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styles_main_module_scss__WEBPACK_IMPORTED_MODULE_2__);
 
 /** LIBRARIES */ 
-/** COMPONENTS */ const Content = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_1__["default"])(()=>__webpack_require__.e(/* import() */ 1918).then(__webpack_require__.bind(__webpack_require__, 1918))
+/** COMPONENTS */ const Content = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_1__["default"])(()=>__webpack_require__.e(/* import() */ 918).then(__webpack_require__.bind(__webpack_require__, 1918))
 , {
     loadableGenerated: {
         modules: [

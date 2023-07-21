@@ -257,22 +257,14 @@
     "id": 9022,
     "files": [
       "static/chunks/675-32e1288dfe415be4.js",
-      "static/css/558833072999ff7c.css",
-      "static/chunks/757-e4894bef0b8199fe.js",
+      "static/chunks/757-9c9947d0e86b9a7e.js",
       "static/chunks/22.e92ff8a6d3a08e48.js"
-    ]
-  },
-  "about-us.js -> layout/main": {
-    "id": 9046,
-    "files": [
-      "static/css/558833072999ff7c.css",
-      "static/chunks/46.d924a91255d0d0cf.js"
     ]
   },
   "contact-us.js -> layout/main": {
     "id": 9046,
     "files": [
-      "static/chunks/576.d71a7e71a3495c5f.js"
+      "static/chunks/46.e2e24d1410dd0123.js"
     ]
   },
   "index.js -> components/generics/Footer": {
