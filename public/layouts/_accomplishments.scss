@@ -62,9 +62,11 @@
 
     .accomplishmentsTextbox {
         width: 1020px;
-        opacity: 1;
-        background: $frosted-bg;
-        border-radius: 0.52vw;
+        height: fit-content;
+        background: $about-mission-background;
+        backdrop-filter: $backdrop-filter;
+        -webkit-backdrop-filter: $backdrop-filter;
+        border-radius: 10px;
         box-shadow: $frosted-shadow;
         display: flex;
         justify-content: center;
