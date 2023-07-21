@@ -13,25 +13,15 @@ import style from "styles/main.module.scss";
 const Home = () => {
   return (
     <div className={style.landingPage}>
-      {/* <div className={style.landingBody}>
+      <div className={style.mainBackgroundTexture}>
         <Image
-          src={images.zynappseLandingBackground}
-          width={1920}
-          height={1080}
+          src={images.genericTexturedBackground}
           layout="fill"
         />
-      </div> */}
+      </div>
       <div className={style.logoContainer}>
-          <img src={images.zynappseLogo} />
-        </div>
-      {/* <div className={style.logoContainer}>
-        <Image
-          className={style.zynappseLogo}
-          src={images.zynappseLogo}
-          width={1920}
-          height={1080}
-        />
-      </div> */}
+        <img src={images.zynappseLogo} />
+      </div>
       <Content />
     </div>
   );

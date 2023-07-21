@@ -19,6 +19,7 @@
     font-size: clamp(45px, 2.34375vw, 2.34375vw) !important;
     line-height: 4.3519vh !important;
     font-family: $general-font;
+    z-index: 2;
 
     @include media (tablet, phablet, mobile, mobile-s) {
       margin-bottom: 93px;
@@ -94,7 +95,7 @@
   }
 
   .redCircleContainer {
-    z-index: 1;
+    z-index: 2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,6 +127,7 @@
     margin-top: 11.5741vh;
     height: 41.5625vw;
     width: 42.59259vh;
+    z-index: 2;
 
     @include media (tablet, phablet, mobile, mobile-s) {
       display: none;
@@ -151,6 +153,7 @@
     position: absolute;
     margin-top: 25.46296vh;
     left: -14%;
+    z-index: 2;
 
     @include media (tablet, phablet, mobile, mobile-s) {
       display: none;
@@ -165,6 +168,7 @@
     position: absolute;
     top: 34.16667vh;
     left: -8%;
+    z-index: 2;
 
     @include media (tablet, phablet, mobile, mobile-s) {
       display: none;
@@ -180,6 +184,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 2;
 
     @include media (tablet, phablet, mobile, mobile-s) {
       display: none;
@@ -204,6 +209,7 @@
     color: $header-color;
     font-family: $general-font;
     font-size: 1.5625vw;
+    z-index: 2;
 
     @include media (tablet, phablet, mobile, mobile-s) {
       display: none;
@@ -217,7 +223,7 @@
     color: $header-color;
     font-family: $general-font;
     font-size: 1.5625vw;
-
+    z-index: 2;
 
     @include media (tablet, phablet, mobile, mobile-s) {
       display: none;
@@ -226,6 +232,7 @@
 
   .redNumber {
     color: $accent-text-color;
+    z-index: 2;
   }
 
   .counterLine {
@@ -235,6 +242,7 @@
     background-color: $header-color;
     width: 0.05208vw;
     height: 40px;
+    z-index: 2;
 
     @include media (tablet, phablet, mobile, mobile-s) {
       display: none;

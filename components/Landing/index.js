@@ -18,12 +18,6 @@ const AccomplishmentsComponent = dynamic(() => import("components/Landing/Accomp
 const Landing = () => {
     return (
         <div>
-            {/* <div className={styles.mainBackgroundTexture}> 
-                <Image
-                    src={images.genericTexturedBackground}
-                    layout="fill"
-                />
-            </div> */}
             <HomeComponent />
             <ServicesComponent />
             <AboutUsComponent />

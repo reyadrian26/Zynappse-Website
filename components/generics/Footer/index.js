@@ -3,6 +3,9 @@ import Image from 'next/image';
 import { getLocalizedString } from "strings";
 import styles from "styles/main.module.scss";
 
+/** COMPONENTS*/
+import {images} from "components/assets"
+
 /** SEMANTIC UI COMPONENTS */
 import {
     Header,
@@ -17,14 +20,14 @@ const Footer = () => {
             <div className={styles.footerBackground}>
                 <div className={styles.zyLogo}>
                     <Image
-                        src="/static/images/zynappse-logo.svg"
+                        src={images.genericLogoIcon}
                         height={62}
                         width={64}
                     />
                 </div>
                 <div className={styles.zyText}>
                     <Image
-                        src="/static/images/zynappse corporation.svg"
+                        src={images.genericLogoText}
                         height={40}
                         width={330}
                     />

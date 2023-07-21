@@ -30,11 +30,11 @@ const TechStack = () => {
                     width={350}
                 />
             </div>
-            <div className={style.bottomImg}>
+            <div className={[style.bottomImg, style.imageContainer].join(" ")}>
                 <Image
+                    className={style.image}
                     src="/static/images/cropped3.png"
-                    height={450}
-                    width={800}
+                    layout="fill"
                 />
             </div>
             <Header as='h1' className={style.header}>

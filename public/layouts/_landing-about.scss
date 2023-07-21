@@ -16,6 +16,7 @@
     transform: translate(-50%, -68%);
     background: url("/static/images/about/background-image.png");
     position: absolute;
+    z-index: 1;
 
     @include phablet {
       transform: translate(-52%, -50%);
@@ -32,6 +33,7 @@
 
   .aboutUsBody {
     width: 100%;
+    z-index: 2;
 
     .aboutUsContainer {
       display: flex;
@@ -48,7 +50,7 @@
         letter-spacing: 0px;
         color: $header-color;
         white-space: nowrap;
-        z-index: 1;
+        z-index: 2;
         opacity: 1;
       }
     }
@@ -58,6 +60,7 @@
       width: 100%;
       justify-content: center;
       margin-bottom: 40px;
+      z-index: 2;
 
       .aboutUsMission {
         width: 1074px;
@@ -70,6 +73,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        z-index: 2;
 
         @include media (small-screen, tablet, phablet, mobile, mobile-s) {
           width: 90vw;
@@ -269,7 +273,7 @@
 
       .dlBtn {
         margin: 0 !important;
-        z-index: 1;
+        z-index: 2;
         width: 297px;
         height: 61px;
         /* UI Properties */

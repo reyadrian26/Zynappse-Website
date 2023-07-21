@@ -4,19 +4,19 @@
   position: relative;
   background-color: $background-color;
   padding-bottom: 3vh;
-  overflow-x: hidden;
 
   @include media (tablet, phablet, mobile, mobile-s) {
     height: 100%;
   }
 
-  // .landingBody {
-  //   width: 100vw;
-
-  //   @include media (tablet, phablet, mobile, mobile-s) {
-  //     height: 100%;
-  //   }
-  // }
+  .mainBackgroundTexture {
+    position: fixed;
+    width: 1920px;
+    height: 1080px;
+    background-color: $background-color;
+    z-index: 1;
+    top: 0;
+  }
 
   .logoContainer {
     position: absolute;
@@ -529,13 +529,4 @@
     }
 
   }
-}
-
-.mainBackgroundTexture {
-  position: fixed;
-  width: 1920px;
-  height: 1080px;
-  background-color: #101010;
-  z-index: 1;
-  top: 0;
 }
