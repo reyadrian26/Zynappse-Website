@@ -1,6 +1,8 @@
 /** LIBRARIES */
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
+import { images } from "components/assets";
+
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx);
@@ -11,6 +13,9 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <link
+              rel="icon"
+              href={images.favIco} />
           <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"

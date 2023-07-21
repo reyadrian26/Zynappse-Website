@@ -7,6 +7,7 @@ const MainLayout = dynamic(() => import("layout/main"));
 
 
 import { getLocalizedString } from "strings";
+import { images } from "components/assets";
 
 
 const AboutUsPage = (props) => {
@@ -16,6 +17,10 @@ const AboutUsPage = (props) => {
         hasMetaTags: true,
         hasHeader: true,
         title: getLocalizedString("META_ABOUT_PAGE_LABEL"),
+        imageUrl: `${ images.genericMetaImage }`,
+        imageAlt: `zynappse`,
+        imageWidth: 600,
+        imageHeight: 600,
       };
     return ( 
         <MainLayout {...mainLayoutProps}>
