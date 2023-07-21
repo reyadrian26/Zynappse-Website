@@ -15,13 +15,13 @@ const ListItem = dynamic(() => import("semantic-ui-react").then(({ List }) => Li
 
 const TechStack = () => {
 
-    const techStackArr = ["Linux", "Visual C++", "JavaScript", "Objective-C", "Node.js", "NET", "AJAX", "Swift", "React", "PHP", "HTML5", "Kotlin", "MongoDB",   "Java", "CSS"];
+    const techStackArr = ["Linux", "Visual C++", "JavaScript", "Objective-C", "Node.js", "NET", "AJAX", "Swift", "React", "PHP", "HTML5", "Kotlin", "MongoDB", "Java", "CSS"];
 
-    const techStackMap = techStackArr.map((tech, index) => 
-        <ListItem className={style.listItem} key={ index }>{ tech }</ListItem> 
+    const techStackMap = techStackArr.map((tech, index) =>
+        <ListItem className={style.listItem} key={index}>{tech}</ListItem>
     )
 
-    return ( 
+    return (
         <div className={style.techStackContPage}>
             <div className={style.rightImg}>
                 <Image
@@ -40,12 +40,13 @@ const TechStack = () => {
             <Header as='h1' className={style.header}>
                 {getLocalizedString('TECHSTACK_TITLE')}
             </Header>
-            <div className={style.techBackground}></div>
-            <List className={style.list}>
-                { techStackMap }
-            </List>
+            <div className={style.techBackground}>
+                <List className={style.list}>
+                    {techStackMap}
+                </List>
+            </div>
         </div>
-    )    
+    )
 }
- 
+
 export default TechStack;

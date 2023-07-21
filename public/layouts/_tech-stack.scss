@@ -2,7 +2,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: $background-color 0% 0% no-repeat padding-box;
     opacity: 1;
     position: relative;
@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    padding-bottom: 500px;
 
     .rightImg {
         position: absolute;
@@ -32,11 +33,12 @@
     }
 
     .header {
-        font: normal normal normal 3.54vw/4.69vw $general-font !important;
-        color: $header-color !important;
         text-transform: uppercase !important;
-        position: absolute;
-        top: 3vh;
+        margin: 11.5741vh 0 8.9815vh 0 !important;
+        color: $header-color;
+        font-size: clamp(45px, 2.34375vw, 2.34375vw) !important;
+        line-height: 4.3519vh !important;
+        font-family: $general-font;
         z-index: 2;
     }
 
@@ -45,16 +47,12 @@
         backdrop-filter: $backdrop-filter;
         -webkit-backdrop-filter: $backdrop-filter;
         box-shadow: $frosted-shadow;
-        width: 55.73vw;
-        height: 40.19vh;
         border-radius: 0.52vw;
-        position: absolute;
-        top: 18vh;
         z-index: 2;
+        padding: 5em 0 5em 7em;
     }
 
     .list {
-        position: absolute;
         display: grid;
         grid-template-columns: repeat(4, auto);
         top: 23.5vh;
@@ -67,8 +65,7 @@
         letter-spacing: 0.078vw !important;
         color: #B7B7B7 !important;
         text-transform: uppercase !important;
-        padding: 0.52vw !important;
-        padding-right: 6.51vw !important;
+        padding-right: 4em !important;
         z-index: 2;
     }
 }
