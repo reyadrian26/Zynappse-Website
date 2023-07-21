@@ -43,7 +43,7 @@ export const SERVICES_MOTION_DIV = (props) => {
 
   return [
     {
-      active: activeLabel === "mobileApps",
+      active: activeLabel === "mobileApps" ? style.active : "",
       handleClick: () => {
         setActiveLabel("mobileApps")
         setGetData("mobileApps01")
