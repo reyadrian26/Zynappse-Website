@@ -85,6 +85,14 @@
     }
   }
 
+  .activeNone {
+    display: none;
+  }
+
+  .active {
+    display: flex;
+  }
+
   .projectHomeCarouselContainer {
     opacity: 0;
     position: absolute;
@@ -95,7 +103,6 @@
     border-radius: 10px;
     top: 31%;
     right: 1em;
-    display: flex;
     flex-direction: column;
     overflow: hidden;
     padding: 2em;

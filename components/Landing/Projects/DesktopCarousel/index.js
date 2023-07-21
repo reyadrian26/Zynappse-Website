@@ -39,7 +39,7 @@ const DesktopCarousel = (props) => {
                 activeLabel === "websiteProjLabel" ||
                 activeLabel === "contentManagementProjLabel"
                 ? style.active
-                : ""
+                : style.activeNone
                 }`}
             variants={getSecondAnimationVariant()}
             animate={
