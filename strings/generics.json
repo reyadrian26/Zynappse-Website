@@ -113,5 +113,20 @@
   "SERVICES_REALITY_LABEL": "REALITY",
   "SERVICES_OUR_SERVICES_LABEL": "OUR SERVICES",
   "SERVICES_ZERO_LABEL": "0",
-  "SERVICES_ZERO_FIVE_LABEL": "05"
+  "SERVICES_ZERO_FIVE_LABEL": "05",
+
+  "ABOUT_ABOUT_US_LABEL": "ABOUT US",
+  "ABOUT_DESCRIPTION_LABEL": "Zynappse’ mission is to design and provide custom develop applications by combining modern technologies, top-of-the-line equipment with industry standard services to meet our customer needs in order to make their operations and service delivery fast, simple, effective, and efficient.",
+  "ABOUT_INTERESTED_LABEL": "Interested? Learn more about us!",
+  "ABOUT_EXPLORE_LABEL": "Explore",
+  "ABOUT_DOWNLOAD_LABEL": "Download Our Portfolio",
+
+  "PROJECTS_PROJECTS_LABEL": "PROJECTS",
+  "PROJECTS_COUNTRY_LABEL": "Country:",
+  "PROJECTS_PLATFORMS_LABEL": "Platforms:",
+  "PROJECTS_MOBILE_APPS_LABEL": "MOBILE APPS",
+  "PROJECTS_WEBSITES_LABEL": "WEBSITES",
+  "PROJECTS_CONTENT_MANAGEMENT_APPS_LABEL": "CONTENT MANAGEMENT APP"
+
+  
 }
