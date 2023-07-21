@@ -50,6 +50,10 @@
         border-radius: 0.52vw;
         z-index: 2;
         padding: 5em 0 5em 7em;
+
+        @include medium-screen {
+            padding: 5em 0 5em 5em;
+        }
     }
 
     .list {
