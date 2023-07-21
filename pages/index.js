@@ -25,20 +25,8 @@ const Home = (props) => {
 
   return (
     <MainLayout {...mainLayoutProps}>
-      <NavBar />
-      
-      {/* Web 1920 – 1 */}
       <Landing />
-
-      {/* Web 1920 – 6 */}
-      {/* <NewContactUs /> */}
-
-      {/* Web 1920 – 5 */}
-      {/* <AboutUsComponent2 />
-      <ProductsAndServices />
-      <Carousel />
-      <NewMeetTheFoundersComponent /> */}
-      <Footer/>
+      {/* <Footer/> */}
     </MainLayout>
   );
 };

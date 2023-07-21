@@ -20,7 +20,7 @@ import {
     animVar,
     initVar,
     fadeOutVar,
-    initVarLeft
+    initVarLeft,
 } from "./FramerMotion";
 
 const Skills = () => {
@@ -99,25 +99,23 @@ const Skills = () => {
             </div>
 
             {/* ----------- titles content ---------- */}
-            <div>
-                <motion.h3
+            <motion.h3
                     initial={initVar}
                     animate={animationAndroid}
                     className={style.androidTitle}>
                     {getLocalizedString("ANDROID_TITLE")}</motion.h3>
 
-                <motion.h3
-                    initial={initVar}
-                    animate={animationWeb}
-                    className={style.webTitle}>
-                    {getLocalizedString("WEB_TITLE")}</motion.h3>
+            <motion.h3
+                initial={initVar}
+                animate={animationWeb}
+                className={style.webTitle}>
+                {getLocalizedString("WEB_TITLE")}</motion.h3>
 
-                <motion.h3
-                    initial={initVar}
-                    animate={animationIos}
-                    className={style.iosTitle}>
-                    {getLocalizedString("IOS_TITLE")}</motion.h3>
-            </div>
+            <motion.h3
+                initial={initVar}
+                animate={animationIos}
+                className={style.iosTitle}>
+                {getLocalizedString("IOS_TITLE")}</motion.h3>
         </div>
     );
 }

@@ -51,34 +51,31 @@ const MainLayout = (props) => {
     ) { onRenderContentComponent = childrenWithProps; } 
     else { onRenderContentComponent = (<LoaderComponent />); }
     
-    let onRenderNavigationComponents = "";
+    let onRenderNavigationComponents = (
+        <div>
+            {                     
+                hasHeader &&
+                (<Header { ...headerProps } />)
+            }
+            <div 
+                className={ [
+                    style.content, 
+                    isLoading 
+                        ? style.displayNone 
+                        : ""
+                ].join(" ") }>         
 
-    if (hasHeader) {
-        onRenderNavigationComponents = (
-            <div>
-                {                     
-                    hasHeader &&
-                    (<Header { ...headerProps } />)
-                }
-                <div 
-                    className={ [
-                        style.content, 
-                        isLoading 
-                            ? style.displayNone 
-                            : ""
-                    ].join(" ") }>         
-
-                    <div className={ style.mainGridContainer }>
-                        {
-                            <div>
-                                { onRenderContentComponent } 
-                            </div>
-                        }
-                    </div>
+                <div className={ style.mainGridContainer }>
+                    {
+                        <div>
+                            { onRenderContentComponent } 
+                        </div>
+                    }
                 </div>
             </div>
-        )
-    }
+        </div>
+    );
+
 
     return (
         <div

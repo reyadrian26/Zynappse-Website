@@ -224,5 +224,10 @@ export const images = {
     productsAndServicesHardwareInfrastructureIcon,
 
     contactUsLaptopImage,
-    contactUsCircleImage
+    contactUsCircleImage,
+
+    skillsCircleImage,
+    skillsAndroidIcon,
+    skillsIphoneIcon,
+    skillsLaptopIcon
  };

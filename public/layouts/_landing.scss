@@ -4,6 +4,7 @@
   position: relative;
   background-color: $background-color;
   padding-bottom: 3vh;
+  overflow-x: hidden;
 
   @include media (tablet, phablet, mobile, mobile-s) {
     height: 100%;

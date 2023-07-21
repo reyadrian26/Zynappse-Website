@@ -1,5 +1,5 @@
 import styles from "styles/main.module.scss";
-import NewProjects from "components/New-Projects-page";
+import NewProjects from "components/Landing/Projects";
 import { CarouselItems } from "./CarouselItems";
 import { carouseldata } from "./ArrayofData";
 import { useState, useEffect } from "react";

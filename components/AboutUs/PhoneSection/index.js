@@ -6,7 +6,7 @@ import {images} from "components/assets"
 
 function index() {
   return (
-    <div className={styles.aboutUsPage}>
+    <div className={styles.aboutUs}>
       <div className={styles.mainBackgroundTexture}> 
         <Image
           src={images.genericTexturedBackground}
