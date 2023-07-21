@@ -19,6 +19,7 @@
         right: 0;
         top: 50%;
         transform: translate(16%, -50%);
+        z-index: 1;
 
         @include media (mobile, mobile-s) {
             transform: translate(20%, -50%);
@@ -30,6 +31,7 @@
         left: 0;
         top: 50%;
         transform: translate(-16%, -50%);
+        z-index: 1;
 
         @include media (mobile, mobile-s) {
             transform: translate(-20%, -50%);
@@ -44,7 +46,7 @@
         font-family: $general-font;
         width: 100%;
         text-align: center;
-        z-index: 1;
+        z-index: 2;
 
         @include media (tablet, phablet, mobile, mobile-s) {
             margin-bottom: 93px;
@@ -52,6 +54,7 @@
     }
 
     .accomplishmentGrid {
+        z-index: 2;
         @include media (tablet, phablet, mobile, mobile-s) {
             width: 90vw !important;
         }
@@ -66,7 +69,7 @@
         display: flex;
         justify-content: center;
         padding: 5em 0 5em 0;
-        z-index: 1;
+        z-index: 2;
 
         @include media (tablet, phablet, mobile, mobile-s) {
             width: 90vw;

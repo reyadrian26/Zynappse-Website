@@ -1,5 +1,4 @@
 .projectsPage {
-  z-index: 1;
   position: relative;
   background-color: $background-color;
   display: flex;
@@ -7,6 +6,7 @@
   align-items: center;
   width: 100vw;
   height: 100%;
+  padding-top: 30px;
   padding-bottom: 27.963vh;
 
   .projectsLabel {
@@ -15,6 +15,7 @@
     font-size: clamp(45px, 2.34375vw, 2.34375vw) !important;
     line-height: 4.3519vh !important;
     font-family: $general-font;
+    z-index: 2;
 
     @include media (tablet, phablet, mobile, mobile-s) {
       margin-bottom: 93px;
@@ -34,6 +35,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 2;
 
     @include media (tablet, phablet, mobile, mobile-s) {
       width: 90vw;
@@ -55,6 +57,7 @@
     margin-bottom: 3.42592593vh;
     line-height: 2.5vh;
     font-family: $general-font;
+    z-index: 2;
   }
 
   .redLine {
@@ -64,6 +67,7 @@
     border-radius: 100px;
     width: 0.3vw;
     opacity: 0;
+    z-index: 2;
 
     @include media (tablet, phablet, mobile, mobile-s) {
       left: 98.5% !important;
@@ -79,6 +83,7 @@
     z-index: -1;
     width: 86.77083333vw;
     height: 154.25925926vh;
+    z-index: 1;
     img {
       width: 100%;
       height: 100%;
@@ -87,10 +92,12 @@
 
   .activeNone {
     display: none;
+    z-index: 2;
   }
 
   .active {
     display: flex;
+    z-index: 2;
   }
 
   .projectHomeCarouselContainer {
@@ -107,6 +114,7 @@
     overflow: hidden;
     padding: 2em;
     gap: 1em;
+    z-index: 2;
 
     .inner {
       white-space: nowrap;
@@ -238,6 +246,7 @@
     -webkit-backdrop-filter: $backdrop-filter;
     border-radius: 10px;
     margin-top: clamp(33px, 2.962963vh, 2.962963vh);
+    z-index: 2;
 
     @include media (tablet, phablet, mobile, mobile-s) {
       display: block;
@@ -252,6 +261,7 @@
       transform: translateY(-50%);
       opacity: 0.8;
       cursor: pointer;
+      z-index: 2;
     }
 
     .arrowPrevMobileButton {
@@ -264,6 +274,7 @@
       transform: translateY(-50%);
       opacity: 0.8;
       cursor: pointer;
+      z-index: 2;
     }
 
     .slideContainer {
@@ -272,6 +283,7 @@
       display: flex;
       flex-direction: column;
       text-align: left;
+      z-index: 2;
 
       .imageContainer {
         margin-top: 2.94vh;
@@ -337,5 +349,6 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    z-index: 2;
   }
 }

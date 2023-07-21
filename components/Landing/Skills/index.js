@@ -61,12 +61,14 @@ const Skills = () => {
 
     return (
         <div className={style.skillsPage} id="skillsContainer">
-            <Image
-                src={images.skillsCircleImage}
-                alt="Circle Overlay"
-                width={991}
-                height={991}
-            />
+            <div className={style.skillsBackgroundCircleImage}>
+                <Image
+                    src={images.skillsCircleImage}
+                    alt="Circle Overlay"
+                    width={991}
+                    height={991}
+                />
+            </div>
             <div className={style.textBackground} />
 
             {/* ----------- heading ------------ */}
@@ -100,10 +102,10 @@ const Skills = () => {
 
             {/* ----------- titles content ---------- */}
             <motion.h3
-                    initial={initVar}
-                    animate={animationAndroid}
-                    className={style.androidTitle}>
-                    {getLocalizedString("ANDROID_TITLE")}</motion.h3>
+                initial={initVar}
+                animate={animationAndroid}
+                className={style.androidTitle}>
+                {getLocalizedString("ANDROID_TITLE")}</motion.h3>
 
             <motion.h3
                 initial={initVar}
