@@ -38,7 +38,7 @@ function Content() {
       <IconsComponent />
 
       <div className={style.dlBtnContainer}>
-        <Button className={style.dlBtn}>{getLocalizedString("ABOUT_DOWNLOAD_LABEL")}</Button>
+        <Button className={[style.dlBtn, style.cursorPointer].join(" ")} onClick={() => { window.open(`/portfolio`, "_blank"); }}>{getLocalizedString("ABOUT_DOWNLOAD_LABEL")}</Button>
       </div>
     </div>
   );

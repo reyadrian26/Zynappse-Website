@@ -8,6 +8,7 @@ const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const Parse = require("parse/node").Parse;
+const path = require("path");
 
 if (process.env.NODE_ENV === "development") {
   const dotenv = require("dotenv"); /** UNCOMMENT WHEN SERVER IS IN LOCALHOST */
@@ -73,6 +74,19 @@ app.prepare()
 
   server.use("/api", Routes);
 
+  /** Get portfolio */
+  server.get("/portfolio", (req, res) => {
+    const filePath = path.join(__dirname, "public", "sample.pdf");
+    const fileName = "sample.pdf";
+
+    /** Set the appropriate headers to open the file in a new browser tab */
+    res.setHeader('Content-disposition', 'inline; filename=' + fileName);
+    res.setHeader('Content-type', 'application/pdf');
+
+    /** Send the PDF file as the response */
+    res.sendFile(filePath);
+  });
+
   server.get('*', (req, res) => {
     return handle(req, res)
   });
@@ -95,6 +109,6 @@ app.prepare()
   httpServer.listen(PORT, (err) => {
     if (err)
       throw err
-    console.log(`<project name> Website is running...`)
+    console.log(`Zynappse Website is running...`)
   });
 });
