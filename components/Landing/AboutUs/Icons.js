@@ -1,5 +1,4 @@
 /** LIBRARIES */
-import dynamic from "next/dynamic";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -8,62 +7,36 @@ import style from "styles/main.module.scss";
 
 /** CONSTANTS */
 import {
-    ABOUT_US_YOUTUBE_AND_LINKEDIN_ICONS,
-    ABOUT_US_FACEBOOK_AND_PHONE_ICONS
+    ABOUT_US_SOCIALS_ICONS
 } from "components/constants";
 
 const Icons = () => {
     return (
         <div className={style.iconContentContainer}>
-            <div className={[style.iconsContainer, style.iconsMarginRight].join(" ")}>
+            <div className={[style.iconsContainer].join(" ")}>
                 {
-                    ABOUT_US_FACEBOOK_AND_PHONE_ICONS.map((item, index) => {
+                    ABOUT_US_SOCIALS_ICONS.map((item, index) => {
 
                         let {
                             wrapperStyle,
                             image,
                             imageStyle,
                             height,
-                            width
+                            width,
+                            link
                         } = item;
 
                         return (
                             <div className={wrapperStyle} key={index}>
-                                <Link href="#">
-                                    <Image
-                                        className={imageStyle}
-                                        src={image}
-                                        height={height}
-                                        width={width}
-                                    />
-                                </Link>
-                            </div>
-                        )
-                    })
-                }
-            </div>
-
-            <div className={[style.iconsContainer, style.iconsMarginLeft].join(" ")}>
-                {
-                    ABOUT_US_YOUTUBE_AND_LINKEDIN_ICONS.map((item, index) => {
-
-                        let {
-                            wrapperStyle,
-                            image,
-                            imageStyle,
-                            height,
-                            width
-                        } = item;
-
-                        return (
-                            <div className={wrapperStyle} key={index}>
-                                <Link href="#">
-                                    <Image
-                                        className={imageStyle}
-                                        src={image}
-                                        height={height}
-                                        width={width}
-                                    />
+                                <Link href={link} passHref>
+                                    <a target="_blank">
+                                        <Image
+                                            className={imageStyle}
+                                            src={image}
+                                            height={height}
+                                            width={width}
+                                        />
+                                    </a>
                                 </Link>
                             </div>
                         )

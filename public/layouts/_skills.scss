@@ -129,7 +129,7 @@
         position: absolute;
         font: normal normal normal 1.30vw/3.06vh $segoe-font ;
         left: 56vw;
-        top: 53.24vh;
+        top: 50%;
         z-index: 2;
 
         @include medium-screen {
@@ -160,9 +160,9 @@
         position: absolute;
         font: normal normal normal 1.30vw/3.06vh $segoe-font ;
         left: 31.25vw;
-        top: 53.24vh;
-        margin-top: 0 !important;
+        top: 50%;
         z-index: 2;
+        transform: translate(0%, -50%);
 
         @include medium-screen {
             font: normal normal normal 17px $segoe-font ;
@@ -218,8 +218,7 @@
         position: absolute;
         font: normal normal normal 1.30vw/3.06vh $segoe-font ;
         left: 59.90vw;
-        top: 53.24vh;
-        margin-top: 0 !important;
+        top: 50%;
         z-index: 2;
 
         @include medium-screen {
