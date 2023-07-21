@@ -1,6 +1,10 @@
 /** LIBRARIES */
 import dynamic from "next/dynamic";
 
+import styles from "styles/main.module.scss";
+import Image from "next/image";
+import {images} from "components/assets"
+
 
 /** COMPONENTS */
 const HomeComponent = dynamic(() => import("components/Landing/Home"));
@@ -14,6 +18,12 @@ const AccomplishmentsComponent = dynamic(() => import("components/Landing/Accomp
 const Landing = () => {
     return (
         <div>
+            {/* <div className={styles.mainBackgroundTexture}> 
+                <Image
+                    src={images.genericTexturedBackground}
+                    layout="fill"
+                />
+            </div> */}
             <HomeComponent />
             <ServicesComponent />
             <AboutUsComponent />

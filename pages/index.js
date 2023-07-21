@@ -21,12 +21,16 @@ const Home = (props) => {
     hasMetaTags: true,
     hasHeader: true,
     title: getLocalizedString("META_HOME_PAGE_LABEL"),
+    imageUrl: `${ images.genericMetaImage }`,
+    imageAlt: `zynappse`,
+    imageWidth: 600,
+    imageHeight: 600,
   };
 
   return (
     <MainLayout {...mainLayoutProps}>
       <Landing />
-      {/* <Footer/> */}
+      <Footer/>
     </MainLayout>
   );
 };

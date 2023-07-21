@@ -1,18 +1,16 @@
 .footerCont{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden !important;
+    width: 100vw;
+    height: 300px;
+    position: absolute;
+    bottom: 0;
 
     .footerBackground{
-        width: 104.58vw;
-        height: 30.74vh;
+        width: 100%;
+        height: 100%;
         background: $frosted-bg;
         backdrop-filter: $backdrop-filter;
         -webkit-backdrop-filter: $backdrop-filter;
         box-shadow: $frosted-shadow;
-        position: absolute;
-        bottom: 0 !important;
     }
     
     .zyLogo{

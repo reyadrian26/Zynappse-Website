@@ -530,3 +530,12 @@
 
   }
 }
+
+.mainBackgroundTexture {
+  position: fixed;
+  width: 1920px;
+  height: 1080px;
+  background-color: #101010;
+  z-index: 1;
+  top: 0;
+}
