@@ -1,0 +1,282 @@
+{
+  "../components/AboutUs/AboutUs.js -> ./Carousel": {
+    "id": 4708,
+    "files": [
+      "static/chunks/204-a8ab942603c0b09c.js",
+      "static/chunks/589-c2ef282bc56dbeda.js",
+      "static/css/ae4ed9c503fd1e33.css",
+      "static/chunks/569.14a56c9d4651b546.js"
+    ]
+  },
+  "../components/AboutUs/AboutUs.js -> ./ClockSection": {
+    "id": 1239,
+    "files": [
+      "static/chunks/239.c0d27df2e4fab97f.js"
+    ]
+  },
+  "../components/AboutUs/AboutUs.js -> ./MeetTheFounders": {
+    "id": 2994,
+    "files": [
+      "static/chunks/994.ec17f94bad182bc0.js"
+    ]
+  },
+  "../components/AboutUs/AboutUs.js -> ./PhoneSection": {
+    "id": 6281,
+    "files": [
+      "static/chunks/281.ee5914f0ec18e70e.js"
+    ]
+  },
+  "../components/AboutUs/AboutUs.js -> ./ProductsAndServices": {
+    "id": 2333,
+    "files": [
+      "static/chunks/333.f944d1f4f7dbd601.js"
+    ]
+  },
+  "../components/AboutUs/AboutUs.js -> components/generics/Footer": {
+    "id": 274,
+    "files": [
+      "static/chunks/274.31a328f381dd88b4.js"
+    ]
+  },
+  "../components/Landing/AboutUs/Content.js -> ./Icons": {
+    "id": 3270,
+    "files": [
+      "static/chunks/270.49e2daf71cdcc0f5.js"
+    ]
+  },
+  "../components/Landing/AboutUs/Content.js -> semantic-ui-react": {
+    "id": 8293,
+    "files": [
+      "static/chunks/293.7eb846e29db28c80.js"
+    ]
+  },
+  "../components/Landing/AboutUs/index.js -> ./Content": {
+    "id": 1918,
+    "files": [
+      "static/chunks/918.6064e3d10403b722.js"
+    ]
+  },
+  "../components/Landing/Accomplishments/Appfutura.js -> semantic-ui-react": {
+    "id": 8293,
+    "files": [
+      "static/chunks/293.7eb846e29db28c80.js"
+    ]
+  },
+  "../components/Landing/Accomplishments/index.js -> ./Appfutura": {
+    "id": 772,
+    "files": [
+      "static/chunks/772.7a9996eb49f5d5ae.js"
+    ]
+  },
+  "../components/Landing/Accomplishments/index.js -> ./Background": {
+    "id": 5084,
+    "files": [
+      "static/chunks/84.c3147bebc0b9f633.js"
+    ]
+  },
+  "../components/Landing/Accomplishments/index.js -> semantic-ui-react": {
+    "id": 8293,
+    "files": [
+      "static/chunks/293.7eb846e29db28c80.js"
+    ]
+  },
+  "../components/Landing/Home/Content/index.js -> ./Boxes": {
+    "id": 1006,
+    "files": [
+      "static/chunks/6.9bc91bbf30c9532a.js"
+    ]
+  },
+  "../components/Landing/Home/index.js -> ./Content": {
+    "id": 1629,
+    "files": [
+      "static/chunks/629.5ee42e13dfa38ec2.js"
+    ]
+  },
+  "../components/Landing/Projects/index.js -> ./DesktopCarousel": {
+    "id": 4346,
+    "files": [
+      "static/chunks/346.621fcda8f2615926.js"
+    ]
+  },
+  "../components/Landing/Projects/index.js -> semantic-ui-react": {
+    "id": 8293,
+    "files": [
+      "static/chunks/293.7eb846e29db28c80.js"
+    ]
+  },
+  "../components/Landing/Services/index.js -> semantic-ui-react": {
+    "id": 8293,
+    "files": [
+      "static/chunks/293.7eb846e29db28c80.js"
+    ]
+  },
+  "../components/Landing/Skills/index.js -> ./Android": {
+    "id": 702,
+    "files": [
+      "static/chunks/702.0c5f591ed0368778.js"
+    ]
+  },
+  "../components/Landing/Skills/index.js -> ./Ios": {
+    "id": 6618,
+    "files": [
+      "static/chunks/618.c66d43c479068850.js"
+    ]
+  },
+  "../components/Landing/Skills/index.js -> ./Web": {
+    "id": 2350,
+    "files": [
+      "static/chunks/350.e4607263641ef227.js"
+    ]
+  },
+  "../components/Landing/TechStack/index.js -> semantic-ui-react": {
+    "id": 8293,
+    "files": [
+      "static/chunks/293.7eb846e29db28c80.js"
+    ]
+  },
+  "../components/Landing/index.js -> components/Landing/AboutUs": {
+    "id": 921,
+    "files": [
+      "static/chunks/921.125441b811bc3898.js"
+    ]
+  },
+  "../components/Landing/index.js -> components/Landing/Accomplishments": {
+    "id": 6720,
+    "files": [
+      "static/chunks/720.e1a84fff6d46c00c.js"
+    ]
+  },
+  "../components/Landing/index.js -> components/Landing/Home": {
+    "id": 733,
+    "files": [
+      "static/chunks/733.33966488861858e0.js"
+    ]
+  },
+  "../components/Landing/index.js -> components/Landing/Projects": {
+    "id": 6589,
+    "files": []
+  },
+  "../components/Landing/index.js -> components/Landing/Services": {
+    "id": 6456,
+    "files": [
+      "static/chunks/456.7f566defffa675f2.js"
+    ]
+  },
+  "../components/Landing/index.js -> components/Landing/Skills": {
+    "id": 7750,
+    "files": [
+      "static/chunks/750.726cc6156fb2fe72.js"
+    ]
+  },
+  "../components/Landing/index.js -> components/Landing/TechStack": {
+    "id": 3912,
+    "files": [
+      "static/chunks/912.56e112079622dab6.js"
+    ]
+  },
+  "../components/NavBar/index.js -> semantic-ui-react": {
+    "id": 8293,
+    "files": [
+      "static/chunks/293.7eb846e29db28c80.js",
+      "static/chunks/697.3aa99c4bfe0ae0aa.js"
+    ]
+  },
+  "../components/generics/Header/Desktop.js -> semantic-ui-react": {
+    "id": 8293,
+    "files": [
+      "static/chunks/293.7eb846e29db28c80.js",
+      "static/chunks/697.3aa99c4bfe0ae0aa.js"
+    ]
+  },
+  "../components/generics/Header/Header.js -> ./Desktop": {
+    "id": 1061,
+    "files": [
+      "static/chunks/675-32e1288dfe415be4.js",
+      "static/chunks/61.9cf2199f90e859f3.js"
+    ]
+  },
+  "../components/generics/Header/Header.js -> ./Mobile": {
+    "id": 8686,
+    "files": [
+      "static/chunks/675-32e1288dfe415be4.js",
+      "static/chunks/686.d4834364cbf33b24.js"
+    ]
+  },
+  "../components/generics/Header/Header.js -> ./Mobile/Content": {
+    "id": 1494,
+    "files": [
+      "static/chunks/494.07e7aaab935a3f05.js"
+    ]
+  },
+  "../components/generics/Header/Mobile/Content.js -> semantic-ui-react": {
+    "id": 8293,
+    "files": [
+      "static/chunks/293.7eb846e29db28c80.js",
+      "static/chunks/697.3aa99c4bfe0ae0aa.js"
+    ]
+  },
+  "../components/generics/SemanticUIReact.js -> semantic-ui-react": {
+    "id": 8293,
+    "files": [
+      "static/chunks/293.7eb846e29db28c80.js",
+      "static/chunks/697.3aa99c4bfe0ae0aa.js"
+    ]
+  },
+  "../layout/main.js -> components/generics/Head.js": {
+    "id": 8147,
+    "files": [
+      "static/chunks/147.b5984c6f401c3b40.js"
+    ]
+  },
+  "../layout/main.js -> components/generics/Header": {
+    "id": 9953,
+    "files": [
+      "static/chunks/953.47cde67774fd5b7f.js"
+    ]
+  },
+  "../layout/main.js -> components/generics/Loader.js": {
+    "id": 9848,
+    "files": [
+      "static/chunks/848.8e9af81add066bcd.js"
+    ]
+  },
+  "_app.js -> react-toastify": {
+    "id": 2132,
+    "files": [
+      "static/chunks/132.deae1c8d5d4fa1ee.js"
+    ]
+  },
+  "_app.js -> react-toastify/dist/ReactToastify.css": {
+    "id": 4213,
+    "files": [
+      "static/css/50e68d39464327f5.css",
+      "static/chunks/213.4c3008ff268a9360.js"
+    ]
+  },
+  "about-us.js -> components/AboutUs": {
+    "id": 9022,
+    "files": [
+      "static/chunks/675-32e1288dfe415be4.js",
+      "static/css/558833072999ff7c.css",
+      "static/chunks/757-e4894bef0b8199fe.js",
+      "static/chunks/22.e92ff8a6d3a08e48.js"
+    ]
+  },
+  "about-us.js -> layout/main": {
+    "id": 9046,
+    "files": [
+      "static/css/558833072999ff7c.css",
+      "static/chunks/46.d924a91255d0d0cf.js"
+    ]
+  },
+  "contact-us.js -> layout/main": {
+    "id": 9046,
+    "files": [
+      "static/chunks/576.d71a7e71a3495c5f.js"
+    ]
+  },
+  "index.js -> components/generics/Footer": {
+    "id": 274,
+    "files": []
+  }
+}

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[350],{2350:function(e,s,t){t.r(s);var a=t(5893),l=t(5675),n=t(971),c=t(4845),u=t.n(c);s.default=function(){return(0,a.jsx)("div",{className:u().webImg,children:(0,a.jsx)(l.default,{src:n.W.skillsLaptopIcon,alt:"laptop",width:1957,height:1138})})}}}]);
