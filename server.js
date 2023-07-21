@@ -76,8 +76,8 @@ app.prepare()
 
   /** Get portfolio */
   server.get("/portfolio", (req, res) => {
-    const filePath = path.join(__dirname, "public", "sample.pdf");
-    const fileName = "sample.pdf";
+    const filePath = path.join(__dirname, "public", "zynappse-portfolio.pdf");
+    const fileName = "zynappse-portfolio.pdf";
 
     /** Set the appropriate headers to open the file in a new browser tab */
     res.setHeader('Content-disposition', 'inline; filename=' + fileName);
