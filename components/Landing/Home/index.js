@@ -10,7 +10,7 @@ const Content = dynamic(() => import("./Content"));
 /** STYLES */
 import style from "styles/main.module.scss";
 
-const Landing = () => {
+const Home = () => {
   return (
     <div className={style.landingPage}>
       {/* <div className={style.landingBody}>
@@ -37,4 +37,4 @@ const Landing = () => {
   );
 };
 
-export default Landing;
+export default Home;
