@@ -3,7 +3,8 @@ import dynamic from "next/dynamic";
 
 /** COMPONENTS */
 const AboutUs = dynamic(() => import("components/AboutUs"));
-const MainLayout = dynamic(() => import("layout/main"));
+// const MainLayout = dynamic(() => import("layout/main"));
+import MainLayout from "layout/main";
 
 
 import { getLocalizedString } from "strings";
