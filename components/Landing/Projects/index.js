@@ -115,138 +115,136 @@ const NewProjects = () => {
   }
 
   return (
-    <>
-      <div className={style.projectsPage} id="portfolioContainer">
-        <div className={style.circleContainer}>
-          <img src={images.projectsProjectCircle} />
-        </div>
-        <Header as={'h1'} className={style.projectsLabel}>{getLocalizedString("PROJECTS_PROJECTS_LABEL")}</Header>
-        <motion.div
-          className={`${style.divCon} ${activeLabel === "mobileAppsProjLabel" ||
+    <div className={style.projectsPage} id="portfolioContainer">
+      <div className={style.circleContainer}>
+        <img src={images.projectsProjectCircle} />
+      </div>
+      <Header as={'h1'} className={style.projectsLabel}>{getLocalizedString("PROJECTS_PROJECTS_LABEL")}</Header>
+      <motion.div
+        className={`${style.divCon} ${activeLabel === "mobileAppsProjLabel" ||
+          activeLabel === "websiteProjLabel" ||
+          activeLabel === "contentManagementProjLabel"
+          ? style.active
+          : ""
+          }`}
+        variants={getFirstAnimationVariant()}
+        animate={
+          activeLabel === "mobileAppsProjLabel" ||
             activeLabel === "websiteProjLabel" ||
             activeLabel === "contentManagementProjLabel"
-            ? style.active
-            : ""
-            }`}
-          variants={getFirstAnimationVariant()}
-          animate={
-            activeLabel === "mobileAppsProjLabel" ||
-              activeLabel === "websiteProjLabel" ||
-              activeLabel === "contentManagementProjLabel"
-              ? "active"
-              : "inactive"
-          }
-          transition={{ type: "tween", duration: 1 }}
-        >
-          {
-            PROJECTS_MOTION_DIV(motionDivProps).map((item, index) => {
+            ? "active"
+            : "inactive"
+        }
+        transition={{ type: "tween", duration: 1 }}
+      >
+        {
+          PROJECTS_MOTION_DIV(motionDivProps).map((item, index) => {
 
-              let {
-                handleCarouselClick,
-                active,
-                initial,
-                animate,
-                label,
-                image,
-                subActive,
-                subAnimate,
-                activeProjectCarousel
-              } = item;
+            let {
+              handleCarouselClick,
+              active,
+              initial,
+              animate,
+              label,
+              image,
+              subActive,
+              subAnimate,
+              activeProjectCarousel
+            } = item;
 
-              return (
-                <>
+            return (
+              <>
+                <motion.div
+                  key={index}
+                  onClick={handleCarouselClick}
+                  className={[style.glassContainer, active].join(" ")}
+                  variants={moveLabelContainer}
+                  initial={initial}
+                  animate={animate}
+                  transition={{ type: "spring", stiffness: 100 }}
+                >
+                  <div className={style.projectLabel}>{label}</div>
+                  <div>
+                    <img src={image} />
+                  </div>
                   <motion.div
-                    key={index}
-                    onClick={handleCarouselClick}
-                    className={[style.glassContainer, active].join(" ")}
-                    variants={moveLabelContainer}
-                    initial={initial}
-                    animate={animate}
-                    transition={{ type: "spring", stiffness: 100 }}
+                    className={[style.redLine, subActive].join(" ")}
+                    variants={opacity}
+                    animate={subAnimate}
+                    transition={{ type: "tween", duration: 0.5 }}
+                  ></motion.div>
+                </motion.div>
+                {activeProjectCarousel && (
+                  <Carousel
+                    showThumbs={false}
+                    infiniteLoop="true"
+                    showStatus={false}
+                    className={style.projectCarousel}
+                    renderArrowPrev={(clickHandler, hasPrev) => {
+                      return (
+                        <div
+                          className={`${hasPrev ? "absolute" : "hidden"} ${style.arrowPrevMobileButton
+                            }`}
+                          onClick={clickHandler}
+                        >
+                          <img src={images.projectsArrowPreview} />
+                        </div>
+                      );
+                    }}
+                    renderArrowNext={(clickHandler, hasNext) => {
+                      return (
+                        <div
+                          className={`${hasNext ? "absolute" : "hidden"} ${style.arrowNextMobileButton
+                            }`}
+                          onClick={clickHandler}
+                        >
+                          <img src={images.projectsArrowNext} />
+                        </div>
+                      );
+                    }}
                   >
-                    <div className={style.projectLabel}>{label}</div>
-                    <div>
-                      <img src={image} />
-                    </div>
-                    <motion.div
-                      className={[style.redLine, subActive].join(" ")}
-                      variants={opacity}
-                      animate={subAnimate}
-                      transition={{ type: "tween", duration: 0.5 }}
-                    ></motion.div>
-                  </motion.div>
-                  {activeProjectCarousel && (
-                    <Carousel
-                      showThumbs={false}
-                      infiniteLoop="true"
-                      showStatus={false}
-                      className={style.projectCarousel}
-                      renderArrowPrev={(clickHandler, hasPrev) => {
-                        return (
-                          <div
-                            className={`${hasPrev ? "absolute" : "hidden"} ${style.arrowPrevMobileButton
-                              }`}
-                            onClick={clickHandler}
-                          >
-                            <img src={images.projectsArrowPreview} />
-                          </div>
-                        );
-                      }}
-                      renderArrowNext={(clickHandler, hasNext) => {
-                        return (
-                          <div
-                            className={`${hasNext ? "absolute" : "hidden"} ${style.arrowNextMobileButton
-                              }`}
-                            onClick={clickHandler}
-                          >
-                            <img src={images.projectsArrowNext} />
-                          </div>
-                        );
-                      }}
-                    >
-                      {
-                        activeArray.map((item, index) => {
+                    {
+                      activeArray.map((item, index) => {
 
-                          let {
-                            projectImage,
-                            projectName,
-                            projectDetails,
-                            country,
-                            platforms
-                          } = item;
+                        let {
+                          projectImage,
+                          projectName,
+                          projectDetails,
+                          country,
+                          platforms
+                        } = item;
 
-                          return (
-                            <div className={style.slideContainer} key={index}>
-                              <div className={style.imageContainer}>
-                                <img src={projectImage} />
-                              </div>
-                              <div className={style.mobileProjectLabel}>
-                                {projectName}
-                              </div>
-                              <div className={style.mobileProjectDetail}>
-                                {projectDetails}
-                              </div>
-                              <div className={style.mobileProjectCountry}>
-                                {getLocalizedString("PROJECTS_COUNTRY_LABEL")}<span>{country}</span>
-                              </div>
-                              <div className={style.mobileProjectType}>
-                                {getLocalizedString("PROJECTS_PLATFORMS_LABEL")}<span>{platforms}</span>
-                              </div>
+                        return (
+                          <div className={style.slideContainer} key={index}>
+                            <div className={style.imageContainer}>
+                              <img src={projectImage} />
                             </div>
-                          )
-                        })
-                      }
-                    </Carousel>
-                  )}
-                </>
-              )
-            })
-          }
-        </motion.div>
-        <DesktopCarousel {...desktopCorouselProps} />
+                            <div className={style.mobileProjectLabel}>
+                              {projectName}
+                            </div>
+                            <div className={style.mobileProjectDetail}>
+                              {projectDetails}
+                            </div>
+                            <div className={style.mobileProjectCountry}>
+                              {getLocalizedString("PROJECTS_COUNTRY_LABEL")}<span>{country}</span>
+                            </div>
+                            <div className={style.mobileProjectType}>
+                              {getLocalizedString("PROJECTS_PLATFORMS_LABEL")}<span>{platforms}</span>
+                            </div>
+                          </div>
+                        )
+                      })
+                    }
+                  </Carousel>
+                )}
+              </>
+            )
+          })
+        }
+      </motion.div>
+      <DesktopCarousel {...desktopCorouselProps} />
 
-      </div>
-    </>
+    </div>
   );
 };
 

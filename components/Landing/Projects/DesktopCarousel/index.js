@@ -35,7 +35,7 @@ const DesktopCarousel = (props) => {
 
     return (
         <motion.div
-            className={`${style.carouselContainer} ${activeLabel === "mobileAppsProjLabel" ||
+            className={`${style.projectHomeCarouselContainer} ${activeLabel === "mobileAppsProjLabel" ||
                 activeLabel === "websiteProjLabel" ||
                 activeLabel === "contentManagementProjLabel"
                 ? style.active
