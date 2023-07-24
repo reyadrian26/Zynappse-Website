@@ -20,7 +20,10 @@ const Home = () => {
         />
       </div>
       <div className={style.logoContainer}>
-        <img src={images.zynappseLogo} />
+        <Image
+          src={images.zynappseLogo}
+          layout="fill"
+        />
       </div>
       <Content />
     </div>

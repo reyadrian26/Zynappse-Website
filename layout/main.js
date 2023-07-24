@@ -11,6 +11,7 @@ import { bindActionCreators } from "redux";
 const Head = dynamic(() => import("components/generics/Head.js"));
 const LoaderComponent = dynamic(() => import("components/generics/Loader.js"));
 const Header = dynamic(() => import("components/generics/Header"));
+const Footer = dynamic(() => import("components/generics/Footer"));
 
 /** STYLES */
 import style from "styles/main.module.scss";
@@ -23,7 +24,8 @@ const MainLayout = (props) => {
         authenticated, 
         hasMetaTags,
         mainContainerStyle,
-        hasHeader
+        hasHeader,
+        hasFooter
     } = props;
 
     const [isLoading, setIsLoading] = useState(true)
@@ -39,6 +41,7 @@ const MainLayout = (props) => {
     );
 
     let headerProps = { ...props }
+    let footerProps = { ...props }
 
     let onRenderContentComponent = "";
 
@@ -73,6 +76,10 @@ const MainLayout = (props) => {
                     }
                 </div>
             </div>
+            {                     
+                hasFooter &&
+                (<Footer { ...footerProps } />)
+            }
         </div>
     );
 

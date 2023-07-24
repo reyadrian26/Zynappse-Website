@@ -14,6 +14,7 @@ const ContactUs = (props) => {
         ...props,
         hasMetaTags: true,
         hasHeader: true,
+        hasFooter: false,
         title: getLocalizedString("CONTACT_US_META_TITLE_LABEL"),
         imageUrl: `${ images.genericMetaImage }`,
         imageAlt: `zynappse`,

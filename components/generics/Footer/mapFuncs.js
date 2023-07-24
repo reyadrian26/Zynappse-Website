@@ -32,5 +32,5 @@ const contactArr = [
     },
 ];
 export const contactMap = contactArr.map((con, index) =>
-    <ListItem className={[style.footerItem, style.contactItem, con.style].join(" ")} key={index} icon={con.icon} content={con.contact} />
+    <ListItem className={[style.footerItem, con.style].join(" ")} key={index} icon={con.icon} content={con.contact} />
 )

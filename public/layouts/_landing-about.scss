@@ -6,7 +6,6 @@
   position: relative;
   display: flex;
   align-items: center;
-  overflow-x: hidden;
 
   .bgContainer {
     height: 500px;
@@ -41,8 +40,7 @@
       justify-content: center;
 
       h1 {
-        margin: 11.5741vh 0 0.9815vh 0;
-        height: 67px;
+        margin: 11.5741vh 0 8.9815vh 0 !important;
         /* UI Properties */
         font-size: clamp(45px, 2.34375vw, 2.34375vw) !important;
         line-height: 4.3519vh !important;
@@ -52,6 +50,15 @@
         white-space: nowrap;
         z-index: 2;
         opacity: 1;
+
+        @include media (tablet, phablet) {
+          margin-bottom: 93px !important;
+        }
+
+        @include media (mobile, mobile-s) {
+          font-size: 40px !important;
+          margin-bottom: 93px !important;
+        }
       }
     }
 
