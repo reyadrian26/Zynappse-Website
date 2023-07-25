@@ -1,258 +1,269 @@
-.footerCont{
+.footerCont {
     width: 100vw;
     height: 300px;
     position: absolute;
     bottom: 0;
     z-index: 1200;
 
-    .footerBackground{
+    .imageContainer {
+
+        >span {
+            position: unset !important;
+        }
+
+        .image {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: unset !important;
+        }
+    }
+
+    @include media (tablet, phablet, mobile, mobile-s) {
+        height: fit-content;
+    }
+
+    .footerBackground {
         width: 100%;
         height: 100%;
         background: $frosted-bg;
         backdrop-filter: $backdrop-filter;
         -webkit-backdrop-filter: $backdrop-filter;
         box-shadow: $frosted-shadow;
-    }
+        display: flex;
+        justify-content: space-between;
+        padding: 4em 5em 0 5em;
+
+        @include media (medium-screen, small-screen) {
+            padding: 3em 2em 0 2em;
+        }
+
+        @include media (tablet, phablet) {
+            padding: 2em 3em 3em 3em;
+            flex-direction: column;
+            gap: .8em;
+        }
+
+        @include media (mobile, mobile-s) {
+            padding: 2em 1em 2em 1em;
+            flex-direction: column;
+            gap: .8em;
+        }
+
+        .leftFooter {
+            display: flex;
+            gap: 1.5em;
+
+            @include media (tablet, phablet, mobile, mobile-s) {
+                justify-content: center;
+            }
+
+            .zyLogo {
+                width: 60px;
+                margin: .5em 0 0 0;
+
+                @include media (small-screen) {
+                    width: 50px;
+                }
+
+                @include media (mobile, mobile-s) {
+                    width: 30px;
+                }
+            }
+
+            .zyText {
+                width: 320px;
+
+                @include media (small-screen) {
+                    width: 280px;
+                }
+
+                @include media (mobile, mobile-s) {
+                    width: 200px;
+                }
+            }
+
+            .footerTagline {
+                text-align: left;
+                font: normal normal normal 16px $segoe-font;
+                color: $white;
+                opacity: 1;
+                margin-top: .3em;
+
+                @include media (small-screen) {
+                    font: normal normal normal 14px $segoe-font;
+                    margin-top: 0px;
+                }
+
+                @include media (mobile, mobile-s) {
+                    margin-top: 1px;
+                    font: normal normal normal 12px $segoe-font;
+                }
+            }
+        }
+
+        .rightFooter {
+            display: flex;
+            gap: 8em;
+
+            @include media (medium-screen) {
+                gap: 3em;
+            }
+
+            @include media (small-screen) {
+                gap: 2em;
+            }
+
+            @include media (tablet) {
+                gap: unset;
+                justify-content: space-between;
+            }
+
+            @include media (phablet, mobile, mobile-s) {
+                gap: unset;
+                flex-direction: column;
+            }
+
+            .mobileTwoBlocks {
+                display: flex;
+                gap: 8em;
+
+                @include media (medium-screen) {
+                    gap: 3em;
+                }
     
-    .zyLogo{
-        position: absolute;
-        left: 100px;
-        top: 50px;
-        height: 5.74vh;
-        width: 3.333vw;
-    }
+                @include media (small-screen) {
+                    gap: 2em;
+                }
     
-    .zyText{
-        position: absolute;
-        left: 190px;
-        top: 42px;
-        width: 17.188vw;
-        height: 3.70vh;
-    }
-    
-    .footerTagline{
-        top: 90px;
-        left: 190px;
-        text-align: left;
-        font: normal normal normal 0.83vw/1.94vh $segoe-font;
-        color: $white;
-        opacity: 1;
-        position: absolute;
-    }
-    
-    .servicesCont{
-        position: absolute;
-        width: 14.58vw;
-        height: 14.07vh;
-        left: 42.5vw !important;
-        top: 50px;
-    }
-    
-    .footerHeader{
-        position: absolute;
-        text-align: left !important;
-        font: normal normal bold 1.04vw/2.5vh $segoe-font !important;
-        color: $header-color !important;
-    }
-    
-    .footerList{
-        padding-top: 1.85vh !important;
-    }
-    
-    .footerItem{
-        text-align: left !important;
-        font: normal normal normal 0.83vw/1.94vh $segoe-font;
-        color: $header-color !important;
-        white-space: nowrap !important;
-        padding-top: 1.39vh !important;
-    }
-    
-    .skillsCont{
-        position: absolute;
-        left: 61.93vw !important;
-        width: 3.7vw !important;
-        height: 14.07vh;
-        top: 50px;
-    }
-    
-    .contactCont{
-        position: absolute;
-        left: 73.49vw !important;
-        width: 20.21vw !important;
-        height: 20vh;
-        top: 50px;
-    }
-    
-    .contactItem{
-        white-space: normal !important;
-        padding-bottom: 0.93vh !important;
-    }
-    
-    .phoneIcon{
-        > i {
-            transform: rotate(90deg);
-            padding: 0.28571429em 0 0 0 !important;
+                @include media (tablet) {
+                    gap: unset;
+                    width: 45vw;
+                    justify-content: space-between;
+                }
+
+                @include media (phablet, mobile, mobile-s) {
+                    gap: unset;
+                    justify-content: space-between;
+                }
+            }
+
+            .footerHeader {
+                text-align: left;
+                font: normal normal bold 20px $segoe-font;
+                color: $header-color;
+                margin: .5em 0 0 0;
+
+                @include media (small-screen) {
+                    font: normal normal bold 16px $segoe-font;
+                    margin: .5em 0 0 0;
+                }
+
+                @include media (phablet) {
+                    font: normal normal bold 16px $segoe-font;
+                }
+
+                @include media (mobile, mobile-s) {
+                    font: normal normal bold 15px $segoe-font;
+                }
+            }
+
+            .footerList {
+                padding-top: 0px;
+            }
+
+            .footerItem {
+                padding-top: .7em;
+                white-space: normal;
+            }
+
+            .servicesCont {
+                text-align: left;
+                font: normal normal normal 16px $segoe-font;
+                color: $header-color;
+
+                @include media (medium-screen) {
+                    width: 200px;
+                }
+
+                @include media (small-screen) {
+                    font: normal normal normal 12px $segoe-font;
+                    width: 150px;
+                }
+
+                @include media (tablet) {
+                    width: 200px;
+                }
+
+                @include media (phablet) {
+                    font: normal normal normal 14px $segoe-font;
+                    width: 200px;
+                }
+
+                @include media (mobile, mobile-s) {
+                    font: normal normal bold 13px $segoe-font;
+                    width: 200px;
+                }
+            }
+
+            .skillsCont {
+                text-align: left;
+                font: normal normal normal 16px $segoe-font;
+                color: $header-color;
+
+                @include media (small-screen) {
+                    font: normal normal normal 12px $segoe-font;
+                }
+
+                @include media (phablet) {
+                    font: normal normal normal 14px $segoe-font;
+                }
+
+                @include media (mobile, mobile-s) {
+                    font: normal normal bold 13px $segoe-font;
+                }
+            }
+
+            .contactCont {
+                text-align: left;
+                font: normal normal normal 16px $segoe-font;
+                color: $header-color;
+                width: 300px;
+                margin-right: 3em;
+
+                @include media (medium-screen) {
+                    margin-right: 0px;
+                }
+
+                @include media (small-screen) {
+                    font: normal normal normal 12px $segoe-font;
+                    width: 250px;
+                    margin-right: 0px;
+                }
+
+                @include media (tablet) {
+                    margin-right: 0px;
+                    width: 250px;
+                }
+
+                @include media (phablet) {
+                    margin: 1em 0 0 0;
+                    font: normal normal normal 14px $segoe-font;
+                }
+
+                @include media (mobile, mobile-s) {
+                    margin: 1em 0 0 0;
+                    font: normal normal bold 13px $segoe-font;
+                }
+
+                .phoneIcon {
+                    >i {
+                        transform: rotate(90deg);
+                        padding: 0.28571429em 0 0 0 !important;
+                    }
+                }
+            }
+
         }
     }
 }
-
-
-// // -------------------------- responsiveness -------------------
-// @media screen and (min-width: 481px) and (max-width: 1024px){
-//     .footerBackground{
-//         width: 104.58vw;
-//         height: 20.74vh;
-//     }
-
-//     .zyLogo{
-//         left: 3.6vw;
-//         top: 82vh;
-//         height: 9.74vh;
-//         width: 7.333vw;
-//     }
-
-//     .zyText{
-//         left: 12.33vw;
-//         top: 82vh;
-//         width: 21.188vw;
-//         height: 7.70vh;
-//     }
-
-//     .footerTagline{
-//         top: 85vh;
-//         left: 12.33vw;
-//         font: normal normal normal 1vw/1.26 $segoe-font;
-//     }
-
-//     .servicesCont{
-//         width: 14.58vw;
-//         height: 14.07vh;
-//         left: 37vw !important;
-//         top: 82vh;
-//     }
-
-//     .footerHeader{
-//         font: normal normal bold 2.04vw/3.5vh $segoe-font !important;
-//     }
-
-//     .footerList{
-//         padding-top: 1.85vh !important;
-//     }
-
-//     .footerItem{
-//         font: normal normal normal 1.25vw/2.31vh $segoe-font;
-//         padding-top: 1.39vh !important;
-//     }
-
-//     .skillsCont{
-//         left: 65vw !important;
-//         top: 82vh;
-//     }
-
-//     .contactCont{
-//         left: 77vw !important;
-//         top: 82vh;
-//     }
-
-//     .contactItem{
-//         padding-left: 3.5vw !important;
-//         padding-bottom: 0.93vh !important;
-//     }
-
-//     // .locationIcon{
-//     //     top: 4.5vh !important;
-
-//     // }
-
-//     // .phoneIcon{
-//     //     top: 11vh !important;
-
-//     // }
-
-//     // .mailIcon{
-//     //     top: 14.25vh !important;
-
-//     // }
-// }
-
-// @include mobile{
-//     .footerBackground{
-//         width: 104.58vw;
-//         height: 15.74vh;
-//     }
-
-//     .zyLogo{
-//         left: 3.6vw;
-//         top: 87vh;
-//         height: 10.74vh;
-//         width: 8.33vw;
-//     }
-
-//     .zyText{
-//         left: 13vw;
-//         top: 87vh;
-//         width: 21.188vw;
-//         height: 7.70vh;
-//     }
-
-//     .footerTagline{
-//         left: 13vw;
-//         top: 89.5vh;
-//         font: normal normal normal 1.5vw/1.76 $segoe-font;
-//     }
-
-//     .servicesCont{
-//         width: 14.58vw;
-//         height: 14.07vh;
-//         left: 37vw !important;
-//         top: 87vh;
-//     }
-
-//     .footerHeader{
-//         font: normal normal bold 2.04vw/3.5vh $segoe-font !important;
-//     }
-
-//     .footerList{
-//         padding-top: 1vh !important;
-//     }
-
-//     .footerItem{
-//         font: normal normal normal 1.5vw/2.56vh $segoe-font;
-//         padding-top: 1vh !important;
-//         white-space: normal !important;
-
-//     }
-
-//     .skillsCont{
-//         left: 58vw !important;
-//         top: 87vh;
-//     }
-
-//     .contactCont{
-//         left: 75vw !important;
-//         top: 87vh;
-//     }
-
-//     .contactItem{
-//         padding-left: 3.5vw !important;
-//         padding-bottom: 0 !important;
-//     }
-
-//     // .locationIcon{
-//     //     top: 3vh !important;
-//     //     height: 0.833vw;
-//     //     width: 1.75vw;
-//     // }
-
-//     // .phoneIcon{
-//     //     top: 7.25vh !important;
-//     //     height: 0.781vw;
-//     //     width: 1.75vw;
-//     // }
-
-//     // .mailIcon{
-//     //     top: 9.25vh !important;
-//     //     width: 1.75vw;
-
-//     // }
-// }

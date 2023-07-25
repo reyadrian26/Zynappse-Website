@@ -17,6 +17,7 @@ const AboutUsPage = (props) => {
         ...props,
         hasMetaTags: true,
         hasHeader: true,
+        hasFooter: true,
         title: getLocalizedString("META_ABOUT_PAGE_LABEL"),
         imageUrl: `${ images.genericMetaImage }`,
         imageAlt: `zynappse`,

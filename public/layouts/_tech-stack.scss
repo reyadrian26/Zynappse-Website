@@ -10,17 +10,17 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
     padding-bottom: 500px;
 
     .rightImg {
         position: absolute;
-        right: -2.6vw;
-        top: 4.63vh;
-        height: 60.37vh;
-        width: 17.14vw;
+        right: 0;
+        top: 50%;
+        height: 652px;
+        width: 332px;
         z-index: 1;
-    } 
+        transform: translate(0%, -90%);
+    }
 
     .bottomImg {
         position: absolute;
@@ -40,6 +40,15 @@
         line-height: 4.3519vh !important;
         font-family: $general-font;
         z-index: 2;
+
+        @include media (tablet, phablet) {
+            margin-bottom: 93px !important;
+        }
+
+        @include media (mobile, mobile-s) {
+            font-size: 40px !important;
+            margin-bottom: 93px !important;
+        }
     }
 
     .techBackground {
@@ -51,25 +60,64 @@
         z-index: 2;
         padding: 5em 0 5em 7em;
 
-        @include medium-screen {
+        @include media (medium-screen, small-screen) {
             padding: 5em 0 5em 5em;
+        }
+
+        @include media (tablet) {
+            padding: 4em 0 4em 4em;
+        }
+
+        @include media (phablet) {
+            font-size: 20px !important;
+            padding: 3em 0 3em 3em;
+        }
+
+        @include media (mobile, mobile-s) {
+            font-size: 20px !important;
+            padding: 1.5em 0 1.5em 1.5em;
         }
     }
 
     .list {
         display: grid;
         grid-template-columns: repeat(4, auto);
-        top: 23.5vh;
-        left: 24vw;
         z-index: 2;
+        
+        @include media (tablet) {
+            grid-template-columns: repeat(3, auto);
+        }
+
+        @include media (phablet, mobile, mobile-s) {
+            grid-template-columns: repeat(2, auto);
+        }
     }
 
     .listItem {
         font: normal normal normal 1.56vw/2.34vw $general-font !important;
-        letter-spacing: 0.078vw !important;
+        letter-spacing: 1px !important;
         color: #B7B7B7 !important;
         text-transform: uppercase !important;
-        padding-right: 4em !important;
+        padding: .21428571em 4em .21428571em 0 !important;
         z-index: 2;
+
+        @include media (small-screen) {
+            font-size: 20px !important;
+        }
+
+        @include media (tablet) {
+            font-size: 20px !important;
+            padding: .5em 4em .5em 0 !important;
+        }
+
+        @include media (phablet) {
+            font-size: 20px !important;
+            padding: .8em 4em .8em 0 !important;
+        }
+
+        @include media (mobile, mobile-s) {
+            font-size: 20px !important;
+            padding: .8em 1.8em .8em 0 !important;
+        }
     }
 }

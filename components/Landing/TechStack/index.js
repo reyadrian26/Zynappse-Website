@@ -4,6 +4,7 @@ import Image from "next/image";
 
 /** COMPONENTS */
 import { getLocalizedString } from "strings";
+import { images } from "components/assets";
 
 /* STYLES */
 import style from "styles/main.module.scss";
@@ -25,16 +26,17 @@ const TechStack = () => {
         <div className={style.techStackContPage}>
             <div className={style.rightImg}>
                 <Image
-                    src="/static/images/cropped1.png"
-                    height={652}
-                    width={350}
+                    src={images.techStackRightImage}
+                    layout="fill"
+                    alt="right background"
                 />
             </div>
             <div className={[style.bottomImg, style.imageContainer].join(" ")}>
                 <Image
                     className={style.image}
-                    src="/static/images/cropped3.png"
+                    src={images.techStackBottomImage}
                     layout="fill"
+                    alt="bottom background"
                 />
             </div>
             <Header as='h1' className={style.header}>

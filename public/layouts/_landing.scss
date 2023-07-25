@@ -1,3 +1,7 @@
+.overflowHidden {
+  overflow: hidden !important;
+}
+
 .landingPage {
   width: 100vw;
   height: 100%;
@@ -28,7 +32,7 @@
     height: 1080px;
 
     @include media (tablet, phablet, mobile, mobile-s) {
-      height: unset;
+      width: 1920px;
       left: unset;
       top: unset;
       transform: unset;

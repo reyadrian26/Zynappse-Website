@@ -8,7 +8,6 @@
     gap: 7em;
     padding-bottom: 22vh;
     position: relative;
-    overflow-x: hidden;
 
     @include media (mobile, mobile-s) {
         gap: 5em;
@@ -39,7 +38,7 @@
     }
 
     .accomplishmentsHeader {
-        margin: 11.5741vh 0 0 0 !important;
+        margin: 11.5741vh 0 8.9815vh 0 !important;
         color: $header-color;
         font-size: clamp(45px, 2.34375vw, 2.34375vw) !important;
         line-height: 4.3519vh !important;
@@ -48,8 +47,13 @@
         text-align: center;
         z-index: 2;
 
-        @include media (tablet, phablet, mobile, mobile-s) {
-            margin-bottom: 93px;
+        @include media (tablet, phablet) {
+            margin-bottom: 93px !important;
+        }
+
+        @include media (mobile, mobile-s) {
+            font-size: 40px !important;
+            margin-bottom: 20px !important;
         }
     }
 

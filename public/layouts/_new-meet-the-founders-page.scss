@@ -3,7 +3,11 @@
     opacity: 1;
     position: relative;
     margin-top: 5em;
-    padding-bottom: 30em;
+    padding-bottom: 500px;
+
+    @include media(phablet, mobile, mobile-s) {
+        padding-bottom: 800px;
+    }
 }
 
 .executivesDiv {

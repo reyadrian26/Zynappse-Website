@@ -29,6 +29,10 @@
         height: 25.37vh;
         padding: 5em;
         z-index: 2;
+
+        @include media (mobile, mobile-s) {
+            width: 100vw;
+        }
     }
 
     .skillsHeading {
@@ -41,10 +45,20 @@
         bottom: 50%;
         transform: translate(-15%, 50%);
         white-space: nowrap;
-        font: normal normal bold 3.85vw/9.17vh $segoe-font ;
+        font: normal normal bold 3.85vw/9.17vh $segoe-font;
 
-        @include medium-screen {
-            font: normal normal bold 44px $segoe-font ;
+        @include media (medium-screen, small-screen, tablet) {
+            font: normal normal bold 44px $segoe-font;
+        }
+
+        @include media (phablet) {
+            font: normal normal bold 32px $segoe-font;
+        }
+
+        @include media (mobile, mobile-s) {
+            transform: unset;
+            letter-spacing: 3px;
+            font: normal normal bold 25px $segoe-font;
         }
     }
 
@@ -83,9 +97,19 @@
         transform: translate(-50%, 50%);
         z-index: 2;
 
-        @include medium-screen {
+        @include media (medium-screen, small-screen, tablet) {
             width: 791px;
             height: 791px;
+        }
+
+        @include media (phablet, mobile, mobile-s) {
+            width: 650px;
+            height: 650px;
+        }
+
+        @include media (mobile, mobile-s) {
+            width: 550px;
+            height: 550px;
         }
     }
 
@@ -102,6 +126,16 @@
         top: 25vh;
         left: 48.5vw;
         z-index: 2;
+
+        @include media (tablet, phablet) {
+            top: 29vh;
+            font: normal normal normal 40px $segoe-font ;
+        }
+
+        @include media (mobile, mobile-s) {
+            top: 33vh;
+            font: normal normal normal 40px $segoe-font ;
+        }
     }
 
     .androidDate {
@@ -118,6 +152,18 @@
         top: 31vh;
         left: 47.5vw;
         z-index: 2;
+        
+        @include media (tablet, phablet) {
+            top: 33vh;
+            left: 46.5vw;
+            font: normal normal normal 10px $segoe-font ;
+        }
+
+        @include media (mobile, mobile-s) {
+            top: 37vh;
+            left: 44.5vw;
+            font: normal normal normal 10px $segoe-font ;
+        }
     }
 
     .androidTitle {
@@ -128,12 +174,12 @@
         opacity: 1;
         position: absolute;
         font: normal normal normal 1.30vw/3.06vh $segoe-font ;
-        left: 56vw;
+        left: 55vw;
         top: 50%;
         z-index: 2;
 
-        @include medium-screen {
-            font: normal normal normal 17px $segoe-font ;
+        @include media (medium-screen, small-screen, tablet, phablet, mobile, mobile-s) {
+            font: normal normal normal 19px $segoe-font ;
         }
     }
 
@@ -145,9 +191,19 @@
         transform: translate(-50%, 50%);
         z-index: 2;
 
-        @include medium-screen {
+        @include media (medium-screen, small-screen, tablet) {
             width: 1500px;
             height: 1700px;
+        }
+
+        @include media (phablet) {
+            width: 1100px;
+            height: 1500px;
+        }
+
+        @include media (mobile, mobile-s) {
+            width: 880px;
+            height: 1380px;
         }
     }
 
@@ -164,8 +220,8 @@
         z-index: 2;
         transform: translate(0%, -50%);
 
-        @include medium-screen {
-            font: normal normal normal 17px $segoe-font ;
+        @include media (medium-screen, small-screen, tablet, phablet, mobile, mobile-s) {
+            font: normal normal normal 19px $segoe-font ;
         }
     }
 
@@ -176,6 +232,16 @@
         bottom: -150%;
         transform: translate(-50%, 50%);
         z-index: 2;
+
+        @include media (phablet) {
+            width: 380px;
+            height: 500px;
+        }
+
+        @include media ( mobile, mobile-s) {
+            width: 320px;
+            height: 440px;
+        }
     }
 
     .iosTime {
@@ -187,10 +253,20 @@
         opacity: 1;
         transform: rotate(-21deg);
         position: absolute;
-        font: normal normal normal 3.13vw/7.41vh $segoe-font ;
+        font: normal normal normal 3.13vw/7.41vh $segoe-font;
         left: 43.49vw;
         top: 224.85vh;
         z-index: 2;
+
+        @include media (tablet) {
+            font: normal normal normal 40px $segoe-font;
+        }
+
+        @include media (phablet, mobile, mobile-s) {
+            font: normal normal normal 40px $segoe-font;
+            top: 227.85vh;
+            left: 31.49vw;
+        }
     }
 
     .iosDate {
@@ -207,6 +283,16 @@
         left: 44.17vw;
         top: 230.87vh;
         z-index: 2;
+
+        @include media (tablet) {
+            font: normal normal normal 10px $segoe-font ;
+        }
+
+        @include media (phablet, mobile, mobile-s) {
+            font: normal normal normal 10px $segoe-font;
+            top: 233.87vh;
+            left: 33.49vw;
+        }
     }
 
     .iosTitle {
@@ -216,13 +302,18 @@
         text-transform: uppercase;
         opacity: 1;
         position: absolute;
-        font: normal normal normal 1.30vw/3.06vh $segoe-font ;
+        font: normal normal normal 1.30vw/3.06vh $segoe-font;
         left: 59.90vw;
         top: 50%;
         z-index: 2;
 
-        @include medium-screen {
-            font: normal normal normal 17px $segoe-font ;
+        @include media (medium-screen, small-screen, tablet) {
+            font: normal normal normal 19px $segoe-font;
+        }
+
+        @include media (phablet, mobile, mobile-s) {
+            font: normal normal normal 19px $segoe-font;
+            left: 67.10vw;
         }
     }
 
@@ -235,9 +326,20 @@
         bottom: -172%;
         z-index: 2;
 
-        @include medium-screen {
+        @include media (medium-screen, small-screen, tablet) {
             transform: translate(34%, 50%) rotate(-22deg);
             bottom: -174%;
+        }
+
+        @include media (phablet, mobile, mobile-s) {
+            transform: translate(12%, 50%) rotate(-22deg);
+            bottom: -169.5%;
+        }
+        
+        @include media (mobile, mobile-s) {
+            width: 85px;
+            transform: translate(8%, 50%) rotate(-22deg);
+            bottom: -165.5%;
         }
     }
 }

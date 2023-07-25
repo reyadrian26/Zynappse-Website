@@ -5,15 +5,8 @@ import dynamic from "next/dynamic";
 import UnderConstructionWrapper from "components/generics/UnderConstructionWrapper";
 import MainLayout from "layout/main";
 import Landing from "components/Landing"
-const Footer = dynamic(() => import("components/generics/Footer"));
-import NewContactUs from "/components/NewContactUs";
-import ProductsAndServices from "components/ProductsAndServices";
-import NewMeetTheFoundersComponent from "../components/NewMeetTheFounders";
-import Carousel from "../components/Carousel";
+
 import { images } from "components/assets";
-
-import NavBar from "components/NavBar"
-
 import { getLocalizedString } from "strings";
 
 const Home = (props) => {
@@ -21,6 +14,7 @@ const Home = (props) => {
     ...props,
     hasMetaTags: true,
     hasHeader: true,
+    hasFooter: true,
     title: getLocalizedString("META_HOME_PAGE_LABEL"),
     imageUrl: `${ images.genericMetaImage }`,
     imageAlt: `zynappse`,
@@ -31,7 +25,6 @@ const Home = (props) => {
   return (
     <MainLayout {...mainLayoutProps}>
       <Landing />
-      <Footer/>
     </MainLayout>
   );
 };

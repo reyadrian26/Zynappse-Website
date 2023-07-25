@@ -1,10 +1,10 @@
 import React from 'react'
 import Image from 'next/image';
 import { getLocalizedString } from "strings";
-import styles from "styles/main.module.scss";
+import style from "styles/main.module.scss";
 
 /** COMPONENTS*/
-import {images} from "components/assets"
+import { images } from "components/assets"
 
 /** SEMANTIC UI COMPONENTS */
 import {
@@ -16,61 +16,51 @@ import { servicesMap, skillsMap, contactMap } from './mapFuncs';
 
 const Footer = () => {
     return (
-        <div className={styles.footerCont}>
-            <div className={styles.footerBackground}>
-                <div className={styles.zyLogo}>
-                    <Image
-                        src={images.genericLogoIcon}
-                        height={62}
-                        width={64}
-                    />
+        <div className={style.footerCont}>
+            <div className={style.footerBackground}>
+                <div className={style.leftFooter}>
+                    <div className={[style.zyLogo, style.imageContainer].join(" ")}>
+                        <Image
+                            src={images.genericLogoIcon}
+                            className={style.image}
+                            alt='logo'
+                            layout="fill"
+                        />
+                    </div>
+                    <div>
+                        <div className={[style.zyText, style.imageContainer].join(" ")}>
+                            <Image
+                                src={images.genericLogoText}
+                                className={style.image}
+                                alt='logo name'
+                                layout="fill"
+                            />
+                        </div>
+                        <p className={style.footerTagline}>{getLocalizedString("FOOTER_TAGLINE")}</p>
+                    </div>
                 </div>
-                <div className={styles.zyText}>
-                    <Image
-                        src={images.genericLogoText}
-                        height={40}
-                        width={330}
-                    />
-                </div>
-                <p className={styles.footerTagline}>{getLocalizedString("FOOTER_TAGLINE")}</p>
-                <div className={styles.servicesCont}>
-                    <Header as='h6' className={styles.footerHeader}>{getLocalizedString("FOOTER_SERVICES")}</Header>
-                    <List className={styles.footerList}>
-                        {servicesMap}
-                    </List>
-                </div>
-                <div className={styles.skillsCont}>
-                    <Header as='h6' className={styles.footerHeader}>{getLocalizedString("FOOTER_SKILLS")}</Header>
-                    <List className={styles.footerList}>
-                        {skillsMap}
-                    </List>
-                </div>
-                <div className={styles.contactCont}>
-                    <Header as='h6' className={styles.footerHeader}>{getLocalizedString("FOOTER_CONTACT")}</Header>
-                    <List className={styles.footerList}>
-                        {contactMap}
-                    </List>
-                    {/* <div className={styles.locationIcon}>
-                    <Image
-                        src="/static/images/location.svg"
-                        height={16}
-                        width={11}
-                    />
-                </div>
-                <div className={styles.phoneIcon}>
-                    <Image
-                        src="/static/images/phone.svg"
-                        height={15}
-                        width={13}
-                    />
-                </div>
-                <div className={styles.mailIcon}>
-                    <Image
-                        src="/static/images/mail.svg"
-                        height={13}
-                        width={17}
-                    />
-                </div> */}
+
+                <div className={style.rightFooter}>
+                    <div className={style.mobileTwoBlocks}>
+                        <div className={style.servicesCont}>
+                            <Header as='h6' className={style.footerHeader}>{getLocalizedString("FOOTER_SERVICES")}</Header>
+                            <List className={style.footerList}>
+                                {servicesMap}
+                            </List>
+                        </div>
+                        <div className={style.skillsCont}>
+                            <Header as='h6' className={style.footerHeader}>{getLocalizedString("FOOTER_SKILLS")}</Header>
+                            <List className={style.footerList}>
+                                {skillsMap}
+                            </List>
+                        </div>
+                    </div>
+                    <div className={style.contactCont}>
+                        <Header as='h6' className={style.footerHeader}>{getLocalizedString("FOOTER_CONTACT")}</Header>
+                        <List className={style.footerList}>
+                            {contactMap}
+                        </List>
+                    </div>
                 </div>
             </div>
         </div>

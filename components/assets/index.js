@@ -112,6 +112,9 @@ const skillsAndroidIcon = "/static/images/skills/android.png"
 const skillsIphoneIcon = "/static/images/skills/iphone.png"
 const skillsLaptopIcon = "/static/images/skills/laptop.png"
 
+const techStackRightImage = "/static/images/tech-stack/cropped1.png"
+const techStackBottomImage = "/static/images/tech-stack/cropped3.png"
+
 export const images = {
     zynappseLandingBackground,
     zynappseLogo,
@@ -229,5 +232,7 @@ export const images = {
     skillsCircleImage,
     skillsAndroidIcon,
     skillsIphoneIcon,
-    skillsLaptopIcon
+    skillsLaptopIcon,
+    techStackRightImage,
+    techStackBottomImage
  };

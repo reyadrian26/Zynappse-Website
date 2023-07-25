@@ -17,8 +17,13 @@
     font-family: $general-font;
     z-index: 2;
 
-    @include media (tablet, phablet, mobile, mobile-s) {
-      margin-bottom: 93px;
+    @include media (tablet, phablet) {
+      margin-bottom: 93px !important;
+    }
+
+    @include media (mobile, mobile-s) {
+      font-size: 40px !important;
+      margin-bottom: 65px !important;
     }
   }
 
@@ -252,27 +257,35 @@
       display: block;
     }
 
+    > div {
+      overflow: unset !important;
+
+      > ul li {
+        @include media (mobile, mobile-s) {
+          width: 5px !important;
+          height: 5px !important;
+        }
+      }
+    }
+
     .arrowNextMobileButton {
-      width: 5vw;
-      height: 5vw;
+      width: 50px;
+      height: 50px;
       position: absolute;
       top: 50%;
       right: 10px;
-      transform: translateY(-50%);
-      opacity: 0.8;
+      transform: translate(70%, 0%);
       cursor: pointer;
       z-index: 2;
     }
 
     .arrowPrevMobileButton {
-      z-index: 9999;
-      width: 5vw;
-      height: 5vw;
+      width: 50px;
+      height: 50px;
       position: absolute;
       top: 50%;
       left: 10px;
-      transform: translateY(-50%);
-      opacity: 0.8;
+      transform: translate(-70%, 0%);
       cursor: pointer;
       z-index: 2;
     }
