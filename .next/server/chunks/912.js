@@ -16,12 +16,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5675);
 /* harmony import */ var strings__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(912);
 /* harmony import */ var strings__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(strings__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var styles_main_module_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(8333);
-/* harmony import */ var styles_main_module_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(styles_main_module_scss__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var components_assets__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(971);
+/* harmony import */ var styles_main_module_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(8333);
+/* harmony import */ var styles_main_module_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(styles_main_module_scss__WEBPACK_IMPORTED_MODULE_5__);
 
 /** LIBRARIES */ 
 
 /** COMPONENTS */ 
+
 /* STYLES */ 
 /** SEMANTIC UI COMPONENTS */ const Header = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_1__["default"])(()=>Promise.resolve(/* import() */).then(__webpack_require__.t.bind(__webpack_require__, 2730, 23)).then(({ Header: Header1  })=>Header1
     )
@@ -69,41 +71,42 @@ const TechStack = ()=>{
         "CSS"
     ];
     const techStackMap = techStackArr.map((tech, index)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(ListItem, {
-            className: (styles_main_module_scss__WEBPACK_IMPORTED_MODULE_4___default().listItem),
+            className: (styles_main_module_scss__WEBPACK_IMPORTED_MODULE_5___default().listItem),
             children: tech
         }, index)
     );
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-        className: (styles_main_module_scss__WEBPACK_IMPORTED_MODULE_4___default().techStackContPage),
+        className: (styles_main_module_scss__WEBPACK_IMPORTED_MODULE_5___default().techStackContPage),
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: (styles_main_module_scss__WEBPACK_IMPORTED_MODULE_4___default().rightImg),
+                className: (styles_main_module_scss__WEBPACK_IMPORTED_MODULE_5___default().rightImg),
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_image__WEBPACK_IMPORTED_MODULE_2__["default"], {
-                    src: "/static/images/cropped1.png",
-                    height: 652,
-                    width: 350
+                    src: components_assets__WEBPACK_IMPORTED_MODULE_4__/* .images.techStackRightImage */ .W.techStackRightImage,
+                    layout: "fill",
+                    alt: "right background"
                 })
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                 className: [
-                    (styles_main_module_scss__WEBPACK_IMPORTED_MODULE_4___default().bottomImg),
-                    (styles_main_module_scss__WEBPACK_IMPORTED_MODULE_4___default().imageContainer)
+                    (styles_main_module_scss__WEBPACK_IMPORTED_MODULE_5___default().bottomImg),
+                    (styles_main_module_scss__WEBPACK_IMPORTED_MODULE_5___default().imageContainer)
                 ].join(" "),
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_image__WEBPACK_IMPORTED_MODULE_2__["default"], {
-                    className: (styles_main_module_scss__WEBPACK_IMPORTED_MODULE_4___default().image),
-                    src: "/static/images/cropped3.png",
-                    layout: "fill"
+                    className: (styles_main_module_scss__WEBPACK_IMPORTED_MODULE_5___default().image),
+                    src: components_assets__WEBPACK_IMPORTED_MODULE_4__/* .images.techStackBottomImage */ .W.techStackBottomImage,
+                    layout: "fill",
+                    alt: "bottom background"
                 })
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(Header, {
                 as: "h1",
-                className: (styles_main_module_scss__WEBPACK_IMPORTED_MODULE_4___default().header),
+                className: (styles_main_module_scss__WEBPACK_IMPORTED_MODULE_5___default().header),
                 children: (0,strings__WEBPACK_IMPORTED_MODULE_3__.getLocalizedString)("TECHSTACK_TITLE")
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: (styles_main_module_scss__WEBPACK_IMPORTED_MODULE_4___default().techBackground),
+                className: (styles_main_module_scss__WEBPACK_IMPORTED_MODULE_5___default().techBackground),
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(List, {
-                    className: (styles_main_module_scss__WEBPACK_IMPORTED_MODULE_4___default().list),
+                    className: (styles_main_module_scss__WEBPACK_IMPORTED_MODULE_5___default().list),
                     children: techStackMap
                 })
             })

@@ -92,10 +92,18 @@ const Header = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_2__["default"])(()=>__we
         ]
     }
 });
+const Footer = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_2__["default"])(()=>Promise.all(/* import() */[__webpack_require__.e(397), __webpack_require__.e(675), __webpack_require__.e(847), __webpack_require__.e(274)]).then(__webpack_require__.bind(__webpack_require__, 274))
+, {
+    loadableGenerated: {
+        modules: [
+            "../layout/main.js -> " + "components/generics/Footer"
+        ]
+    }
+});
 /** STYLES */ 
 
 const MainLayout = (props)=>{
-    let { children , authenticated , hasMetaTags , mainContainerStyle , hasHeader  } = props;
+    let { children , authenticated , hasMetaTags , mainContainerStyle , hasHeader , hasFooter  } = props;
     const { 0: isLoading , 1: setIsLoading  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(true);
     const useComponentDidMount = (callback)=>(0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(callback, [])
     ;
@@ -105,6 +113,9 @@ const MainLayout = (props)=>{
     const childrenWithProps = react__WEBPACK_IMPORTED_MODULE_1___default().Children.map(children, (child)=>/*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_1___default().cloneElement(child, {})
     );
     let headerProps = {
+        ...props
+    };
+    let footerProps = {
         ...props
     };
     let onRenderContentComponent = "";
@@ -129,6 +140,9 @@ const MainLayout = (props)=>{
                         children: onRenderContentComponent
                     })
                 })
+            }),
+            hasFooter && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(Footer, {
+                ...footerProps
             })
         ]
     });

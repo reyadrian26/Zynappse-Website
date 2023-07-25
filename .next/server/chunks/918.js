@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 /** LIBRARIES */ 
 
 /** COMPONENTS */ 
-const IconsComponent = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_1__["default"])(()=>__webpack_require__.e(/* import() */ 270).then(__webpack_require__.bind(__webpack_require__, 3270))
+const IconsComponent = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_1__["default"])(()=>Promise.all(/* import() */[__webpack_require__.e(675), __webpack_require__.e(998), __webpack_require__.e(270)]).then(__webpack_require__.bind(__webpack_require__, 3270))
 , {
     loadableGenerated: {
         modules: [

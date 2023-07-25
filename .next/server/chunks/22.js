@@ -47,7 +47,7 @@ const MeetTheFoundersComponent = (0,dynamic["default"])(()=>__webpack_require__.
         ]
     }
 });
-const Carousel = (0,dynamic["default"])(()=>Promise.all(/* import() */[__webpack_require__.e(589), __webpack_require__.e(794)]).then(__webpack_require__.bind(__webpack_require__, 4794))
+const Carousel = (0,dynamic["default"])(()=>Promise.all(/* import() */[__webpack_require__.e(998), __webpack_require__.e(589), __webpack_require__.e(794)]).then(__webpack_require__.bind(__webpack_require__, 4794))
 , {
     loadableGenerated: {
         modules: [
@@ -63,14 +63,6 @@ const ClockSection = (0,dynamic["default"])(()=>__webpack_require__.e(/* import(
         ]
     }
 });
-const Footer = (0,dynamic["default"])(()=>Promise.all(/* import() */[__webpack_require__.e(847), __webpack_require__.e(274)]).then(__webpack_require__.bind(__webpack_require__, 274))
-, {
-    loadableGenerated: {
-        modules: [
-            "../components/AboutUs/AboutUs.js -> " + "components/generics/Footer"
-        ]
-    }
-});
 
 const AboutUs = ()=>{
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
@@ -79,8 +71,7 @@ const AboutUs = ()=>{
             /*#__PURE__*/ jsx_runtime_.jsx(ProductsAndServices, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(ClockSection, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(Carousel, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx(MeetTheFoundersComponent, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx(Footer, {})
+            /*#__PURE__*/ jsx_runtime_.jsx(MeetTheFoundersComponent, {})
         ]
     });
 };

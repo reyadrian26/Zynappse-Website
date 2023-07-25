@@ -77,7 +77,6 @@ const contactArr = [
 const contactMap = contactArr.map((con, index)=>/*#__PURE__*/ jsx_runtime_.jsx(SemanticUIReact/* ListItem */.HC, {
         className: [
             (main_module_default()).footerItem,
-            (main_module_default()).contactItem,
             con.style
         ].join(" "),
         icon: con.icon,
@@ -100,65 +99,92 @@ const Footer = ()=>{
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
             className: (main_module_default()).footerBackground,
             children: [
-                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                    className: (main_module_default()).zyLogo,
-                    children: /*#__PURE__*/ jsx_runtime_.jsx(next_image["default"], {
-                        src: assets/* images.genericLogoIcon */.W.genericLogoIcon,
-                        height: 62,
-                        width: 64
-                    })
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                    className: (main_module_default()).zyText,
-                    children: /*#__PURE__*/ jsx_runtime_.jsx(next_image["default"], {
-                        src: assets/* images.genericLogoText */.W.genericLogoText,
-                        height: 40,
-                        width: 330
-                    })
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                    className: (main_module_default()).footerTagline,
-                    children: (0,strings.getLocalizedString)("FOOTER_TAGLINE")
-                }),
                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    className: (main_module_default()).servicesCont,
+                    className: (main_module_default()).leftFooter,
                     children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx(SemanticUIReact/* Header */.h4, {
-                            as: "h6",
-                            className: (main_module_default()).footerHeader,
-                            children: (0,strings.getLocalizedString)("FOOTER_SERVICES")
+                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                            className: [
+                                (main_module_default()).zyLogo,
+                                (main_module_default()).imageContainer
+                            ].join(" "),
+                            children: /*#__PURE__*/ jsx_runtime_.jsx(next_image["default"], {
+                                src: assets/* images.genericLogoIcon */.W.genericLogoIcon,
+                                className: (main_module_default()).image,
+                                alt: "logo",
+                                layout: "fill"
+                            })
                         }),
-                        /*#__PURE__*/ jsx_runtime_.jsx(SemanticUIReact/* List */.aV, {
-                            className: (main_module_default()).footerList,
-                            children: servicesMap
+                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                            children: [
+                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                    className: [
+                                        (main_module_default()).zyText,
+                                        (main_module_default()).imageContainer
+                                    ].join(" "),
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx(next_image["default"], {
+                                        src: assets/* images.genericLogoText */.W.genericLogoText,
+                                        className: (main_module_default()).image,
+                                        alt: "logo name",
+                                        layout: "fill"
+                                    })
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                    className: (main_module_default()).footerTagline,
+                                    children: (0,strings.getLocalizedString)("FOOTER_TAGLINE")
+                                })
+                            ]
                         })
                     ]
                 }),
                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    className: (main_module_default()).skillsCont,
+                    className: (main_module_default()).rightFooter,
                     children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx(SemanticUIReact/* Header */.h4, {
-                            as: "h6",
-                            className: (main_module_default()).footerHeader,
-                            children: (0,strings.getLocalizedString)("FOOTER_SKILLS")
+                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                            className: (main_module_default()).mobileTwoBlocks,
+                            children: [
+                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                    className: (main_module_default()).servicesCont,
+                                    children: [
+                                        /*#__PURE__*/ jsx_runtime_.jsx(SemanticUIReact/* Header */.h4, {
+                                            as: "h6",
+                                            className: (main_module_default()).footerHeader,
+                                            children: (0,strings.getLocalizedString)("FOOTER_SERVICES")
+                                        }),
+                                        /*#__PURE__*/ jsx_runtime_.jsx(SemanticUIReact/* List */.aV, {
+                                            className: (main_module_default()).footerList,
+                                            children: servicesMap
+                                        })
+                                    ]
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                    className: (main_module_default()).skillsCont,
+                                    children: [
+                                        /*#__PURE__*/ jsx_runtime_.jsx(SemanticUIReact/* Header */.h4, {
+                                            as: "h6",
+                                            className: (main_module_default()).footerHeader,
+                                            children: (0,strings.getLocalizedString)("FOOTER_SKILLS")
+                                        }),
+                                        /*#__PURE__*/ jsx_runtime_.jsx(SemanticUIReact/* List */.aV, {
+                                            className: (main_module_default()).footerList,
+                                            children: skillsMap
+                                        })
+                                    ]
+                                })
+                            ]
                         }),
-                        /*#__PURE__*/ jsx_runtime_.jsx(SemanticUIReact/* List */.aV, {
-                            className: (main_module_default()).footerList,
-                            children: skillsMap
-                        })
-                    ]
-                }),
-                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    className: (main_module_default()).contactCont,
-                    children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx(SemanticUIReact/* Header */.h4, {
-                            as: "h6",
-                            className: (main_module_default()).footerHeader,
-                            children: (0,strings.getLocalizedString)("FOOTER_CONTACT")
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx(SemanticUIReact/* List */.aV, {
-                            className: (main_module_default()).footerList,
-                            children: contactMap
+                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                            className: (main_module_default()).contactCont,
+                            children: [
+                                /*#__PURE__*/ jsx_runtime_.jsx(SemanticUIReact/* Header */.h4, {
+                                    as: "h6",
+                                    className: (main_module_default()).footerHeader,
+                                    children: (0,strings.getLocalizedString)("FOOTER_CONTACT")
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx(SemanticUIReact/* List */.aV, {
+                                    className: (main_module_default()).footerList,
+                                    children: contactMap
+                                })
+                            ]
                         })
                     ]
                 })

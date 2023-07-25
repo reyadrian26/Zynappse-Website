@@ -43,8 +43,9 @@ const Home = ()=>{
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                 className: (styles_main_module_scss__WEBPACK_IMPORTED_MODULE_4___default().logoContainer),
-                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                    src: components_assets__WEBPACK_IMPORTED_MODULE_3__/* .images.zynappseLogo */ .W.zynappseLogo
+                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_image__WEBPACK_IMPORTED_MODULE_2__["default"], {
+                    src: components_assets__WEBPACK_IMPORTED_MODULE_3__/* .images.zynappseLogo */ .W.zynappseLogo,
+                    layout: "fill"
                 })
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(Content, {})

@@ -19,7 +19,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styles_main_module_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(styles_main_module_scss__WEBPACK_IMPORTED_MODULE_3__);
 
 /** LIBRARIES */ 
-/** Components */ const Appfutura = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_1__["default"])(()=>__webpack_require__.e(/* import() */ 772).then(__webpack_require__.bind(__webpack_require__, 772))
+/** Components */ const Appfutura = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_1__["default"])(()=>Promise.all(/* import() */[__webpack_require__.e(397), __webpack_require__.e(675), __webpack_require__.e(998), __webpack_require__.e(772)]).then(__webpack_require__.bind(__webpack_require__, 772))
 , {
     loadableGenerated: {
         modules: [
@@ -27,7 +27,7 @@ __webpack_require__.r(__webpack_exports__);
         ]
     }
 });
-const Background = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_1__["default"])(()=>__webpack_require__.e(/* import() */ 84).then(__webpack_require__.bind(__webpack_require__, 5084))
+const Background = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_1__["default"])(()=>Promise.all(/* import() */[__webpack_require__.e(397), __webpack_require__.e(675), __webpack_require__.e(998), __webpack_require__.e(84)]).then(__webpack_require__.bind(__webpack_require__, 5084))
 , {
     loadableGenerated: {
         modules: [

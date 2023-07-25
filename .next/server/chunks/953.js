@@ -27,7 +27,7 @@ var main_module_default = /*#__PURE__*/__webpack_require__.n(main_module);
 
 /** LIBRARIES */ 
 
-/** COMPONENTS */ const Desktop = (0,dynamic["default"])(()=>Promise.all(/* import() */[__webpack_require__.e(397), __webpack_require__.e(676), __webpack_require__.e(664), __webpack_require__.e(675), __webpack_require__.e(61)]).then(__webpack_require__.bind(__webpack_require__, 1061))
+/** COMPONENTS */ const Desktop = (0,dynamic["default"])(()=>Promise.all(/* import() */[__webpack_require__.e(397), __webpack_require__.e(675), __webpack_require__.e(676), __webpack_require__.e(664), __webpack_require__.e(61)]).then(__webpack_require__.bind(__webpack_require__, 1061))
 , {
     loadableGenerated: {
         modules: [
@@ -35,7 +35,7 @@ var main_module_default = /*#__PURE__*/__webpack_require__.n(main_module);
         ]
     }
 });
-const Mobile = (0,dynamic["default"])(()=>Promise.all(/* import() */[__webpack_require__.e(397), __webpack_require__.e(675), __webpack_require__.e(686)]).then(__webpack_require__.bind(__webpack_require__, 7341))
+const Mobile = (0,dynamic["default"])(()=>Promise.all(/* import() */[__webpack_require__.e(397), __webpack_require__.e(675), __webpack_require__.e(686)]).then(__webpack_require__.bind(__webpack_require__, 8686))
 , {
     loadableGenerated: {
         modules: [

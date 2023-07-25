@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var components_assets__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(971);
 
 /** LIBRARIES */ 
-/** COMPONENTS */ const AboutUs = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_1__["default"])(()=>Promise.all(/* import() */[__webpack_require__.e(397), __webpack_require__.e(676), __webpack_require__.e(664), __webpack_require__.e(675), __webpack_require__.e(757), __webpack_require__.e(22)]).then(__webpack_require__.bind(__webpack_require__, 9022))
+/** COMPONENTS */ const AboutUs = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_1__["default"])(()=>Promise.all(/* import() */[__webpack_require__.e(397), __webpack_require__.e(675), __webpack_require__.e(676), __webpack_require__.e(664), __webpack_require__.e(757), __webpack_require__.e(22)]).then(__webpack_require__.bind(__webpack_require__, 9022))
 , {
     loadableGenerated: {
         modules: [
@@ -38,6 +38,7 @@ const AboutUsPage = (props)=>{
         ...props,
         hasMetaTags: true,
         hasHeader: true,
+        hasFooter: true,
         title: (0,strings__WEBPACK_IMPORTED_MODULE_3__.getLocalizedString)("META_ABOUT_PAGE_LABEL"),
         imageUrl: `${components_assets__WEBPACK_IMPORTED_MODULE_4__/* .images.genericMetaImage */ .W.genericMetaImage}`,
         imageAlt: `zynappse`,
