@@ -1,27 +1,21 @@
 /** COMPONENTS */
-import { getLocalizedString } from "strings";
+import Navbar from "../Navbar/Navbar";
+import Hero from "../Hero Section/HeroSection";
+import WhatWeDo from "../What-we-do/What-we-do";
+import OurPortfolio from "../OurPortfolio/OurPortfolio";
+import Footer from "../Footer/Footer";
 
-/** SEMANTIC UI COMPONENTS */
-import {
-    Container,
-    Header,
-} from "components/generics/SemanticUIReact";
 
-/** STYLES */
-import style from "styles/main.module.scss";
-
-const Home = () => { 
-
-    return (
-        <Container
-            className={style.greetingsContainer}>
-            <Header
-                as="h1"
-                textAlign="center"
-                content={getLocalizedString("WELCOME_TEXT")}/>
-            <code>{getLocalizedString("WELCOME_SUB_TEXT")}</code>
-        </Container>
-    )
-}
+const Home = () => {
+  return (
+    <>
+      <Navbar />
+      <Hero />
+      <WhatWeDo />
+      <OurPortfolio />
+      <Footer />
+    </>
+  );
+};
 
 export default Home;
