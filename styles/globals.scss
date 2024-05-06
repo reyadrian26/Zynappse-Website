@@ -1,0 +1,178 @@
+.ourPortfolioContainer.ui.container,
+.executivesContainer.ui.container {
+  position: relative !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  display: flex !important;
+  margin: 0px !important;
+  width: 100% !important;
+}
+
+.meetTheTeamContainer {
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 13% 0 0 0;
+}
+
+.ourStoryContainer,
+.achievementsContainer {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10% 0 10% 0;
+}
+
+.clientName.ui.container {
+  border-radius: 10px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  width: 200px !important;
+  height: 50px !important;
+  margin: 0px !important;
+  left: 20% !important;
+  background-color: #a2a2a2;
+  color: white !important;
+  font-size: 18px;
+  z-index: 2;
+  font-family: "Open Sans", sans-serif;
+
+  @media (max-width: 830px) {
+    width: 120px !important;
+    font-size: 1rem !important;
+  }
+}
+
+.position.ui.container {
+  border-radius: 5px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  width: 250px !important;
+  height: 40px !important;
+  margin: 0px !important;
+  left: 20% !important;
+  background-color: #a2a2a2;
+  color: white !important;
+  font-size: 1.5rem;
+  font-weight: 600;
+  z-index: 2;
+  font-family: "Open Sans", sans-serif;
+
+  @media (max-width: 830px) {
+    width: 200px !important;
+    font-size: 1.2rem !important;
+  }
+}
+
+.footerContainer.ui.container {
+  width: 100% !important;
+  height: 200px !important;
+  margin-top: 20% !important;
+  margin: 0px !important;
+}
+
+.background.ui.container {
+  width: 100% !important;
+
+  @media (max-width: 830px) {
+    min-height: 700px !important;
+  }
+  @media (max-width: 767px) {
+    width: 100% !important;
+    margin: 0px !important;
+  }
+}
+
+.overlay.ui.container {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  z-index: 1;
+  // padding-right: 30%;
+
+  @media (max-width: 1276px) {
+    top: 35%;
+  }
+
+  @media (max-width: 1020px) {
+    top: 32%;
+  }
+
+  @media (max-width: 830px) {
+    top: 60%;
+  }
+
+  @media (max-width: 767px) {
+    width: 100% !important;
+  }
+}
+
+.leftSide.ui.container,
+.rightSide.ui.container {
+  height: 900px;
+
+  @media (max-width: 767px) {
+    margin: 10px 0 10px 0 !important;
+  }
+}
+
+.leftSide.ui.container {
+  width: 490px !important;
+  background-color: #2d2c2c !important;
+
+  @media (max-width: 830px) {
+    width: 200px !important;
+    margin: 0px !important;
+  }
+
+  @media (max-width: 500px) {
+    width: 80px !important;
+    margin: 0px !important;
+  }
+}
+
+.rightSide.ui.container {
+  background-color: #f2f2f2 !important;
+
+  @media (max-width: 830px) {
+    width: 100% !important;
+    margin: 0px !important;
+  }
+}
+
+// .ui.menu .active.item {
+//   background-color: #C52402 !important;
+
+// }
+
+.employeesContainer.ui.container {
+  width: 100% !important;
+  margin: 0px !important;
+}
+.achievementItems {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 70px !important;
+}
+
+.achievementItem {
+  background-color: #2d2c2c !important;
+  border-radius: 50% !important;
+  width: 230px !important;
+  height: 230px !important;
+  transition: 0.2s ease;
+}
+
+.achievementItem:hover{
+
+  background-color: #c52402 !important;
+}
