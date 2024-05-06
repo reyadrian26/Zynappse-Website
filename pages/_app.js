@@ -16,6 +16,7 @@ import store from "../store";
 
 /** STYLES */
 import "semantic-ui-css/semantic.min.css";
+import "../styles/globals.scss";
 
 const MyApp = (props) => {
   let { Component, pageProps } = props;
