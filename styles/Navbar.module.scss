@@ -80,7 +80,7 @@ $secondary-color: #012641;
   display: flex;
   justify-content: space-between;
   @include navbar-styles($navbar-bg-color, $navbar-text-color);
-  padding: 10px 0% 2px !important;
+  padding: 15px 0% 8px !important;
   border-radius: 0 !important;
   align-items: center;
   border-bottom: 1px solid rgb(255, 255, 255) !important;
@@ -111,8 +111,11 @@ $secondary-color: #012641;
 }
 
 .span1 {
-  font-size: 38px;
+  font-size: 33px;
   font-weight: 800;
+}
+
+.span1 {
   color: white !important;
 }
 
