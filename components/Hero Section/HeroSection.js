@@ -5,7 +5,7 @@ import Navbar from "../Navbar/Navbar";
 import { Container, Header, Button } from "components/generics/SemanticUIReact";
 
 /** STYLES */
-import style from "../../styles/main.module.scss";
+import style from "../Home/main.module.scss";
 
 import background from "../../assets/Header Image 1.png";
 import zynappseLogo from "../../assets/Zynappse Logo 3.png";

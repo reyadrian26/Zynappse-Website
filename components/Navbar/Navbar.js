@@ -2,8 +2,12 @@ import React, { useState, useEffect } from "react";
 import { Menu, Segment, Icon } from "semantic-ui-react";
 import Link from "next/link";
 import { useRouter } from "next/router";
-
-import style from "../../styles/Navbar.module.scss";
+import NavbarLogo from "../../assets/Zynappse Nav Logo.png";
+import NavbarLogo2 from "../../assets/Zynappse Nav Logo-2.png"; // Import the new logo image
+import Divider from "../../assets/NavbarLogoDivider.png";
+import Divider2 from "../../assets/NavLogoDivider-2.png"; // Import the new divider image
+import style from "./Navbar.module.scss";
+import Image from "next/image";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -36,7 +40,16 @@ const Navbar = () => {
     >
       <Menu borderless className={style.menu}>
         <Menu.Menu position="left">
-          <Menu.Item>
+          <Menu.Item className="navItem">
+            <Image 
+              src={scrolled ? NavbarLogo2 : NavbarLogo} // Toggle image based on scroll state
+              className={style.navbarLogo} 
+            />
+            <Image 
+              src={scrolled ? Divider2 : Divider} // Toggle image based on scroll state
+              className={style.navbarLogoDivider} 
+              height={51} 
+            />
             <span
               className={`${style.span1} ${scrolled ? style.scrolledText : ""}`}
             >
