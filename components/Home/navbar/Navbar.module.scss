@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+@mixin font-settings($font-family, $font-size) {
+  font-family: $font-family !important;
+  font-size: $font-size;
+}
+
+$font-family: "Open Sans", sans-serif;
+
+@mixin media($max-width) {
+  @media (max-width: $max-width) {
+    @content;
+  }
+}
+
+@mixin navbar-styles($bg-color, $text-color) {
+  background-color: transparent !important;
+  color: $text-color;
+  box-shadow: none !important;
+  border: none !important;
+  padding: 5px 10% 5px 10% !important;
+  font-size: 18px;
+  margin: 0 !important;
+  font-family: $font-family !important;
+}
+
+@mixin collapsed-nav-styles($bg-color) {
+  position: absolute;
+  top: -500px;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  background: $bg-color;
+  box-shadow: 0px 15px 30px 0px rgb(0 0 0 / 70);
+  text-align: left;
+  transition: 0.2s ease;
+  align-items: start;
+}
+
+$navbar-bg-color: white;
+$navbar-text-color: black;
+$navbar-shadow-color: rgba(149, 157, 165, 0.2);
+$collapsed-nav-bg: #d7dff7;
+$primary-color: #60b3d1;
+$secondary-color: #012641;
+
+.navbarContainer {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  @include navbar-styles($navbar-bg-color, $navbar-text-color);
+  transition: background-color 0.3s ease !important;
+  border-radius: 0px !important;
+  opacity: 0;
+}
+
+.animateNavbarContainer {
+  animation: navbar-animation 0.8s ease 0.75s 1 normal forwards;
+}
+
+@keyframes navbar-animation {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.scrolled {
+  background-color: white !important;
+
+  .item {
+    color: black !important;
+  }
+
+  .span1 {
+    color: #C52402 !important;
+  }
+
+  .menuicon {
+    color: black !important;
+  }
+}
+
+
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  @include navbar-styles($navbar-bg-color, $navbar-text-color);
+  padding: 10px 0% 2px !important;
+  border-radius: 0 !important;
+  align-items: center;
+  border-bottom: 1px solid rgb(255, 255, 255) !important;
+  width: 100%;
+}
+
+.navList {
+  display: flex;
+  @include media(830px) {
+    @include collapsed-nav-styles($collapsed-nav-bg);
+  }
+  column-gap: 30px !important;
+
+  @media (max-width: 1276px) {
+    column-gap: 20px !important;
+  }
+
+  @media (max-width: 1020px) {
+    column-gap: 1px !important;
+  }
+}
+
+.item {
+  color: white !important;
+  font-size: 15px;
+  font-weight: 600 !important;
+  transition: 0.4s ease !important;
+  border-radius: 5px !important;
+  padding: 5px 10px 5px 10px !important;
+}
+
+.item:hover {
+  background-color: red !important;
+  color: white !important;
+  border-radius: 5px !important;
+}
+
+.span1 {
+  font-size: 38px;
+  font-weight: 800;
+  color: white !important;
+  
+  @media (max-width: 1020px) {
+    font-size: 30px;
+  }
+}
+
+.span2 {
+  color: $primary-color;
+}
+
+.active.item {
+  font-weight: bold;
+  color: $primary-color;
+  background: $navbar-bg-color;
+}
+
+.anchor {
+  display: flex;
+  align-items: center;
+}
+
+.menuicon {
+  cursor: pointer;
+  z-index: 10001;
+  display: none !important;
+  font-size: 22px !important;
+  margin-left: 50% !important;
+  color: white !important;
+
+  @include media(830px) {
+    display: block !important;
+  }
+
+  @include media(500px) {
+    margin-left: 30% !important;
+  }
+}
+
+@media (max-width: 830px) {
+  .navList a {
+    display: block;
+    border-left: 0;
+    border-radius: 5px;
+    display: block;
+  }
+
+  .navList.active {
+    top: 100%;
+  }
+}
+
+// .animateNavbarLogo {
+//   animation: navbar-logo-animation 0.8s ease 0.75s 1 normal forwards;
+// }
+
+// @keyframes navbar-logo-animation {
+// 	0% {
+// 		transform: rotate(0);
+// 		transform-origin: left;
+// 	}
+
+//   50% {
+//     transform: rotate(180deg);
+// 		transform-origin: left;
+//   }
+
+// 	100% {
+// 		transform: rotate(360deg);
+// 		transform-origin: left;
+// 	}
+// }
