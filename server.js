@@ -74,18 +74,18 @@ app.prepare()
 
   server.use("/api", Routes);
 
-  /** Get portfolio */
-  server.get("/portfolio", (req, res) => {
-    const filePath = path.join(__dirname, "public", "zynappse-portfolio.pdf");
-    const fileName = "zynappse-portfolio.pdf";
+  // /** Get portfolio */
+  // server.get("/portfolio", (req, res) => {
+  //   const filePath = path.join(__dirname, "public", "zynappse-portfolio.pdf");
+  //   const fileName = "zynappse-portfolio.pdf";
 
-    /** Set the appropriate headers to open the file in a new browser tab */
-    res.setHeader('Content-disposition', 'inline; filename=' + fileName);
-    res.setHeader('Content-type', 'application/pdf');
+  //   /** Set the appropriate headers to open the file in a new browser tab */
+  //   res.setHeader('Content-disposition', 'inline; filename=' + fileName);
+  //   res.setHeader('Content-type', 'application/pdf');
 
-    /** Send the PDF file as the response */
-    res.sendFile(filePath);
-  });
+  //   /** Send the PDF file as the response */
+  //   res.sendFile(filePath);
+  // });
 
   server.get('*', (req, res) => {
     return handle(req, res)
