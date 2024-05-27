@@ -16,6 +16,7 @@ const Image = dynamic(() => import("semantic-ui-react").then(({ Image }) => Imag
 const Icon = dynamic(() => import("semantic-ui-react").then(({ Icon }) => Icon));
 const ListItem = dynamic(() => import("semantic-ui-react").then(({ ListItem }) => ListItem));
 const List = dynamic(() => import("semantic-ui-react").then(({ List }) => List));
+const Transition = dynamic(() => import("semantic-ui-react").then(({ Transition }) => Transition));
 
 export {
     Container,
@@ -31,5 +32,6 @@ export {
     Image,
     ListItem, 
     List,
-    Icon
+    Icon,
+    Transition
 };
