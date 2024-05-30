@@ -57,6 +57,29 @@ $secondary-color: #012641;
   transition: background-color 0.3s ease !important;
   border-radius: 0px !important;
   opacity: 0;
+  padding: 5px 3% 5px 3% !important;
+
+  @media (max-width: 1440px) {
+    width: 1440px !important;
+  }
+
+  @media (max-width: 1024px) {
+    width: 1024px !important;
+  }
+
+  @media (max-width: 768px) {
+    width: 768px !important;
+  }
+
+   @media (max-width: 426px) {
+     width: 425px !important;
+   }
+   @media (max-width: 376px) {
+    width: 375px !important;
+  }
+  @media (max-width: 320px) {
+    width: 320px !important;
+  }
 }
 
 .animateNavbarContainer {
@@ -95,7 +118,7 @@ $secondary-color: #012641;
 
 .menu {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between !important;
   @include navbar-styles($navbar-bg-color, $navbar-text-color);
   padding: 10px 0% 2px !important;
   border-radius: 0 !important;
@@ -135,6 +158,12 @@ $secondary-color: #012641;
   border-radius: 5px !important;
 }
 
+.navbarLogoDivider {
+  @media (max-width: 426px) {
+    display: none !important;
+  }
+}
+
 .span1 {
   font-size: 38px;
   font-weight: 800;
@@ -142,6 +171,10 @@ $secondary-color: #012641;
   
   @media (max-width: 1020px) {
     font-size: 30px;
+  }
+
+  @media (max-width: 426px) {
+    display: none !important;
   }
 }
 
@@ -172,8 +205,8 @@ $secondary-color: #012641;
     display: block !important;
   }
 
-  @include media(500px) {
-    margin-left: 30% !important;
+  @include media(425px) {
+    margin-left: 50% !important;
   }
 }
 
