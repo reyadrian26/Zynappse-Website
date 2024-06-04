@@ -1,7 +1,7 @@
 /** COMPONENTS */
 import UnderConstructionWrapper from "components/generics/UnderConstructionWrapper";
 import MainLayout from "layout/main";
-import HomeComponent from "components/Home";
+import HomeComponent from "components/home";
 
 const Home = (props) => {
 

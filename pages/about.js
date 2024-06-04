@@ -5,7 +5,7 @@ import Footer from "../components/about/footer/Footer";
 import WhoIsZynappse from "../components/about/whoIsZynappse/WhoIsZynappse";
 import Executives from "../components/about/executives/Executives";
 import MeetTheTeam from "../components/about/meetTheTeam/MeetTheTeam";
-import OurStory from "../components/about/OurStory/OurStory";
+import OurStory from "../components/about/ourStory/OurStory";
 import Achievements from "../components/about/achievements/Achievements";
 import ScrollToTop from "react-scroll-to-top";
 import ScrollToTopStyle from "../components/scrollToTop/ScrollToTop.module.scss"
