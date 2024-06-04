@@ -102,7 +102,7 @@ const OurPortfolio = () => {
             >
               {projectDetails[currentIndex].clientName}
             </Container>
-            <Container className={style.projectDetails}>
+            <Container className={"projectDetails"}>
               <Header
                 as="h1"
                 content={projectDetails[currentIndex].projectName}
