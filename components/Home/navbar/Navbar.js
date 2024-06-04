@@ -3,19 +3,21 @@ import { Menu, Segment, Icon } from "semantic-ui-react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import NavbarLogo from "../../../public/home/ZynappseNavLogo.png";
-import NavbarLogo2 from "../../../public/home/ZynappseNavLogo-2.png"; // Import the new logo image
+import NavbarLogo2 from "../../../public/home/ZynappseNavLogo-2.png";
 import Divider from "../../../public/home/NavbarLogoDivider.png";
-import Divider2 from "../../../public/home/NavLogoDivider-2.png"; // Import the new divider image
+import Divider2 from "../../../public/home/NavLogoDivider-2.png";
 import style from "./Navbar.module.scss";
 import Image from "next/image";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
+  const [sidebarActive, setSidebarActive] = useState(false);
   const router = useRouter();
 
   const handleMenuClick = () => {
     const navbar = document.querySelector(`.${style.navList}`);
     navbar.classList.toggle(`${style.active}`);
+    setSidebarActive(!sidebarActive);
   };
 
   const handleScroll = () => {
@@ -41,36 +43,43 @@ const Navbar = () => {
       <Menu borderless className={style.menu}>
         <Menu.Menu position="left">
           <Menu.Item className="navItem">
-            <Image 
-              src={scrolled ? NavbarLogo2 : NavbarLogo} // Toggle image based on scroll state
-              className={style.navbarLogo} 
+            <Image
+              src={scrolled ? NavbarLogo2 : NavbarLogo}
+              className={style.navbarLogo}
             />
-            <Image 
-              src={scrolled ? Divider2 : Divider} // Toggle image based on scroll state
-              className={style.navbarLogoDivider} 
-              height={51} 
+            <Image
+              src={scrolled ? Divider2 : Divider}
+              className={style.navbarLogoDivider}
+              height={51}
             />
-            <span
-              className={`${style.span1} ${scrolled ? style.scrolledText : ""}`}
-            >
+            <span className={`${style.span1} ${scrolled ? style.scrolledText : ""}`}>
               ZYNAPPSE
             </span>
           </Menu.Item>
         </Menu.Menu>
 
-        <Icon
-          name="align justify"
-          id="menu-icon"
-          onClick={handleMenuClick}
-          className={`${style.menuicon} ${scrolled ? style.scrolledIcon : ""}`}
-        />
+        {sidebarActive ? (
+          <Icon
+            name="close" 
+            id="menu-icon"
+            onClick={handleMenuClick}
+            className={`${style.closeMenuIcon} `}
+          />
+        ) : (
+          <Icon
+            name="align justify"
+            id="menu-icon"
+            onClick={handleMenuClick}
+            className={`${style.menuicon} ${scrolled ? style.scrolledIcon : ""}`}
+          />
+        )}
 
         <Menu.Menu position="right" className={style.navList}>
           <Link href="/">
             <Menu.Item
               name="home"
               active={router.pathname === "/"}
-              className={`${style.item} ${scrolled ? style.scrolledText : ""}`}
+              className={`navListItem ${scrolled ? "scrolledText" : ""}`}
             >
               HOME
             </Menu.Item>
@@ -80,7 +89,7 @@ const Navbar = () => {
             <Menu.Item
               name="about-us"
               active={router.pathname === "/about"}
-              className={`${style.item} ${scrolled ? style.scrolledText : ""}`}
+              className={`navListItem ${scrolled ? "scrolledText" : ""}`}
             >
               ABOUT
             </Menu.Item>
@@ -90,7 +99,7 @@ const Navbar = () => {
             <Menu.Item
               name="services"
               active={router.pathname === "/services"}
-              className={`${style.item} ${scrolled ? style.scrolledText : ""}`}
+              className={`navListItem ${scrolled ? "scrolledText" : ""}`}
             >
               SERVICES
             </Menu.Item>
@@ -100,7 +109,7 @@ const Navbar = () => {
             <Menu.Item
               name="portfolio"
               active={router.pathname === "/portfolio"}
-              className={`${style.item} ${scrolled ? style.scrolledText : ""}`}
+              className={`navListItem ${scrolled ? "scrolledText" : ""}`}
             >
               PORTFOLIO
             </Menu.Item>
@@ -110,7 +119,7 @@ const Navbar = () => {
             <Menu.Item
               name="contact"
               active={router.pathname === "/contact"}
-              className={`${style.item} ${scrolled ? style.scrolledText : ""}`}
+              className={`navListItem ${scrolled ? "scrolledText" : ""}`}
             >
               CONTACT
             </Menu.Item>
