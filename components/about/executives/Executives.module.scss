@@ -45,20 +45,25 @@
     width: 380px !important;
   }
 
-  @media (max-width: 1020px) {
+  @media (max-width: 1024px) {
     width: 300px !important;
     left: 20% !important;
   }
 
   @media (max-width: 830px) {
-    left: 35% !important;
-    top: 45% !important;
+    left: 30% !important;
+    top: 50% !important;
   }
 
-  @media (max-width: 500px) {
-    width: 250px !important;
-    left: 30% !important;
-    top: 55% !important;
+  @media (max-width: 426px) {
+   width: 280px !important;
+   left: 28% !important;
+   top: 60% !important;
+  }
+
+  @media (max-width: 376px) {
+    top: 60% !important;
+    width: 230px !important;
   }
 }
 
@@ -69,7 +74,7 @@
   z-index: 1 !important;
   top: 30%;
   padding-left: 25% !important;
-
+  width: 600px !important;
    @media (max-width: 1020px) {
     padding-left: 15% !important;
    
@@ -83,6 +88,11 @@
 
   @media (max-width: 500px) {
     padding-left: 10% !important;
+
+  }
+
+  @media (max-width: 320px) {
+    width: 300px !important;
 
   }
 }
@@ -322,7 +332,7 @@
 }
 
 .hidden {
-  animation: exit-animation 0.8s ease 0s 1 normal forwards;
+  animation: exit-animation 0.5s ease 0s 1 normal forwards;
 }
 
 @keyframes exit-animation {

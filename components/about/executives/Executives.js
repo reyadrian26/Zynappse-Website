@@ -61,7 +61,7 @@ const Executives = () => {
           }
           return prevIndex + 1;
         });
-      }, 3000);
+      }, 5000);
     }
 
     return () => clearInterval(interval);
@@ -84,8 +84,8 @@ const Executives = () => {
       >
         <Container className="leftSide"></Container>
         <Container className="rightSide">
-          <Container className={style.rightSideContainer}>
-            <Container className={style.executiveDetails}>
+          <Container className={"execRightSideContainer"}>
+            <Container className={"executiveDetails"}>
               <Header
                 as="h1"
                 content={executiveDetails[currentIndex].name}
