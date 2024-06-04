@@ -18,13 +18,17 @@ const Hero = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsWideScreen(window.innerWidth > 830);
+      const newIsWideScreen = window.innerWidth > 830;
+      console.log("Window width:", window.innerWidth, "isWideScreen:", newIsWideScreen);
+      setIsWideScreen(newIsWideScreen);
     };
 
     window.addEventListener("resize", handleResize);
 
+    // Initial check
     handleResize();
 
+    // Clean up the event listener on component unmount
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
@@ -32,8 +36,8 @@ const Hero = () => {
     <>
       <Container className="background">
         <Container className="overlay">
-          <Container className={style.headerContainer}>
-            <Container className={style.textHeader}>
+          <Container className="headerContainer">
+            <Container className="textHeader">
               <Header
                 as="h1"
                 content="EMPOWERING YOUR"
