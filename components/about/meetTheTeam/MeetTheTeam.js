@@ -1,5 +1,3 @@
-// src/components/MeetTheTeam/MeetTheTeam.js
-
 import React, { useState, useEffect } from "react";
 import style from "./MeetTheTeam.module.scss";
 import Image from "next/future/image";
@@ -12,19 +10,42 @@ const MeetTheTeam = () => {
   const [animatedHeaderOnce, setAnimatedHeaderOnce] = useState(false);
   const [animateImages, setAnimateImages] = useState(false);
   const [clickedImages, setClickedImages] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkIsMobile = () => setIsMobile(window.innerWidth <= 768);
+    checkIsMobile(); 
+    window.addEventListener('resize', checkIsMobile); 
+
+    return () => {
+      window.removeEventListener('resize', checkIsMobile); // Cleanup on unmount
+    };
+  }, []);
 
   useEffect(() => {
     if (myHeaderIsVisible && !animatedHeaderOnce) {
       setAnimatedHeaderOnce(true);
+      
+      if (isMobile) {
+       
+        setTimeout(() => {
+          setAnimateImages(true);
+          setClickedImages(true);
+        }, 1000); 
+      }
     }
-  }, [myHeaderIsVisible, animatedHeaderOnce]);
+  }, [myHeaderIsVisible, animatedHeaderOnce, isMobile]);
 
   const handleMouseEnter = () => {
-    setAnimateImages(true);
+    if (!isMobile) {
+      setAnimateImages(true);
+    }
   };
 
   const handleContainerClick = () => {
-    setClickedImages(true);
+    if (!isMobile) {
+      setClickedImages(true);
+    }
   };
 
   return (
