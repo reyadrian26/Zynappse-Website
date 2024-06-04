@@ -26,7 +26,7 @@ $font-family: "Open Sans", sans-serif;
 
 @mixin collapsed-nav-styles($bg-color) {
   position: absolute;
-  top: 0;
+  top: -500px;
   left: 0;
   right: 0;
   display: flex;
@@ -34,10 +34,8 @@ $font-family: "Open Sans", sans-serif;
   background: $bg-color;
   box-shadow: 0px 15px 30px 0px rgb(0 0 0 / 70);
   text-align: left;
+  transition: 0.2s ease;
   align-items: start;
-  opacity: 0;
-  overflow: hidden !important;
-  display: none !important;
 }
 
 $navbar-bg-color: white;
@@ -61,26 +59,10 @@ $secondary-color: #012641;
   opacity: 0;
   padding: 5px 3% 5px 3% !important;
 
-  @media (max-width: 1440px) {
-    width: 1440px !important;
-  }
-
-  @media (max-width: 1367px) {
-    width: 1366px !important;
-  }
-
-  @media (max-width: 1024px) {
-    width: 1024px !important;
-  }
-
-  @media (max-width: 768px) {
-    width: 768px !important;
-  }
-
-  @media (max-width: 426px) {
-    width: 425px !important;
-  }
-  @media (max-width: 376px) {
+   @media (max-width: 426px) {
+     width: 424px !important;
+   }
+   @media (max-width: 376px) {
     width: 375px !important;
   }
   @media (max-width: 320px) {
@@ -93,15 +75,15 @@ $secondary-color: #012641;
 }
 
 @keyframes navbar-animation {
-  0% {
-    opacity: 0;
-    transform: translateX(-250px);
-  }
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
 
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
 }
 
 .scrolled {
@@ -112,13 +94,15 @@ $secondary-color: #012641;
   }
 
   .span1 {
-    color: #c52402 !important;
+    color: #C52402 !important;
   }
 
   .menuicon {
     color: black !important;
   }
 }
+
+
 
 .menu {
   display: flex;
@@ -154,17 +138,6 @@ $secondary-color: #012641;
   transition: 0.4s ease !important;
   border-radius: 5px !important;
   padding: 5px 10px 5px 10px !important;
-
-  @media (max-width: 830px) {
-    color: black !important;
-    margin-bottom: 30px !important;
-    width: 80%;
-    padding: 10px !important;
-  }
-
-  &:hover {
-    background-color: #c52402;
-  }
 }
 
 .item:hover {
@@ -183,7 +156,7 @@ $secondary-color: #012641;
   font-size: 38px;
   font-weight: 800;
   color: white !important;
-
+  
   @media (max-width: 1020px) {
     font-size: 30px;
   }
@@ -200,7 +173,7 @@ $secondary-color: #012641;
 .active.item {
   font-weight: bold;
   color: $primary-color;
-  background: #c52402 !important;
+  background: $navbar-bg-color;
 }
 
 .anchor {
@@ -225,24 +198,6 @@ $secondary-color: #012641;
   }
 }
 
-.closeMenuIcon {
-  cursor: pointer;
-  z-index: 10001;
-  display: none !important;
-  font-size: 22px !important;
-  margin-left: 50% !important;
-  color: black !important;
-
-  @include media(830px) {
-    display: block !important;
-  }
-
-  @include media(426px) {
-    margin-left: 60% !important;
-    margin-top: -10% !important;
-  }
-}
-
 @media (max-width: 830px) {
   .navList a {
     display: block;
@@ -253,32 +208,6 @@ $secondary-color: #012641;
 
   .navList.active {
     top: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0%;
-    display: flex !important;
-    flex-direction: column;
-    background: white;
-    box-shadow: 0px 15px 30px 0px rgb(0 0 0 / 70);
-    text-align: left;
-    align-items: start;
-    width: 50%;
-    height: 700px !important;
-    animation: sidebar-animation 0.3s ease 0s 1 normal forwards;
-    padding: 50px 20px 20px 20px !important;
-  }
-}
-
-@keyframes sidebar-animation {
-  0% {
-    opacity: 0;
-    transform: translateX(250px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateX(0);
   }
 }
 

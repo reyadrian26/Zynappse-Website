@@ -1,5 +1,5 @@
 /** COMPONENTS */
-import Navbar from "../components/portfolio/navbar/Navbar";
+import Navbar from "../components/home/navbar/Navbar";
 import Hero from "../components/portfolio/heroSection/HeroSectionPortfolio";
 import Footer from "../components/portfolio/footer/Footer";
 import ServicesRendered from "../components/portfolio/servicesRendered/ServicesRendered";

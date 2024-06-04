@@ -1,0 +1,83 @@
+@mixin font-settings($font-family) {
+    font-family: $font-family !important;
+}
+
+$font-family: "Open Sans", sans-serif; 
+
+.whoIsZynappseContainer {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 13% 0 1% 0;
+}
+
+.header {
+    color: #C52402 !important;
+    font-weight: 800 !important;
+    @include font-settings($font-family);
+    opacity: 0;
+
+    @media (max-width: 500px) {
+        font-size: 1.5rem !important;
+       }
+}
+
+.subheader {
+    @include font-settings($font-family);
+    font-size: 1.2rem !important;
+    color: #000000 !important;
+    padding: 5px 3% 5px 3% !important;
+    font-weight: 500 !important;
+    opacity: 0;
+    @media (max-width: 500px) {
+        font-size: 1rem !important;
+        font-weight: 400 !important;
+       }
+}
+.imageContainer {
+    display: flex !important;
+    width: 850px !important;
+    margin-bottom: 20px !important;
+}
+
+.groupPicture {
+    width: 850px !important;
+    height: auto !important;
+    min-width: 0 !important;
+    min-height: 0 !important;
+    margin: 0px !important;
+    opacity: 0;
+}
+
+.animateImage {
+    animation: image-animation 0.5s ease 0s 1 normal forwards;
+}
+
+@keyframes image-animation {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.animateHeader {
+    animation: header-animation 1s ease 0s 1 normal forwards;
+}
+
+@keyframes header-animation {
+	0% {
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
