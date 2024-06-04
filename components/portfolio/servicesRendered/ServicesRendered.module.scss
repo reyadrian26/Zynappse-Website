@@ -24,6 +24,10 @@
     padding: 20px !important;
     height: 550px !important;
   }
+
+  @media (max-width: 321px) {
+    padding: 5px !important;
+  }
 }
 
 .mainCard:hover {
@@ -72,6 +76,11 @@
       padding: 20px !important;
       height: 700px !important;
     }
+
+    @media (max-width: 321px) {
+      padding: 5px !important;
+      height: 750px !important;
+    }
 }
 
 .secondCard:hover {
@@ -99,6 +108,10 @@
       width: 100% !important;
       height: 400px !important;
       padding: 50px !important;
+    }
+
+    @media (max-width: 426px) {
+      padding: 20px !important;
     }
 }
 
@@ -237,7 +250,7 @@
   }
 
   @media (max-width: 500px) {
-    left: 75%;
+    left: 20%;
     top: 70%;
   }
 }
