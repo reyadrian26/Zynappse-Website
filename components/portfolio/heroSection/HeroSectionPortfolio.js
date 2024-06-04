@@ -28,10 +28,10 @@ const Hero = () => {
 
   return (
     <>
-      <Container className="background">
+      <Container className="portfolioBackground">
         <Container className="overlay">
-          <Container className={style.headerContainer}>
-            <Container className={'textHeader'}>
+          <Container className={"portfolioHeaderContainer"}>
+            <Container className={"portfolioTextHeader"}>
               <Header
                 as="h1"
                 content="YOUR SUCCESS, OUR"

@@ -81,10 +81,15 @@
 .heroSubheader {
   font-size: 1.3rem !important;
   font-weight: 300 !important;
-  padding-right: 50% !important;
+  padding-right: 40% !important;
   margin-bottom: 30px !important;
   letter-spacing: 0.33px !important;
   opacity: 0;
+
+  @media (max-width: 1440px) {
+    padding-right: 30% !important;
+  }
+
   @media (max-width: 1276px) {
     font-size: 1rem !important;
   }
@@ -227,7 +232,7 @@
   @media (max-width: 1024px) {
     margin-left: 30% !important;
     width: 300px !important;
-    margin: 50px 0px 0px 50% !important;
+    margin: 50px 0px 0px 40% !important;
   }
 
   @media (max-width: 830px) {
@@ -252,16 +257,34 @@
 }
 
 .textHeader {
-  margin-top: -130px !important;
-
-  @media (max-width: 1440px) {
-    margin-top: -170px !important;
+    margin-top: -10px !important;
+    margin-left: 50% !important;
+  
+    @media (max-width: 1444px) {
+      margin-top: -70px !important;
+      margin-left: 35% !important;
+    }
+  
+    @media (max-width: 1276px) {
+      margin-top: -50px !important;
+    }
+  
+    @media (max-width: 1024px) {
+      margin-left: 40% !important;
+    }
+  
+    @media (max-width: 992px) {
+      margin-top: -10% !important;
+    }
+  
+    @media (max-width: 830px) {
+      margin-left: 5% !important;
+    }
+  
+    @media (max-width: 400px) {
+      margin-top: -30% !important;
+    }
   }
-
-  @media (max-width: 1276px) {
-    margin-top: -100px !important;
-  }
-}
 
 .chatQuoteIcon {
   opacity: 0;
